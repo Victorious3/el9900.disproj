@@ -13,17 +13,17 @@
     "input": [
       {
         "type": "Reg",
+        "size": 2,
+        "reg": 228
+      },
+      {
+        "type": "Reg",
         "size": 1,
         "reg": 228
       }
     ],
-    "output": [
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 228
-      }
-    ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 7
   },
@@ -42,7 +42,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 4
     },
     {
       "ep": 16319627,
@@ -61,7 +61,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 4
     },
     {
       "ep": 16319641,
@@ -69,7 +69,7 @@
         16319627
       ],
       "succ": [],
-      "insn": 1
+      "len": 1
     },
     {
       "ep": 16319631,
@@ -82,7 +82,7 @@
           "cond": true
         }
       ],
-      "insn": 4
+      "len": 10
     },
     {
       "ep": 16319625,
@@ -95,7 +95,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 2
     }
   ],
   "underflow": false,

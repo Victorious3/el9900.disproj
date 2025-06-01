@@ -50,21 +50,21 @@
     ],
     "input": [
       {
+        "type": "Mem",
+        "address": 9187
+      },
+      {
         "type": "Reg",
         "size": 0,
         "reg": 224
-      }
-    ],
-    "output": [
-      {
-        "type": "Mem",
-        "address": 9187
       },
       {
         "type": "Mem",
         "address": 9190
       }
     ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 8
   },
@@ -74,18 +74,18 @@
       "ep": 16044172,
       "pred": [],
       "succ": [],
-      "insn": 8
+      "len": 30
     }
   ],
   "underflow": false,
   "callers": [
     {
-      "loc": 16046418,
-      "fun": 16046418
-    },
-    {
       "loc": 16048353,
       "fun": 16048347
+    },
+    {
+      "loc": 16046418,
+      "fun": 16046418
     }
   ],
   "callees": [

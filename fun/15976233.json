@@ -20,13 +20,6 @@
         "ep": 7,
         "value": {
           "type": "Mem",
-          "address": 1
-        }
-      },
-      {
-        "ep": 7,
-        "value": {
-          "type": "Mem",
           "address": 7320
         }
       },
@@ -34,14 +27,15 @@
         "ep": 7,
         "value": {
           "type": "Mem",
-          "address": 0
+          "address": 7319
         }
       },
       {
-        "ep": 7,
+        "ep": 0,
         "value": {
-          "type": "Mem",
-          "address": 7319
+          "type": "Reg",
+          "size": 0,
+          "reg": 224
         }
       },
       {
@@ -56,52 +50,30 @@
         "ep": 7,
         "value": {
           "type": "Reg",
-          "size": 1,
-          "reg": 224
-        }
-      },
-      {
-        "ep": 7,
-        "value": {
-          "type": "Reg",
           "size": 2,
           "reg": 236
-        }
-      },
-      {
-        "ep": 7,
-        "value": {
-          "type": "Mem",
-          "address": 7349
         }
       }
     ],
     "input": [
       {
         "type": "Mem",
-        "address": 7330
+        "address": 7316
       },
       {
         "type": "Mem",
-        "address": 7316
+        "address": 7037
       },
       {
         "type": "Reg",
         "size": 0,
         "reg": 224
-      },
-      {
-        "type": "Mem",
-        "address": 7317
-      },
-      {
-        "type": "Mem",
-        "address": 7037
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 22
+    "pc": 10
   },
   "start": 15976233,
   "blocks": [
@@ -118,7 +90,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 4
     },
     {
       "ep": 15976356,
@@ -130,7 +102,7 @@
         15976323
       ],
       "succ": [],
-      "insn": 1
+      "len": 1
     },
     {
       "ep": 15976237,
@@ -147,7 +119,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 11
     },
     {
       "ep": 15976250,
@@ -161,7 +133,7 @@
           "cond": true
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 15976248,
@@ -178,7 +150,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 2
     },
     {
       "ep": 15976256,
@@ -195,7 +167,7 @@
           "cond": false
         }
       ],
-      "insn": 28
+      "len": 67
     },
     {
       "ep": 15976330,
@@ -212,7 +184,7 @@
           "cond": false
         }
       ],
-      "insn": 6
+      "len": 22
     },
     {
       "ep": 15976352,
@@ -225,7 +197,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 4
     },
     {
       "ep": 15976323,
@@ -238,7 +210,7 @@
           "cond": true
         }
       ],
-      "insn": 2
+      "len": 7
     }
   ],
   "underflow": false,

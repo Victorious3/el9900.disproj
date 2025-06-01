@@ -16,6 +16,13 @@
         }
       },
       {
+        "ep": 2,
+        "value": {
+          "type": "Mem",
+          "address": 9164
+        }
+      },
+      {
         "ep": 12,
         "value": {
           "type": "Mem",
@@ -27,13 +34,6 @@
         "value": {
           "type": "Mem",
           "address": 9318
-        }
-      },
-      {
-        "ep": 2,
-        "value": {
-          "type": "Mem",
-          "address": 9164
         }
       },
       {
@@ -115,17 +115,17 @@
         }
       },
       {
-        "ep": 12,
-        "value": {
-          "type": "Mem",
-          "address": 9314
-        }
-      },
-      {
         "ep": 2,
         "value": {
           "type": "Mem",
           "address": 9166
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Mem",
+          "address": 9314
         }
       },
       {
@@ -315,13 +315,8 @@
         "reg": 228
       }
     ],
-    "output": [
-      {
-        "type": "Reg",
-        "size": 1,
-        "reg": 228
-      }
-    ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 35
   },
@@ -340,7 +335,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 14
     },
     {
       "ep": 16009916,
@@ -359,7 +354,7 @@
         16009876
       ],
       "succ": [],
-      "insn": 1
+      "len": 1
     },
     {
       "ep": 16009818,
@@ -376,7 +371,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16009824,
@@ -393,7 +388,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16009830,
@@ -410,7 +405,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 10
     },
     {
       "ep": 16009882,
@@ -428,7 +423,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 14
     },
     {
       "ep": 16009896,
@@ -445,7 +440,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 10
     },
     {
       "ep": 16009906,
@@ -462,7 +457,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16009912,
@@ -475,7 +470,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 4
     },
     {
       "ep": 16009840,
@@ -492,7 +487,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 10
     },
     {
       "ep": 16009850,
@@ -509,7 +504,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 10
     },
     {
       "ep": 16009860,
@@ -526,7 +521,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 10
     },
     {
       "ep": 16009870,
@@ -543,7 +538,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16009876,
@@ -560,7 +555,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 6
     }
   ],
   "underflow": false,

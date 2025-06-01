@@ -2,18 +2,18 @@
   "state": {
     "clobbers": [
       {
-        "ep": 20,
+        "ep": 5,
         "value": {
-          "type": "Mem",
-          "address": 7302
+          "type": "Reg",
+          "size": 0,
+          "reg": 224
         }
       },
       {
-        "ep": 8,
+        "ep": 19,
         "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 224
+          "type": "Mem",
+          "address": 7302
         }
       }
     ],
@@ -21,14 +21,14 @@
       {
         "type": "Mem",
         "address": 7321
-      }
-    ],
-    "output": [
+      },
       {
         "type": "Mem",
         "address": 7302
       }
     ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 2
   },
@@ -43,7 +43,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 9
     },
     {
       "ep": 15960839,
@@ -57,7 +57,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 2
     },
     {
       "ep": 15960841,
@@ -75,7 +75,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 6
     },
     {
       "ep": 15960858,
@@ -92,7 +92,7 @@
           "cond": false
         }
       ],
-      "insn": 5
+      "len": 10
     },
     {
       "ep": 15960868,
@@ -105,7 +105,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 2
     },
     {
       "ep": 15960870,
@@ -123,7 +123,7 @@
           "cond": false
         }
       ],
-      "insn": 5
+      "len": 13
     },
     {
       "ep": 15960885,
@@ -132,7 +132,7 @@
         15960883
       ],
       "succ": [],
-      "insn": 4
+      "len": 8
     },
     {
       "ep": 15960883,
@@ -145,7 +145,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 2
     },
     {
       "ep": 15960847,
@@ -162,7 +162,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15960852,
@@ -175,7 +175,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 6
     }
   ],
   "underflow": false,

@@ -1,113 +1,11 @@
 {
   "state": {
-    "clobbers": [
-      {
-        "ep": 7,
-        "value": {
-          "type": "Mem",
-          "address": 7380
-        }
-      },
-      {
-        "ep": 10,
-        "value": {
-          "type": "Mem",
-          "address": 1
-        }
-      },
-      {
-        "ep": 10,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 225
-        }
-      },
-      {
-        "ep": 10,
-        "value": {
-          "type": "Mem",
-          "address": 0
-        }
-      },
-      {
-        "ep": 10,
-        "value": {
-          "type": "Reg",
-          "size": 1,
-          "reg": 240
-        }
-      },
-      {
-        "ep": 8,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 224
-        }
-      },
-      {
-        "ep": 8,
-        "value": {
-          "type": "Mem",
-          "address": 18
-        }
-      },
-      {
-        "ep": 9,
-        "value": {
-          "type": "Mem",
-          "address": 146
-        }
-      },
-      {
-        "ep": 9,
-        "value": {
-          "type": "Mem",
-          "address": 136
-        }
-      }
-    ],
-    "input": [
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 252
-      },
-      {
-        "type": "Mem",
-        "address": 13
-      },
-      {
-        "type": "Reg",
-        "size": 0,
-        "reg": 237
-      },
-      {
-        "type": "Mem",
-        "address": 18
-      },
-      {
-        "type": "Mem",
-        "address": 146
-      },
-      {
-        "type": "Mem",
-        "address": 7380
-      },
-      {
-        "type": "Mem",
-        "address": 60985
-      },
-      {
-        "type": "Reg",
-        "size": 0,
-        "reg": 236
-      }
-    ],
+    "clobbers": [],
+    "input": [],
     "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 2
+    "pc": 0
   },
   "start": 15969139,
   "blocks": [
@@ -124,7 +22,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 10
     },
     {
       "ep": 15969178,
@@ -133,7 +31,7 @@
         15969165
       ],
       "succ": [],
-      "insn": 2
+      "len": 2
     },
     {
       "ep": 15969149,
@@ -150,7 +48,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15969165,
@@ -164,7 +62,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 13
     },
     {
       "ep": 15969154,
@@ -177,10 +75,10 @@
           "cond": false
         }
       ],
-      "insn": 7
+      "len": 11
     }
   ],
-  "underflow": false,
+  "underflow": true,
   "callers": [
     {
       "loc": 16752719,

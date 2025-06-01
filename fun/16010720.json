@@ -177,7 +177,7 @@
     "input": [
       {
         "type": "Mem",
-        "address": 9167
+        "address": 9159
       },
       {
         "type": "Mem",
@@ -185,10 +185,11 @@
       },
       {
         "type": "Mem",
-        "address": 9159
+        "address": 9167
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 6
   },
@@ -207,7 +208,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 14
     },
     {
       "ep": 16010738,
@@ -216,7 +217,7 @@
         16010734
       ],
       "succ": [],
-      "insn": 1
+      "len": 1
     },
     {
       "ep": 16010734,
@@ -229,16 +230,11 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 4
     }
   ],
   "underflow": false,
-  "callers": [
-    {
-      "loc": 16006296,
-      "fun": 16006221
-    }
-  ],
+  "callers": [],
   "callees": [
     {
       "loc": 16010720,

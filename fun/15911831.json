@@ -2,22 +2,67 @@
   "state": {
     "clobbers": [
       {
-        "ep": 0,
+        "ep": 10,
         "value": {
           "type": "Reg",
-          "size": 0,
-          "reg": 224
+          "size": 2,
+          "reg": 236
+        }
+      },
+      {
+        "ep": 35,
+        "value": {
+          "type": "Mem",
+          "address": 13025
+        }
+      },
+      {
+        "ep": 32,
+        "value": {
+          "type": "Mem",
+          "address": 13054
+        }
+      },
+      {
+        "ep": 14,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 228
         }
       },
       {
         "ep": 10,
         "value": {
-          "type": "Mem",
-          "address": 13025
+          "type": "Reg",
+          "size": 1,
+          "reg": 224
         }
       }
     ],
     "input": [
+      {
+        "type": "Reg",
+        "size": 2,
+        "reg": 252
+      },
+      {
+        "type": "Mem",
+        "address": 13059
+      },
+      {
+        "type": "Mem",
+        "address": 13058
+      },
+      {
+        "type": "Mem",
+        "address": 13033
+      },
+      {
+        "type": "Reg",
+        "size": 2,
+        "reg": 228
+      },
       {
         "type": "Mem",
         "address": 13018
@@ -32,8 +77,9 @@
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 12
+    "pc": 37
   },
   "start": 15911831,
   "blocks": [
@@ -50,7 +96,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15911955,
@@ -65,7 +111,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 2
     },
     {
       "ep": 15911957,
@@ -74,7 +120,7 @@
         15911944
       ],
       "succ": [],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 15911840,
@@ -91,7 +137,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15911849,
@@ -108,7 +154,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15911858,
@@ -125,7 +171,7 @@
           "cond": false
         }
       ],
-      "insn": 5
+      "len": 18
     },
     {
       "ep": 15911882,
@@ -143,7 +189,7 @@
           "cond": false
         }
       ],
-      "insn": 8
+      "len": 24
     },
     {
       "ep": 15911910,
@@ -157,7 +203,7 @@
           "cond": false
         }
       ],
-      "insn": 7
+      "len": 11
     },
     {
       "ep": 15911921,
@@ -175,7 +221,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 6
     },
     {
       "ep": 15911944,
@@ -189,7 +235,7 @@
           "cond": true
         }
       ],
-      "insn": 4
+      "len": 11
     },
     {
       "ep": 15911927,
@@ -202,7 +248,7 @@
           "cond": true
         }
       ],
-      "insn": 4
+      "len": 9
     },
     {
       "ep": 15911906,
@@ -219,7 +265,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 4
     },
     {
       "ep": 15911936,
@@ -232,7 +278,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 8
     },
     {
       "ep": 15911876,
@@ -245,7 +291,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 6
     }
   ],
   "underflow": false,

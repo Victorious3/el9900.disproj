@@ -8,9 +8,20 @@
           "size": 0,
           "reg": 224
         }
+      },
+      {
+        "ep": 9,
+        "value": {
+          "type": "Mem",
+          "address": 7393
+        }
       }
     ],
     "input": [
+      {
+        "type": "Mem",
+        "address": 7393
+      },
       {
         "type": "Reg",
         "size": 0,
@@ -18,6 +29,7 @@
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 2
   },
@@ -36,7 +48,7 @@
           "cond": false
         }
       ],
-      "insn": 11
+      "len": 35
     },
     {
       "ep": 16257543,
@@ -45,7 +57,7 @@
         16257508
       ],
       "succ": [],
-      "insn": 4
+      "len": 4
     }
   ],
   "underflow": false,

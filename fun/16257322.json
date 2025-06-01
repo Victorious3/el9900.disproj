@@ -4,61 +4,29 @@
       {
         "ep": 14,
         "value": {
+          "type": "Reg",
+          "size": 0,
+          "reg": 224
+        }
+      },
+      {
+        "ep": 14,
+        "value": {
           "type": "Mem",
           "address": 7349
         }
       },
       {
-        "ep": 13,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 225
-        }
-      },
-      {
-        "ep": 13,
-        "value": {
-          "type": "Mem",
-          "address": 1
-        }
-      },
-      {
-        "ep": 13,
+        "ep": 14,
         "value": {
           "type": "Mem",
           "address": 0
         }
-      },
-      {
-        "ep": 13,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 224
-        }
       }
     ],
-    "input": [
-      {
-        "type": "Mem",
-        "address": 60985
-      },
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 252
-      },
-      {
-        "type": "Mem",
-        "address": 18
-      },
-      {
-        "type": "Mem",
-        "address": 7380
-      }
-    ],
+    "input": [],
     "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 2
   },
@@ -73,7 +41,7 @@
           "cond": false
         }
       ],
-      "insn": 6
+      "len": 15
     },
     {
       "ep": 16257337,
@@ -91,7 +59,7 @@
           "cond": false
         }
       ],
-      "insn": 8
+      "len": 22
     },
     {
       "ep": 16257359,
@@ -99,7 +67,7 @@
         16257337
       ],
       "succ": [],
-      "insn": 12
+      "len": 27
     }
   ],
   "underflow": false,

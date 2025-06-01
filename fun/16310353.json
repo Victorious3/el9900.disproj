@@ -17,13 +17,6 @@
         }
       },
       {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
-          "address": 1
-        }
-      },
-      {
         "ep": 0,
         "value": {
           "type": "Reg",
@@ -36,14 +29,6 @@
         "value": {
           "type": "Mem",
           "address": 0
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Reg",
-          "size": 1,
-          "reg": 240
         }
       },
       {
@@ -72,28 +57,16 @@
     ],
     "input": [
       {
-        "type": "Reg",
-        "size": 2,
-        "reg": 252
-      },
-      {
-        "type": "Mem",
-        "address": 18
-      },
-      {
         "type": "Mem",
         "address": 11922
       },
       {
         "type": "Mem",
-        "address": 7380
-      },
-      {
-        "type": "Mem",
-        "address": 60985
+        "address": 7351
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 7
   },
@@ -103,7 +76,7 @@
       "ep": 16310353,
       "pred": [],
       "succ": [],
-      "insn": 7
+      "len": 19
     }
   ],
   "underflow": false,

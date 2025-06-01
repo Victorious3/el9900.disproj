@@ -58,13 +58,6 @@
         }
       },
       {
-        "ep": 6,
-        "value": {
-          "type": "Mem",
-          "address": 10094
-        }
-      },
-      {
         "ep": 10,
         "value": {
           "type": "Mem",
@@ -107,13 +100,6 @@
           "type": "Reg",
           "size": 2,
           "reg": 236
-        }
-      },
-      {
-        "ep": 6,
-        "value": {
-          "type": "Mem",
-          "address": 65521
         }
       },
       {
@@ -169,25 +155,9 @@
     ],
     "input": [
       {
-        "type": "Mem",
-        "address": 34
-      },
-      {
-        "type": "Mem",
-        "address": 9161
-      },
-      {
-        "type": "Mem",
-        "address": 3372
-      },
-      {
         "type": "Reg",
         "size": 2,
         "reg": 228
-      },
-      {
-        "type": "Mem",
-        "address": 9914
       },
       {
         "type": "Reg",
@@ -195,60 +165,8 @@
         "reg": 236
       }
     ],
-    "output": [
-      {
-        "type": "Mem",
-        "address": 9156
-      },
-      {
-        "type": "Mem",
-        "address": 9157
-      },
-      {
-        "type": "Mem",
-        "address": 9158
-      },
-      {
-        "type": "Mem",
-        "address": 9160
-      },
-      {
-        "type": "Mem",
-        "address": 9162
-      },
-      {
-        "type": "Mem",
-        "address": 9164
-      },
-      {
-        "type": "Mem",
-        "address": 9166
-      },
-      {
-        "type": "Mem",
-        "address": 9168
-      },
-      {
-        "type": "Mem",
-        "address": 9169
-      },
-      {
-        "type": "Mem",
-        "address": 9171
-      },
-      {
-        "type": "Mem",
-        "address": 9173
-      },
-      {
-        "type": "Mem",
-        "address": 9175
-      },
-      {
-        "type": "Mem",
-        "address": 10094
-      }
-    ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 13
   },
@@ -263,7 +181,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 14
     },
     {
       "ep": 16092253,
@@ -281,7 +199,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16092289,
@@ -295,7 +213,7 @@
           "cond": true
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16092299,
@@ -304,7 +222,7 @@
         16092295
       ],
       "succ": [],
-      "insn": 1
+      "len": 1
     },
     {
       "ep": 16092259,
@@ -321,7 +239,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 2
     },
     {
       "ep": 16092295,
@@ -334,7 +252,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 4
     },
     {
       "ep": 16092261,
@@ -351,7 +269,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16092280,
@@ -364,7 +282,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 9
     },
     {
       "ep": 16092267,
@@ -377,15 +295,11 @@
           "cond": true
         }
       ],
-      "insn": 4
+      "len": 13
     }
   ],
   "underflow": false,
   "callers": [
-    {
-      "loc": 16091363,
-      "fun": 16091295
-    },
     {
       "loc": 16091824,
       "fun": 16091700

@@ -2,18 +2,18 @@
   "state": {
     "clobbers": [
       {
-        "ep": 20,
-        "value": {
-          "type": "Mem",
-          "address": 7349
-        }
-      },
-      {
         "ep": 8,
         "value": {
           "type": "Reg",
           "size": 1,
           "reg": 228
+        }
+      },
+      {
+        "ep": 21,
+        "value": {
+          "type": "Mem",
+          "address": 0
         }
       },
       {
@@ -25,25 +25,18 @@
         }
       },
       {
-        "ep": 20,
-        "value": {
-          "type": "Mem",
-          "address": 1
-        }
-      },
-      {
-        "ep": 20,
-        "value": {
-          "type": "Mem",
-          "address": 0
-        }
-      },
-      {
         "ep": 0,
         "value": {
           "type": "Reg",
           "size": 0,
           "reg": 224
+        }
+      },
+      {
+        "ep": 21,
+        "value": {
+          "type": "Mem",
+          "address": 7349
         }
       },
       {
@@ -62,8 +55,9 @@
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 23
+    "pc": 24
   },
   "start": 15962994,
   "blocks": [
@@ -80,7 +74,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15963055,
@@ -94,7 +88,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 12
     },
     {
       "ep": 15963067,
@@ -112,7 +106,7 @@
           "cond": false
         }
       ],
-      "insn": 7
+      "len": 21
     },
     {
       "ep": 15963088,
@@ -125,7 +119,7 @@
           "cond": true
         }
       ],
-      "insn": 5
+      "len": 13
     },
     {
       "ep": 15963049,
@@ -134,7 +128,7 @@
         15963038
       ],
       "succ": [],
-      "insn": 3
+      "len": 6
     },
     {
       "ep": 15963003,
@@ -151,7 +145,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 4
     },
     {
       "ep": 15963007,
@@ -164,7 +158,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 12
     },
     {
       "ep": 15963019,
@@ -178,7 +172,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 7
     },
     {
       "ep": 15963026,
@@ -196,7 +190,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 8
     },
     {
       "ep": 15963034,
@@ -213,7 +207,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 4
     },
     {
       "ep": 15963038,
@@ -226,7 +220,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 11
     }
   ],
   "underflow": false,

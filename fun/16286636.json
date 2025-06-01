@@ -110,31 +110,8 @@
     ],
     "input": [
       {
-        "type": "Reg",
-        "size": 0,
-        "reg": 224
-      }
-    ],
-    "output": [
-      {
         "type": "Mem",
-        "address": 7393
-      },
-      {
-        "type": "Mem",
-        "address": 7425
-      },
-      {
-        "type": "Mem",
-        "address": 7397
-      },
-      {
-        "type": "Mem",
-        "address": 7417
-      },
-      {
-        "type": "Mem",
-        "address": 7421
+        "address": 7385
       },
       {
         "type": "Mem",
@@ -142,13 +119,20 @@
       },
       {
         "type": "Mem",
-        "address": 7385
+        "address": 7381
+      },
+      {
+        "type": "Reg",
+        "size": 0,
+        "reg": 224
       },
       {
         "type": "Mem",
-        "address": 7389
+        "address": 7417
       }
     ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 2
   },
@@ -163,7 +147,7 @@
           "cond": false
         }
       ],
-      "insn": 5
+      "len": 10
     },
     {
       "ep": 16286646,
@@ -176,7 +160,7 @@
           "cond": true
         }
       ],
-      "insn": 34
+      "len": 100
     },
     {
       "ep": 16286798,
@@ -184,19 +168,11 @@
         16286646
       ],
       "succ": [],
-      "insn": 4
+      "len": 4
     }
   ],
   "underflow": false,
   "callers": [
-    {
-      "loc": 15978961,
-      "fun": 16307468
-    },
-    {
-      "loc": 15978961,
-      "fun": 15866758
-    },
     {
       "loc": 15978961,
       "fun": 16753459
@@ -212,6 +188,10 @@
     {
       "loc": 15978961,
       "fun": 16752640
+    },
+    {
+      "loc": 15978961,
+      "fun": 15866758
     }
   ],
   "callees": [

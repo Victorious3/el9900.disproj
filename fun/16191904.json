@@ -10,6 +10,14 @@
         }
       },
       {
+        "ep": 8,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 244
+        }
+      },
+      {
         "ep": 1,
         "value": {
           "type": "Reg",
@@ -23,14 +31,6 @@
           "type": "Reg",
           "size": 0,
           "reg": 228
-        }
-      },
-      {
-        "ep": 8,
-        "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 244
         }
       }
     ],
@@ -50,6 +50,7 @@
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 16
   },
@@ -64,7 +65,7 @@
           "cond": true
         }
       ],
-      "insn": 4
+      "len": 14
     },
     {
       "ep": 16191930,
@@ -72,7 +73,7 @@
         16191904
       ],
       "succ": [],
-      "insn": 12
+      "len": 37
     }
   ],
   "underflow": false,

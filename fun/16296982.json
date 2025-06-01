@@ -10,10 +10,17 @@
         }
       }
     ],
-    "input": [],
+    "input": [
+      {
+        "type": "Reg",
+        "size": 0,
+        "reg": 224
+      }
+    ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 8
+    "pc": 6
   },
   "start": 16296982,
   "blocks": [
@@ -30,7 +37,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16296997,
@@ -44,7 +51,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 5
     },
     {
       "ep": 16296996,
@@ -53,7 +60,7 @@
         16296994
       ],
       "succ": [],
-      "insn": 1
+      "len": 1
     },
     {
       "ep": 16296988,
@@ -70,7 +77,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16296994,
@@ -83,18 +90,18 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 2
     }
   ],
   "underflow": false,
   "callers": [
     {
-      "loc": 16296813,
-      "fun": 16293533
-    },
-    {
       "loc": 16297876,
       "fun": 16297855
+    },
+    {
+      "loc": 16296813,
+      "fun": 16293533
     }
   ],
   "callees": []

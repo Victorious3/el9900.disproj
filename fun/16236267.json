@@ -2,14 +2,6 @@
   "state": {
     "clobbers": [
       {
-        "ep": 0,
-        "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 240
-        }
-      },
-      {
         "ep": 15,
         "value": {
           "type": "Reg",
@@ -18,17 +10,11 @@
         }
       },
       {
-        "ep": 1,
+        "ep": 0,
         "value": {
-          "type": "Mem",
-          "address": 522
-        }
-      },
-      {
-        "ep": 1,
-        "value": {
-          "type": "Mem",
-          "address": 4
+          "type": "Reg",
+          "size": 2,
+          "reg": 240
         }
       },
       {
@@ -43,21 +29,7 @@
         "ep": 1,
         "value": {
           "type": "Mem",
-          "address": 0
-        }
-      },
-      {
-        "ep": 1,
-        "value": {
-          "type": "Mem",
-          "address": 6
-        }
-      },
-      {
-        "ep": 1,
-        "value": {
-          "type": "Mem",
-          "address": 19
+          "address": 4
         }
       }
     ],
@@ -71,35 +43,13 @@
         "address": 2
       },
       {
-        "type": "Mem",
-        "address": 34
-      },
-      {
-        "type": "Mem",
-        "address": 6
-      },
-      {
-        "type": "Mem",
-        "address": 520
-      },
-      {
-        "type": "Mem",
-        "address": 521
-      },
-      {
-        "type": "Mem",
-        "address": 3372
-      },
-      {
-        "type": "Mem",
-        "address": 13
-      },
-      {
-        "type": "Mem",
-        "address": 60985
+        "type": "Reg",
+        "size": 0,
+        "reg": 225
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 19
   },
@@ -114,7 +64,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 13
     },
     {
       "ep": 16236280,
@@ -127,7 +77,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 11
     },
     {
       "ep": 16236291,
@@ -144,7 +94,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 8
     },
     {
       "ep": 16236309,
@@ -159,7 +109,7 @@
           "cond": true
         }
       ],
-      "insn": 5
+      "len": 12
     },
     {
       "ep": 16236902,
@@ -167,7 +117,7 @@
         16236309
       ],
       "succ": [],
-      "insn": 2
+      "len": 3
     },
     {
       "ep": 16236299,
@@ -184,7 +134,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16236305,
@@ -197,7 +147,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 4
     }
   ],
   "underflow": false,

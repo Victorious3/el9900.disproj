@@ -21,17 +21,17 @@
     "input": [
       {
         "type": "Reg",
+        "size": 1,
+        "reg": 228
+      },
+      {
+        "type": "Reg",
         "size": 2,
         "reg": 236
       }
     ],
-    "output": [
-      {
-        "type": "Reg",
-        "size": 1,
-        "reg": 228
-      }
-    ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 2
   },
@@ -50,7 +50,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 8
     },
     {
       "ep": 16209367,
@@ -64,7 +64,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 1
     },
     {
       "ep": 16209368,
@@ -73,7 +73,7 @@
         16209363
       ],
       "succ": [],
-      "insn": 2
+      "len": 2
     },
     {
       "ep": 16209346,
@@ -90,7 +90,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 4
     },
     {
       "ep": 16209350,
@@ -107,7 +107,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 9
     },
     {
       "ep": 16209363,
@@ -121,7 +121,7 @@
           "cond": true
         }
       ],
-      "insn": 2
+      "len": 4
     },
     {
       "ep": 16209359,
@@ -134,7 +134,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 4
     }
   ],
   "underflow": false,

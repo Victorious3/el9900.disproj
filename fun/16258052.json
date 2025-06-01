@@ -2,47 +2,32 @@
   "state": {
     "clobbers": [
       {
-        "ep": 8,
-        "value": {
-          "type": "Mem",
-          "address": 7349
-        }
-      },
-      {
-        "ep": 8,
-        "value": {
-          "type": "Mem",
-          "address": 1
-        }
-      },
-      {
-        "ep": 8,
-        "value": {
-          "type": "Mem",
-          "address": 0
-        }
-      },
-      {
-        "ep": 8,
-        "value": {
-          "type": "Reg",
-          "size": 1,
-          "reg": 240
-        }
-      },
-      {
-        "ep": 8,
+        "ep": 9,
         "value": {
           "type": "Mem",
           "address": 7341
         }
       },
       {
-        "ep": 8,
+        "ep": 9,
+        "value": {
+          "type": "Mem",
+          "address": 0
+        }
+      },
+      {
+        "ep": 9,
         "value": {
           "type": "Reg",
           "size": 1,
           "reg": 224
+        }
+      },
+      {
+        "ep": 9,
+        "value": {
+          "type": "Mem",
+          "address": 7349
         }
       }
     ],
@@ -55,11 +40,6 @@
         "type": "Reg",
         "size": 0,
         "reg": 232
-      },
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 252
       },
       {
         "type": "Mem",
@@ -78,24 +58,13 @@
         "address": 7311
       },
       {
-        "type": "Mem",
-        "address": 18
-      },
-      {
-        "type": "Mem",
-        "address": 7380
-      },
-      {
-        "type": "Mem",
-        "address": 60985
-      },
-      {
         "type": "Reg",
         "size": 0,
         "reg": 233
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 2
   },
@@ -114,7 +83,7 @@
           "cond": false
         }
       ],
-      "insn": 8
+      "len": 22
     },
     {
       "ep": 16258134,
@@ -127,7 +96,7 @@
           "cond": true
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16258132,
@@ -137,7 +106,7 @@
         16258090
       ],
       "succ": [],
-      "insn": 2
+      "len": 2
     },
     {
       "ep": 16258074,
@@ -154,7 +123,7 @@
           "cond": false
         }
       ],
-      "insn": 5
+      "len": 16
     },
     {
       "ep": 16258090,
@@ -167,7 +136,7 @@
           "cond": false
         }
       ],
-      "insn": 12
+      "len": 42
     }
   ],
   "underflow": false,

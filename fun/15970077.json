@@ -1,101 +1,11 @@
 {
   "state": {
-    "clobbers": [
-      {
-        "ep": 1,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 224
-        }
-      },
-      {
-        "ep": 14,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 225
-        }
-      },
-      {
-        "ep": 14,
-        "value": {
-          "type": "Mem",
-          "address": 1
-        }
-      },
-      {
-        "ep": 14,
-        "value": {
-          "type": "Reg",
-          "size": 1,
-          "reg": 240
-        }
-      },
-      {
-        "ep": 14,
-        "value": {
-          "type": "Mem",
-          "address": 0
-        }
-      },
-      {
-        "ep": 12,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 232
-        }
-      }
-    ],
-    "input": [
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 252
-      },
-      {
-        "type": "Mem",
-        "address": 18
-      },
-      {
-        "type": "Reg",
-        "size": 1,
-        "reg": 232
-      },
-      {
-        "type": "Mem",
-        "address": 7380
-      },
-      {
-        "type": "Mem",
-        "address": 60985
-      },
-      {
-        "type": "Reg",
-        "size": 1,
-        "reg": 228
-      }
-    ],
-    "output": [
-      {
-        "type": "Reg",
-        "size": 0,
-        "reg": 232
-      },
-      {
-        "type": "Reg",
-        "size": 0,
-        "reg": 224
-      },
-      {
-        "type": "Reg",
-        "size": 0,
-        "reg": 225
-      }
-    ],
+    "clobbers": [],
+    "input": [],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 2
+    "pc": 0
   },
   "start": 15970077,
   "blocks": [
@@ -112,7 +22,7 @@
           "cond": false
         }
       ],
-      "insn": 6
+      "len": 13
     },
     {
       "ep": 15970113,
@@ -121,7 +31,7 @@
         15970090
       ],
       "succ": [],
-      "insn": 3
+      "len": 3
     },
     {
       "ep": 15970090,
@@ -134,10 +44,10 @@
           "cond": false
         }
       ],
-      "insn": 12
+      "len": 23
     }
   ],
-  "underflow": false,
+  "underflow": true,
   "callers": [
     {
       "loc": 15968311,

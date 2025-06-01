@@ -1,80 +1,11 @@
 {
   "state": {
-    "clobbers": [
-      {
-        "ep": 0,
-        "value": {
-          "type": "Mem",
-          "address": 1
-        }
-      },
-      {
-        "ep": 0,
-        "value": {
-          "type": "Mem",
-          "address": 0
-        }
-      },
-      {
-        "ep": 0,
-        "value": {
-          "type": "Reg",
-          "size": 1,
-          "reg": 240
-        }
-      },
-      {
-        "ep": 0,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 224
-        }
-      },
-      {
-        "ep": 9,
-        "value": {
-          "type": "Mem",
-          "address": 7349
-        }
-      },
-      {
-        "ep": 0,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 225
-        }
-      }
-    ],
-    "input": [
-      {
-        "type": "Mem",
-        "address": 60985
-      },
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 252
-      },
-      {
-        "type": "Mem",
-        "address": 18
-      },
-      {
-        "type": "Mem",
-        "address": 7380
-      }
-    ],
-    "output": [
-      {
-        "type": "Reg",
-        "size": 0,
-        "reg": 224
-      }
-    ],
+    "clobbers": [],
+    "input": [],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 3
+    "pc": 0
   },
   "start": 15963620,
   "blocks": [
@@ -82,30 +13,26 @@
       "ep": 15963620,
       "pred": [],
       "succ": [],
-      "insn": 16
+      "len": 29
     }
   ],
-  "underflow": false,
+  "underflow": true,
   "callers": [
     {
-      "loc": 16221307,
-      "fun": 16221195
-    },
-    {
-      "loc": 15908535,
-      "fun": 15908399
-    },
-    {
-      "loc": 15937558,
-      "fun": 15937548
+      "loc": 16752958,
+      "fun": 16752671
     },
     {
       "loc": 16319176,
       "fun": 16319147
     },
     {
-      "loc": 16752958,
-      "fun": 16752671
+      "loc": 16221307,
+      "fun": 16221195
+    },
+    {
+      "loc": 15937558,
+      "fun": 15937548
     }
   ],
   "callees": [

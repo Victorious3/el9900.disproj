@@ -1,26 +1,11 @@
 {
   "state": {
-    "clobbers": [
-      {
-        "ep": 3,
-        "value": {
-          "type": "Mem",
-          "address": 11966
-        }
-      },
-      {
-        "ep": 2,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 224
-        }
-      }
-    ],
+    "clobbers": [],
     "input": [],
     "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 2
+    "pc": 0
   },
   "start": 16313056,
   "blocks": [
@@ -28,10 +13,10 @@
       "ep": 16313056,
       "pred": [],
       "succ": [],
-      "insn": 7
+      "len": 12
     }
   ],
-  "underflow": false,
+  "underflow": true,
   "callers": [
     {
       "loc": 16310446,

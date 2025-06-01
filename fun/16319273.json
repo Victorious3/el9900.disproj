@@ -1,117 +1,11 @@
 {
   "state": {
-    "clobbers": [
-      {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
-          "address": 7321
-        }
-      },
-      {
-        "ep": 6,
-        "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 236
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
-          "address": 7320
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
-          "address": 7349
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
-          "address": 7037
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
-          "address": 1
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
-          "address": 0
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
-          "address": 7319
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
-          "address": 7322
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
-          "address": 7302
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Reg",
-          "size": 1,
-          "reg": 224
-        }
-      }
-    ],
-    "input": [
-      {
-        "type": "Mem",
-        "address": 7330
-      },
-      {
-        "type": "Mem",
-        "address": 7316
-      },
-      {
-        "type": "Mem",
-        "address": 7317
-      }
-    ],
-    "output": [
-      {
-        "type": "Mem",
-        "address": 7321
-      },
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 236
-      },
-      {
-        "type": "Mem",
-        "address": 7319
-      }
-    ],
+    "clobbers": [],
+    "input": [],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 2
+    "pc": 0
   },
   "start": 16319273,
   "blocks": [
@@ -119,10 +13,10 @@
       "ep": 16319273,
       "pred": [],
       "succ": [],
-      "insn": 15
+      "len": 35
     }
   ],
-  "underflow": false,
+  "underflow": true,
   "callers": [
     {
       "loc": 15908399,

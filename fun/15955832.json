@@ -1,23 +1,11 @@
 {
   "state": {
-    "clobbers": [
-      {
-        "ep": 2,
-        "value": {
-          "type": "Mem",
-          "address": 145
-        }
-      }
-    ],
-    "input": [
-      {
-        "type": "Mem",
-        "address": 145
-      }
-    ],
+    "clobbers": [],
+    "input": [],
     "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 2
+    "pc": 0
   },
   "start": 15955832,
   "blocks": [
@@ -25,10 +13,10 @@
       "ep": 15955832,
       "pred": [],
       "succ": [],
-      "insn": 5
+      "len": 9
     }
   ],
-  "underflow": false,
+  "underflow": true,
   "callers": [
     {
       "loc": 15955748,

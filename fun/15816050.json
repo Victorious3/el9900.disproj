@@ -2,10 +2,11 @@
   "state": {
     "clobbers": [
       {
-        "ep": 4,
+        "ep": 1,
         "value": {
-          "type": "Mem",
-          "address": 0
+          "type": "Reg",
+          "size": 0,
+          "reg": 224
         }
       },
       {
@@ -23,10 +24,10 @@
         }
       },
       {
-        "ep": 22,
+        "ep": 4,
         "value": {
           "type": "Mem",
-          "address": 7339
+          "address": 7302
         }
       },
       {
@@ -38,10 +39,10 @@
         }
       },
       {
-        "ep": 19,
+        "ep": 22,
         "value": {
           "type": "Mem",
-          "address": 7322
+          "address": 7316
         }
       },
       {
@@ -55,85 +56,7 @@
         "ep": 4,
         "value": {
           "type": "Mem",
-          "address": 7349
-        }
-      },
-      {
-        "ep": 20,
-        "value": {
-          "type": "Mem",
-          "address": 12171
-        }
-      },
-      {
-        "ep": 22,
-        "value": {
-          "type": "Mem",
-          "address": 7317
-        }
-      },
-      {
-        "ep": 22,
-        "value": {
-          "type": "Mem",
-          "address": 7323
-        }
-      },
-      {
-        "ep": 22,
-        "value": {
-          "type": "Mem",
-          "address": 7341
-        }
-      },
-      {
-        "ep": 19,
-        "value": {
-          "type": "Mem",
-          "address": 7321
-        }
-      },
-      {
-        "ep": 4,
-        "value": {
-          "type": "Mem",
           "address": 7037
-        }
-      },
-      {
-        "ep": 4,
-        "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 224
-        }
-      },
-      {
-        "ep": 4,
-        "value": {
-          "type": "Mem",
-          "address": 7302
-        }
-      },
-      {
-        "ep": 22,
-        "value": {
-          "type": "Mem",
-          "address": 7316
-        }
-      },
-      {
-        "ep": 22,
-        "value": {
-          "type": "Mem",
-          "address": 7325
-        }
-      },
-      {
-        "ep": 4,
-        "value": {
-          "type": "Mem",
-          "address": 1
         }
       },
       {
@@ -144,21 +67,19 @@
         }
       },
       {
-        "ep": 22,
+        "ep": 20,
         "value": {
           "type": "Mem",
-          "address": 7340
-        }
-      },
-      {
-        "ep": 22,
-        "value": {
-          "type": "Mem",
-          "address": 7312
+          "address": 12171
         }
       }
     ],
     "input": [
+      {
+        "type": "Reg",
+        "size": 0,
+        "reg": 229
+      },
       {
         "type": "Mem",
         "address": 12166
@@ -169,31 +90,11 @@
       },
       {
         "type": "Mem",
-        "address": 7311
-      },
-      {
-        "type": "Mem",
-        "address": 7312
-      },
-      {
-        "type": "Mem",
         "address": 7313
       },
       {
         "type": "Mem",
-        "address": 18
-      },
-      {
-        "type": "Mem",
-        "address": 7315
-      },
-      {
-        "type": "Mem",
         "address": 7316
-      },
-      {
-        "type": "Mem",
-        "address": 7317
       },
       {
         "type": "Mem",
@@ -202,96 +103,14 @@
       {
         "type": "Mem",
         "address": 7321
-      },
-      {
-        "type": "Mem",
-        "address": 7330
-      },
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 252
-      },
-      {
-        "type": "Mem",
-        "address": 7334
-      },
-      {
-        "type": "Mem",
-        "address": 7335
-      },
-      {
-        "type": "Mem",
-        "address": 7337
-      },
-      {
-        "type": "Mem",
-        "address": 7338
-      },
-      {
-        "type": "Mem",
-        "address": 7339
-      },
-      {
-        "type": "Mem",
-        "address": 60985
-      },
-      {
-        "type": "Mem",
-        "address": 7380
-      }
-    ],
-    "output": [
-      {
-        "type": "Mem",
-        "address": 7302
-      },
-      {
-        "type": "Mem",
-        "address": 12171
-      },
-      {
-        "type": "Mem",
-        "address": 7339
-      },
-      {
-        "type": "Mem",
-        "address": 7312
-      },
-      {
-        "type": "Mem",
-        "address": 7316
-      },
-      {
-        "type": "Mem",
-        "address": 7317
-      },
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 224
-      },
-      {
-        "type": "Mem",
-        "address": 7319
-      },
-      {
-        "type": "Mem",
-        "address": 7320
-      },
-      {
-        "type": "Mem",
-        "address": 7321
-      },
-      {
-        "type": "Mem",
-        "address": 7322
       },
       {
         "type": "Mem",
         "address": 7037
       }
     ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 2
   },
@@ -310,7 +129,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 11
     },
     {
       "ep": 15816133,
@@ -319,7 +138,7 @@
         15816108
       ],
       "succ": [],
-      "insn": 2
+      "len": 2
     },
     {
       "ep": 15816061,
@@ -336,7 +155,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 13
     },
     {
       "ep": 15816076,
@@ -354,7 +173,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 6
     },
     {
       "ep": 15816084,
@@ -372,7 +191,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 8
     },
     {
       "ep": 15816108,
@@ -386,7 +205,7 @@
           "cond": false
         }
       ],
-      "insn": 7
+      "len": 25
     },
     {
       "ep": 15816092,
@@ -399,7 +218,7 @@
           "cond": false
         }
       ],
-      "insn": 8
+      "len": 16
     },
     {
       "ep": 15816082,
@@ -412,7 +231,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 2
     },
     {
       "ep": 15816074,
@@ -425,15 +244,11 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 2
     }
   ],
   "underflow": false,
   "callers": [
-    {
-      "loc": 15819760,
-      "fun": 15819344
-    },
     {
       "loc": 15817064,
       "fun": 15816802

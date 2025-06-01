@@ -1,70 +1,11 @@
 {
   "state": {
-    "clobbers": [
-      {
-        "ep": 3,
-        "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 240
-        }
-      },
-      {
-        "ep": 12,
-        "value": {
-          "type": "Mem",
-          "address": 11768
-        }
-      },
-      {
-        "ep": 12,
-        "value": {
-          "type": "Mem",
-          "address": 11822
-        }
-      },
-      {
-        "ep": 3,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 224
-        }
-      },
-      {
-        "ep": 12,
-        "value": {
-          "type": "Mem",
-          "address": 11827
-        }
-      }
-    ],
-    "input": [
-      {
-        "type": "Mem",
-        "address": 11778
-      },
-      {
-        "type": "Mem",
-        "address": 11822
-      },
-      {
-        "type": "Mem",
-        "address": 11827
-      },
-      {
-        "type": "Mem",
-        "address": 11768
-      },
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 236
-      }
-    ],
+    "clobbers": [],
+    "input": [],
     "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 2
+    "pc": 0
   },
   "start": 16197927,
   "blocks": [
@@ -81,7 +22,7 @@
           "cond": false
         }
       ],
-      "insn": 9
+      "len": 19
     },
     {
       "ep": 16197995,
@@ -90,7 +31,7 @@
         16197991
       ],
       "succ": [],
-      "insn": 5
+      "len": 8
     },
     {
       "ep": 16197946,
@@ -110,7 +51,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 7
     },
     {
       "ep": 16197991,
@@ -123,7 +64,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 4
     },
     {
       "ep": 16197953,
@@ -140,7 +81,7 @@
           "cond": false
         }
       ],
-      "insn": 7
+      "len": 22
     },
     {
       "ep": 16197975,
@@ -157,7 +98,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 7
     },
     {
       "ep": 16197982,
@@ -170,10 +111,10 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 9
     }
   ],
-  "underflow": false,
+  "underflow": true,
   "callers": [
     {
       "loc": 16204460,

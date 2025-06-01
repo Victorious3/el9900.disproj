@@ -126,6 +126,10 @@
       },
       {
         "type": "Mem",
+        "address": 9160
+      },
+      {
+        "type": "Mem",
         "address": 9161
       },
       {
@@ -153,37 +157,8 @@
         "address": 9244
       }
     ],
-    "output": [
-      {
-        "type": "Mem",
-        "address": 9157
-      },
-      {
-        "type": "Mem",
-        "address": 9158
-      },
-      {
-        "type": "Mem",
-        "address": 9159
-      },
-      {
-        "type": "Mem",
-        "address": 9160
-      },
-      {
-        "type": "Mem",
-        "address": 9161
-      },
-      {
-        "type": "Mem",
-        "address": 9165
-      },
-      {
-        "type": "Reg",
-        "size": 0,
-        "reg": 224
-      }
-    ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 41
   },
@@ -193,7 +168,7 @@
       "ep": 16061882,
       "pred": [],
       "succ": [],
-      "insn": 41
+      "len": 160
     }
   ],
   "underflow": false,
@@ -215,6 +190,14 @@
       "fun": 16165967
     },
     {
+      "loc": 16051328,
+      "fun": 16051320
+    },
+    {
+      "loc": 16051358,
+      "fun": 16051320
+    },
+    {
       "loc": 16049346,
       "fun": 16048889
     },
@@ -225,14 +208,6 @@
     {
       "loc": 16049056,
       "fun": 16048889
-    },
-    {
-      "loc": 16051328,
-      "fun": 16051320
-    },
-    {
-      "loc": 16051358,
-      "fun": 16051320
     }
   ],
   "callees": []

@@ -2,21 +2,7 @@
   "state": {
     "clobbers": [
       {
-        "ep": 7,
-        "value": {
-          "type": "Mem",
-          "address": 7037
-        }
-      },
-      {
-        "ep": 9,
-        "value": {
-          "type": "Mem",
-          "address": 7302
-        }
-      },
-      {
-        "ep": 10,
+        "ep": 6,
         "value": {
           "type": "Reg",
           "size": 2,
@@ -24,54 +10,25 @@
         }
       },
       {
-        "ep": 6,
-        "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 224
-        }
-      },
-      {
-        "ep": 5,
+        "ep": 0,
         "value": {
           "type": "Reg",
           "size": 0,
-          "reg": 229
-        }
-      },
-      {
-        "ep": 3,
-        "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 236
+          "reg": 224
         }
       }
     ],
     "input": [
       {
-        "type": "Mem",
-        "address": 7037
-      },
-      {
-        "type": "Mem",
-        "address": 7302
-      },
-      {
         "type": "Reg",
         "size": 2,
         "reg": 244
       }
     ],
-    "output": [
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 244
-      }
-    ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 12
+    "pc": 8
   },
   "start": 15963153,
   "blocks": [
@@ -88,7 +45,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 8
     },
     {
       "ep": 15963168,
@@ -101,7 +58,7 @@
           "cond": true
         }
       ],
-      "insn": 6
+      "len": 25
     },
     {
       "ep": 15963214,
@@ -111,7 +68,7 @@
         15963166
       ],
       "succ": [],
-      "insn": 2
+      "len": 4
     },
     {
       "ep": 15963161,
@@ -128,7 +85,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15963193,
@@ -141,7 +98,7 @@
           "cond": false
         }
       ],
-      "insn": 5
+      "len": 21
     },
     {
       "ep": 15963166,
@@ -154,7 +111,7 @@
           "cond": true
         }
       ],
-      "insn": 1
+      "len": 2
     }
   ],
   "underflow": false,

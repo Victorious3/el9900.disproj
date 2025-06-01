@@ -1,15 +1,6 @@
 {
   "state": {
-    "clobbers": [
-      {
-        "ep": 4,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 224
-        }
-      }
-    ],
+    "clobbers": [],
     "input": [
       {
         "type": "Mem",
@@ -17,6 +8,7 @@
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 2
   },
@@ -35,7 +27,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 10
     },
     {
       "ep": 16303288,
@@ -48,7 +40,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 5
     },
     {
       "ep": 16303286,
@@ -57,7 +49,7 @@
         16303276
       ],
       "succ": [],
-      "insn": 2
+      "len": 2
     }
   ],
   "underflow": false,

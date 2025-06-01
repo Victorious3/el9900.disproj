@@ -31,6 +31,13 @@
         }
       },
       {
+        "ep": 21,
+        "value": {
+          "type": "Mem",
+          "address": 11897
+        }
+      },
+      {
         "ep": 15,
         "value": {
           "type": "Reg",
@@ -50,14 +57,6 @@
         "value": {
           "type": "Mem",
           "address": 11906
-        }
-      },
-      {
-        "ep": 12,
-        "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 228
         }
       },
       {
@@ -83,14 +82,6 @@
         }
       },
       {
-        "ep": 12,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 233
-        }
-      },
-      {
         "ep": 17,
         "value": {
           "type": "Mem",
@@ -98,10 +89,11 @@
         }
       },
       {
-        "ep": 14,
+        "ep": 15,
         "value": {
-          "type": "Mem",
-          "address": 11901
+          "type": "Reg",
+          "size": 2,
+          "reg": 228
         }
       },
       {
@@ -119,10 +111,18 @@
         }
       },
       {
-        "ep": 21,
+        "ep": 15,
+        "value": {
+          "type": "Reg",
+          "size": 0,
+          "reg": 233
+        }
+      },
+      {
+        "ep": 14,
         "value": {
           "type": "Mem",
-          "address": 11897
+          "address": 11901
         }
       },
       {
@@ -156,17 +156,17 @@
         "address": 13033
       },
       {
+        "type": "Reg",
+        "size": 0,
+        "reg": 228
+      },
+      {
         "type": "Mem",
         "address": 13020
       }
     ],
-    "output": [
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 236
-      }
-    ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 26
   },
@@ -176,16 +176,11 @@
       "ep": 15909508,
       "pred": [],
       "succ": [],
-      "insn": 26
+      "len": 94
     }
   ],
   "underflow": false,
-  "callers": [
-    {
-      "loc": 15908741,
-      "fun": 15908399
-    }
-  ],
+  "callers": [],
   "callees": [
     {
       "loc": 15909550,

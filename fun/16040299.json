@@ -24,17 +24,17 @@
         }
       },
       {
-        "ep": 7,
-        "value": {
-          "type": "Mem",
-          "address": 9316
-        }
-      },
-      {
         "ep": 3,
         "value": {
           "type": "Mem",
           "address": 9313
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "type": "Mem",
+          "address": 9316
         }
       },
       {
@@ -133,6 +133,7 @@
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 126
   },
@@ -142,18 +143,18 @@
       "ep": 16040299,
       "pred": [],
       "succ": [],
-      "insn": 126
+      "len": 356
     }
   ],
   "underflow": false,
   "callers": [
     {
       "loc": 16040034,
-      "fun": 16040014
+      "fun": 16040018
     },
     {
       "loc": 16040034,
-      "fun": 16040018
+      "fun": 16040014
     }
   ],
   "callees": []

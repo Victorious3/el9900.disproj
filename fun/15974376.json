@@ -25,6 +25,13 @@
         }
       },
       {
+        "ep": 13,
+        "value": {
+          "type": "Mem",
+          "address": 0
+        }
+      },
+      {
         "ep": 0,
         "value": {
           "type": "Reg",
@@ -35,45 +42,17 @@
       {
         "ep": 13,
         "value": {
-          "type": "Mem",
-          "address": 1
-        }
-      },
-      {
-        "ep": 13,
-        "value": {
           "type": "Reg",
           "size": 2,
           "reg": 236
-        }
-      },
-      {
-        "ep": 13,
-        "value": {
-          "type": "Mem",
-          "address": 0
         }
       }
     ],
     "input": [
       {
         "type": "Reg",
-        "size": 0,
-        "reg": 232
-      },
-      {
-        "type": "Mem",
-        "address": 7313
-      },
-      {
-        "type": "Reg",
-        "size": 0,
-        "reg": 233
-      },
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 236
+        "size": 1,
+        "reg": 228
       },
       {
         "type": "Mem",
@@ -82,13 +61,15 @@
       {
         "type": "Mem",
         "address": 7311
-      }
-    ],
-    "output": [
+      },
+      {
+        "type": "Mem",
+        "address": 7313
+      },
       {
         "type": "Reg",
         "size": 1,
-        "reg": 228
+        "reg": 232
       },
       {
         "type": "Reg",
@@ -96,6 +77,8 @@
         "reg": 236
       }
     ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 15
   },
@@ -114,7 +97,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15974411,
@@ -125,7 +108,7 @@
         15974399
       ],
       "succ": [],
-      "insn": 3
+      "len": 8
     },
     {
       "ep": 15974385,
@@ -142,7 +125,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 4
     },
     {
       "ep": 15974389,
@@ -159,7 +142,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 10
     },
     {
       "ep": 15974364,
@@ -176,7 +159,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 10
     },
     {
       "ep": 15974419,
@@ -185,7 +168,7 @@
         15974399
       ],
       "succ": [],
-      "insn": 3
+      "len": 8
     },
     {
       "ep": 15974374,
@@ -198,7 +181,7 @@
           "cond": true
         }
       ],
-      "insn": 1
+      "len": 2
     },
     {
       "ep": 15974399,
@@ -215,7 +198,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 12
     }
   ],
   "underflow": false,

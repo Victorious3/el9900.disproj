@@ -2,27 +2,6 @@
   "state": {
     "clobbers": [
       {
-        "ep": 27,
-        "value": {
-          "type": "Mem",
-          "address": 11917
-        }
-      },
-      {
-        "ep": 26,
-        "value": {
-          "type": "Mem",
-          "address": 10853
-        }
-      },
-      {
-        "ep": 29,
-        "value": {
-          "type": "Mem",
-          "address": 11916
-        }
-      },
-      {
         "ep": 11,
         "value": {
           "type": "Reg",
@@ -47,9 +26,23 @@
       {
         "ep": 3,
         "value": {
+          "type": "Mem",
+          "address": 7393
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
           "type": "Reg",
           "size": 0,
           "reg": 224
+        }
+      },
+      {
+        "ep": 28,
+        "value": {
+          "type": "Mem",
+          "address": 10853
         }
       }
     ],
@@ -60,7 +53,12 @@
       },
       {
         "type": "Mem",
-        "address": 7393
+        "address": 10853
+      },
+      {
+        "type": "Reg",
+        "size": 2,
+        "reg": 232
       },
       {
         "type": "Reg",
@@ -69,21 +67,17 @@
       },
       {
         "type": "Reg",
+        "size": 2,
+        "reg": 244
+      },
+      {
+        "type": "Reg",
         "size": 0,
         "reg": 224
       }
     ],
-    "output": [
-      {
-        "type": "Mem",
-        "address": 10853
-      },
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 244
-      }
-    ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 2
   },
@@ -102,7 +96,7 @@
           "cond": false
         }
       ],
-      "insn": 5
+      "len": 9
     },
     {
       "ep": 16263308,
@@ -117,7 +111,7 @@
         16263293
       ],
       "succ": [],
-      "insn": 4
+      "len": 4
     },
     {
       "ep": 16263228,
@@ -134,7 +128,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 8
     },
     {
       "ep": 16263236,
@@ -151,7 +145,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16263242,
@@ -168,7 +162,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 14
     },
     {
       "ep": 16263256,
@@ -185,7 +179,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 16263333,
@@ -198,7 +192,7 @@
           "cond": true
         }
       ],
-      "insn": 4
+      "len": 8
     },
     {
       "ep": 16263261,
@@ -215,7 +209,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 7
     },
     {
       "ep": 16263270,
@@ -233,7 +227,7 @@
           "cond": false
         }
       ],
-      "insn": 5
+      "len": 13
     },
     {
       "ep": 16263283,
@@ -250,7 +244,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 10
     },
     {
       "ep": 16263312,
@@ -263,7 +257,7 @@
           "cond": true
         }
       ],
-      "insn": 6
+      "len": 21
     },
     {
       "ep": 16263293,
@@ -276,7 +270,7 @@
           "cond": false
         }
       ],
-      "insn": 5
+      "len": 15
     },
     {
       "ep": 16263268,
@@ -289,7 +283,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 2
     }
   ],
   "underflow": false,

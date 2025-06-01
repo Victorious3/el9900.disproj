@@ -2,28 +2,6 @@
   "state": {
     "clobbers": [
       {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
-          "address": 11827
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 240
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
-          "address": 11768
-        }
-      },
-      {
         "ep": 7,
         "value": {
           "type": "Mem",
@@ -56,46 +34,18 @@
         "ep": 5,
         "value": {
           "type": "Mem",
-          "address": 11822
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Mem",
           "address": 11767
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 233
         }
       }
     ],
     "input": [
       {
         "type": "Mem",
-        "address": 11778
-      },
-      {
-        "type": "Mem",
-        "address": 11822
-      },
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 244
+        "address": 11866
       },
       {
         "type": "Mem",
         "address": 11759
-      },
-      {
-        "type": "Mem",
-        "address": 11827
       },
       {
         "type": "Reg",
@@ -103,20 +53,13 @@
         "reg": 224
       },
       {
-        "type": "Mem",
-        "address": 11768
-      },
-      {
-        "type": "Mem",
-        "address": 11866
-      },
-      {
         "type": "Reg",
         "size": 2,
-        "reg": 236
+        "reg": 244
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 2
   },
@@ -135,7 +78,7 @@
           "cond": false
         }
       ],
-      "insn": 5
+      "len": 13
     },
     {
       "ep": 16212739,
@@ -144,7 +87,7 @@
         16212735
       ],
       "succ": [],
-      "insn": 8
+      "len": 25
     },
     {
       "ep": 16212735,
@@ -157,7 +100,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 4
     }
   ],
   "underflow": false,

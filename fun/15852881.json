@@ -3,8 +3,9 @@
     "clobbers": [],
     "input": [],
     "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 2
+    "pc": 0
   },
   "start": 15852881,
   "blocks": [
@@ -12,18 +13,18 @@
       "ep": 15852881,
       "pred": [],
       "succ": [],
-      "insn": 15
+      "len": 28
     }
   ],
-  "underflow": false,
+  "underflow": true,
   "callers": [
-    {
-      "loc": 16280325,
-      "fun": 16280278
-    },
     {
       "loc": 16187683,
       "fun": 16187680
+    },
+    {
+      "loc": 16280325,
+      "fun": 16280278
     }
   ],
   "callees": [

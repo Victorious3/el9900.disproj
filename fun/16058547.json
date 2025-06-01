@@ -50,6 +50,10 @@
     "input": [
       {
         "type": "Mem",
+        "address": 9160
+      },
+      {
+        "type": "Mem",
         "address": 9157
       },
       {
@@ -61,16 +65,8 @@
         "address": 9159
       }
     ],
-    "output": [
-      {
-        "type": "Mem",
-        "address": 9160
-      },
-      {
-        "type": "Mem",
-        "address": 9159
-      }
-    ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 12
   },
@@ -80,7 +76,7 @@
       "ep": 16058547,
       "pred": [],
       "succ": [],
-      "insn": 12
+      "len": 43
     }
   ],
   "underflow": false,
@@ -88,10 +84,6 @@
     {
       "loc": 16059731,
       "fun": 16059731
-    },
-    {
-      "loc": 16063261,
-      "fun": 16063075
     },
     {
       "loc": 16059613,

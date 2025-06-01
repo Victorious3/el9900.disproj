@@ -51,17 +51,17 @@
         }
       },
       {
-        "ep": 65,
-        "value": {
-          "type": "Mem",
-          "address": 9314
-        }
-      },
-      {
         "ep": 20,
         "value": {
           "type": "Mem",
           "address": 9160
+        }
+      },
+      {
+        "ep": 65,
+        "value": {
+          "type": "Mem",
+          "address": 9314
         }
       },
       {
@@ -244,13 +244,6 @@
         }
       },
       {
-        "ep": 74,
-        "value": {
-          "type": "Mem",
-          "address": 65521
-        }
-      },
-      {
         "ep": 65,
         "value": {
           "type": "Mem",
@@ -289,10 +282,6 @@
     "input": [
       {
         "type": "Mem",
-        "address": 34
-      },
-      {
-        "type": "Mem",
         "address": 9157
       },
       {
@@ -309,19 +298,11 @@
       },
       {
         "type": "Mem",
-        "address": 9161
-      },
-      {
-        "type": "Mem",
-        "address": 9162
-      },
-      {
-        "type": "Mem",
         "address": 9191
       },
       {
         "type": "Mem",
-        "address": 9164
+        "address": 9161
       },
       {
         "type": "Mem",
@@ -329,25 +310,11 @@
       },
       {
         "type": "Mem",
-        "address": 9166
-      },
-      {
-        "type": "Mem",
         "address": 9226
       },
       {
         "type": "Mem",
-        "address": 3372
-      }
-    ],
-    "output": [
-      {
-        "type": "Mem",
         "address": 9192
-      },
-      {
-        "type": "Mem",
-        "address": 9161
       },
       {
         "type": "Mem",
@@ -358,6 +325,8 @@
         "address": 9196
       }
     ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 114
   },
@@ -372,7 +341,7 @@
           "cond": false
         }
       ],
-      "insn": 10
+      "len": 29
     },
     {
       "ep": 16334131,
@@ -385,7 +354,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 7
     },
     {
       "ep": 16334138,
@@ -398,7 +367,7 @@
           "cond": true
         }
       ],
-      "insn": 1
+      "len": 4
     },
     {
       "ep": 16153214,
@@ -411,7 +380,7 @@
           "cond": false
         }
       ],
-      "insn": 17
+      "len": 45
     },
     {
       "ep": 16153259,
@@ -424,7 +393,7 @@
           "cond": false
         }
       ],
-      "insn": 37
+      "len": 89
     },
     {
       "ep": 16153348,
@@ -437,7 +406,7 @@
           "cond": false
         }
       ],
-      "insn": 9
+      "len": 25
     },
     {
       "ep": 16153373,
@@ -450,7 +419,7 @@
           "cond": false
         }
       ],
-      "insn": 16
+      "len": 41
     },
     {
       "ep": 16153414,
@@ -458,7 +427,7 @@
         16153373
       ],
       "succ": [],
-      "insn": 22
+      "len": 49
     }
   ],
   "underflow": false,

@@ -2,48 +2,6 @@
   "state": {
     "clobbers": [
       {
-        "ep": 27,
-        "value": {
-          "type": "Mem",
-          "address": 12152
-        }
-      },
-      {
-        "ep": 19,
-        "value": {
-          "type": "Mem",
-          "address": 12148
-        }
-      },
-      {
-        "ep": 31,
-        "value": {
-          "type": "Mem",
-          "address": 12154
-        }
-      },
-      {
-        "ep": 23,
-        "value": {
-          "type": "Mem",
-          "address": 12150
-        }
-      },
-      {
-        "ep": 17,
-        "value": {
-          "type": "Mem",
-          "address": 12147
-        }
-      },
-      {
-        "ep": 29,
-        "value": {
-          "type": "Mem",
-          "address": 12153
-        }
-      },
-      {
         "ep": 0,
         "value": {
           "type": "Reg",
@@ -52,38 +10,10 @@
         }
       },
       {
-        "ep": 21,
-        "value": {
-          "type": "Mem",
-          "address": 12149
-        }
-      },
-      {
-        "ep": 33,
+        "ep": 32,
         "value": {
           "type": "Mem",
           "address": 12155
-        }
-      },
-      {
-        "ep": 25,
-        "value": {
-          "type": "Mem",
-          "address": 12151
-        }
-      },
-      {
-        "ep": 15,
-        "value": {
-          "type": "Mem",
-          "address": 12146
-        }
-      },
-      {
-        "ep": 13,
-        "value": {
-          "type": "Mem",
-          "address": 12145
         }
       }
     ],
@@ -119,59 +49,10 @@
         "reg": 233
       }
     ],
-    "output": [
-      {
-        "type": "Mem",
-        "address": 12152
-      },
-      {
-        "type": "Mem",
-        "address": 12145
-      },
-      {
-        "type": "Mem",
-        "address": 12146
-      },
-      {
-        "type": "Mem",
-        "address": 12147
-      },
-      {
-        "type": "Mem",
-        "address": 12148
-      },
-      {
-        "type": "Reg",
-        "size": 0,
-        "reg": 224
-      },
-      {
-        "type": "Mem",
-        "address": 12149
-      },
-      {
-        "type": "Mem",
-        "address": 12151
-      },
-      {
-        "type": "Mem",
-        "address": 12150
-      },
-      {
-        "type": "Mem",
-        "address": 12153
-      },
-      {
-        "type": "Mem",
-        "address": 12154
-      },
-      {
-        "type": "Mem",
-        "address": 12155
-      }
-    ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 6
+    "pc": 5
   },
   "start": 15917697,
   "blocks": [
@@ -188,7 +69,7 @@
           "cond": false
         }
       ],
-      "insn": 8
+      "len": 12
     },
     {
       "ep": 15917714,
@@ -206,7 +87,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 7
     },
     {
       "ep": 15917780,
@@ -219,7 +100,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15917871,
@@ -238,7 +119,7 @@
         15917771
       ],
       "succ": [],
-      "insn": 3
+      "len": 4
     },
     {
       "ep": 15917721,
@@ -255,7 +136,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15917789,
@@ -268,7 +149,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15917726,
@@ -285,7 +166,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15917798,
@@ -298,7 +179,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15917731,
@@ -315,7 +196,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15917807,
@@ -328,7 +209,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15917736,
@@ -345,7 +226,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15917816,
@@ -358,7 +239,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15917741,
@@ -375,7 +256,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15917825,
@@ -388,7 +269,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15917746,
@@ -405,7 +286,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15917834,
@@ -418,7 +299,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15917751,
@@ -435,7 +316,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15917843,
@@ -448,7 +329,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15917756,
@@ -465,7 +346,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15917852,
@@ -478,7 +359,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15917761,
@@ -495,7 +376,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15917861,
@@ -508,7 +389,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15917766,
@@ -525,7 +406,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     },
     {
       "ep": 15917870,
@@ -539,7 +420,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 1
     },
     {
       "ep": 15917771,
@@ -552,7 +433,7 @@
           "cond": true
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 15917709,
@@ -569,7 +450,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 5
     }
   ],
   "underflow": false,
@@ -577,10 +458,6 @@
     {
       "loc": 15916409,
       "fun": 15916364
-    },
-    {
-      "loc": 15914942,
-      "fun": 15914886
     },
     {
       "loc": 15916505,

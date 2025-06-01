@@ -2,6 +2,13 @@
   "state": {
     "clobbers": [
       {
+        "ep": 3,
+        "value": {
+          "type": "Mem",
+          "address": 9160
+        }
+      },
+      {
         "ep": 1,
         "value": {
           "type": "Mem",
@@ -45,13 +52,6 @@
         }
       },
       {
-        "ep": 10,
-        "value": {
-          "type": "Mem",
-          "address": 9157
-        }
-      },
-      {
         "ep": 0,
         "value": {
           "type": "Reg",
@@ -60,36 +60,14 @@
         }
       },
       {
-        "ep": 3,
+        "ep": 10,
         "value": {
           "type": "Mem",
-          "address": 9160
+          "address": 9157
         }
       }
     ],
     "input": [
-      {
-        "type": "Mem",
-        "address": 9168
-      },
-      {
-        "type": "Mem",
-        "address": 9169
-      },
-      {
-        "type": "Mem",
-        "address": 9171
-      },
-      {
-        "type": "Mem",
-        "address": 9173
-      },
-      {
-        "type": "Mem",
-        "address": 9175
-      }
-    ],
-    "output": [
       {
         "type": "Mem",
         "address": 9157
@@ -119,11 +97,28 @@
         "address": 9166
       },
       {
-        "type": "Reg",
-        "size": 0,
-        "reg": 224
+        "type": "Mem",
+        "address": 9168
+      },
+      {
+        "type": "Mem",
+        "address": 9169
+      },
+      {
+        "type": "Mem",
+        "address": 9171
+      },
+      {
+        "type": "Mem",
+        "address": 9173
+      },
+      {
+        "type": "Mem",
+        "address": 9175
       }
     ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 12
   },
@@ -133,7 +128,7 @@
       "ep": 16059967,
       "pred": [],
       "succ": [],
-      "insn": 12
+      "len": 55
     }
   ],
   "underflow": false,
@@ -175,12 +170,12 @@
       "fun": 16125406
     },
     {
-      "loc": 16086926,
-      "fun": 16086901
-    },
-    {
       "loc": 16004134,
       "fun": 16004124
+    },
+    {
+      "loc": 16086926,
+      "fun": 16086901
     }
   ],
   "callees": [

@@ -2,19 +2,19 @@
   "state": {
     "clobbers": [
       {
-        "ep": 2,
-        "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 236
-        }
-      },
-      {
         "ep": 1,
         "value": {
           "type": "Reg",
           "size": 1,
           "reg": 224
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 236
         }
       },
       {
@@ -39,6 +39,7 @@
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 5
   },
@@ -53,7 +54,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 3
     },
     {
       "ep": 16769084,
@@ -71,7 +72,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 16769093,
@@ -79,7 +80,7 @@
         16769084
       ],
       "succ": [],
-      "insn": 1
+      "len": 1
     }
   ],
   "underflow": false,

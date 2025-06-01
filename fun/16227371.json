@@ -2,19 +2,19 @@
   "state": {
     "clobbers": [
       {
-        "ep": 10,
-        "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 228
-        }
-      },
-      {
         "ep": 3,
         "value": {
           "type": "Reg",
           "size": 0,
           "reg": 224
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 228
         }
       }
     ],
@@ -29,22 +29,17 @@
         "address": 11901
       },
       {
-        "type": "Mem",
-        "address": 11781
+        "type": "Reg",
+        "size": 2,
+        "reg": 236
       },
       {
-        "type": "Reg",
-        "size": 2,
-        "reg": 232
+        "type": "Mem",
+        "address": 11781
       }
     ],
-    "output": [
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 228
-      }
-    ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 2
   },
@@ -63,7 +58,7 @@
           "cond": false
         }
       ],
-      "insn": 9
+      "len": 15
     },
     {
       "ep": 16227432,
@@ -80,7 +75,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 10
     },
     {
       "ep": 16227451,
@@ -90,7 +85,7 @@
         16227410
       ],
       "succ": [],
-      "insn": 3
+      "len": 3
     },
     {
       "ep": 16227442,
@@ -103,7 +98,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 9
     },
     {
       "ep": 16227386,
@@ -116,7 +111,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 6
     },
     {
       "ep": 16227392,
@@ -134,7 +129,7 @@
           "cond": false
         }
       ],
-      "insn": 2
+      "len": 4
     },
     {
       "ep": 16227410,
@@ -147,7 +142,7 @@
           "cond": true
         }
       ],
-      "insn": 7
+      "len": 22
     },
     {
       "ep": 16227396,
@@ -160,7 +155,7 @@
           "cond": true
         }
       ],
-      "insn": 8
+      "len": 14
     }
   ],
   "underflow": false,

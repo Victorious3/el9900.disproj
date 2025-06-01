@@ -2,13 +2,6 @@
   "state": {
     "clobbers": [
       {
-        "ep": 30,
-        "value": {
-          "type": "Mem",
-          "address": 11904
-        }
-      },
-      {
         "ep": 1,
         "value": {
           "type": "Reg",
@@ -32,18 +25,17 @@
         }
       },
       {
-        "ep": 29,
+        "ep": 24,
         "value": {
           "type": "Mem",
           "address": 11903
         }
       },
       {
-        "ep": 8,
+        "ep": 25,
         "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 224
+          "type": "Mem",
+          "address": 11904
         }
       },
       {
@@ -55,11 +47,11 @@
         }
       },
       {
-        "ep": 8,
+        "ep": 3,
         "value": {
           "type": "Reg",
-          "size": 2,
-          "reg": 236
+          "size": 0,
+          "reg": 224
         }
       }
     ],
@@ -84,15 +76,7 @@
       },
       {
         "type": "Mem",
-        "address": 11781
-      },
-      {
-        "type": "Mem",
         "address": 11759
-      },
-      {
-        "type": "Mem",
-        "address": 11899
       },
       {
         "type": "Reg",
@@ -101,8 +85,9 @@
       }
     ],
     "output": [],
+    "stack": [],
     "fun_stack": [],
-    "pc": 32
+    "pc": 27
   },
   "start": 16221411,
   "blocks": [
@@ -119,7 +104,7 @@
           "cond": false
         }
       ],
-      "insn": 6
+      "len": 23
     },
     {
       "ep": 16221436,
@@ -133,7 +118,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 11
     },
     {
       "ep": 16221447,
@@ -151,7 +136,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 10
     },
     {
       "ep": 16221486,
@@ -168,7 +153,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 16221469,
@@ -183,7 +168,7 @@
           "cond": true
         }
       ],
-      "insn": 5
+      "len": 17
     },
     {
       "ep": 16221581,
@@ -194,7 +179,7 @@
         16221532
       ],
       "succ": [],
-      "insn": 3
+      "len": 11
     },
     {
       "ep": 16221495,
@@ -211,7 +196,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 6
     },
     {
       "ep": 16221558,
@@ -226,7 +211,7 @@
           "cond": false
         }
       ],
-      "insn": 7
+      "len": 23
     },
     {
       "ep": 16221501,
@@ -239,7 +224,7 @@
           "cond": true
         }
       ],
-      "insn": 5
+      "len": 17
     },
     {
       "ep": 16221457,
@@ -256,7 +241,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 2
     },
     {
       "ep": 16221518,
@@ -273,7 +258,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 8
     },
     {
       "ep": 16221549,
@@ -290,7 +275,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 9
     },
     {
       "ep": 16221526,
@@ -307,7 +292,7 @@
           "cond": false
         }
       ],
-      "insn": 3
+      "len": 6
     },
     {
       "ep": 16221532,
@@ -320,7 +305,7 @@
           "cond": true
         }
       ],
-      "insn": 5
+      "len": 17
     },
     {
       "ep": 16221459,
@@ -337,7 +322,7 @@
           "cond": false
         }
       ],
-      "insn": 4
+      "len": 10
     },
     {
       "ep": 16221434,
@@ -350,7 +335,7 @@
           "cond": false
         }
       ],
-      "insn": 1
+      "len": 2
     }
   ],
   "underflow": false,

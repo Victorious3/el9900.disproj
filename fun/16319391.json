@@ -2,7 +2,7 @@
   "state": {
     "clobbers": [
       {
-        "ep": 0,
+        "ep": 1,
         "value": {
           "type": "Reg",
           "size": 0,
@@ -17,14 +17,15 @@
         }
       }
     ],
-    "input": [],
-    "output": [
+    "input": [
       {
         "type": "Reg",
         "size": 0,
         "reg": 224
       }
     ],
+    "output": [],
+    "stack": [],
     "fun_stack": [],
     "pc": 4
   },
@@ -34,26 +35,26 @@
       "ep": 16319391,
       "pred": [],
       "succ": [],
-      "insn": 4
+      "len": 12
     }
   ],
   "underflow": false,
   "callers": [
     {
-      "loc": 15816999,
-      "fun": 15816802
-    },
-    {
       "loc": 15911618,
       "fun": 15911601
     },
     {
-      "loc": 15916231,
-      "fun": 15916173
+      "loc": 15816999,
+      "fun": 15816802
     },
     {
       "loc": 15817290,
       "fun": 15817100
+    },
+    {
+      "loc": 15916231,
+      "fun": 15916173
     }
   ],
   "callees": [
