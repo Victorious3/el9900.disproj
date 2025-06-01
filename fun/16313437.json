@@ -1,0 +1,120 @@
+{
+  "state": {
+    "clobbers": [
+      {
+        "ep": 0,
+        "value": {
+          "type": "Reg",
+          "size": 0,
+          "reg": 224
+        }
+      }
+    ],
+    "input": [
+      {
+        "type": "Reg",
+        "size": 0,
+        "reg": 228
+      },
+      {
+        "type": "Reg",
+        "size": 0,
+        "reg": 229
+      }
+    ],
+    "output": [],
+    "fun_stack": [],
+    "pc": 11
+  },
+  "start": 16313437,
+  "blocks": [
+    {
+      "ep": 16313437,
+      "pred": [],
+      "succ": [
+        {
+          "ep": 16313321,
+          "cond": true
+        },
+        {
+          "ep": 16313444,
+          "cond": false
+        }
+      ],
+      "insn": 3
+    },
+    {
+      "ep": 16313321,
+      "pred": [
+        16313437,
+        16313458
+      ],
+      "succ": [],
+      "insn": 2
+    },
+    {
+      "ep": 16313444,
+      "pred": [
+        16313437
+      ],
+      "succ": [
+        {
+          "ep": 16313319,
+          "cond": true
+        },
+        {
+          "ep": 16313452,
+          "cond": false
+        }
+      ],
+      "insn": 3
+    },
+    {
+      "ep": 16313319,
+      "pred": [
+        16313444,
+        16313452
+      ],
+      "succ": [],
+      "insn": 2
+    },
+    {
+      "ep": 16313452,
+      "pred": [
+        16313444
+      ],
+      "succ": [
+        {
+          "ep": 16313319,
+          "cond": true
+        },
+        {
+          "ep": 16313458,
+          "cond": false
+        }
+      ],
+      "insn": 2
+    },
+    {
+      "ep": 16313458,
+      "pred": [
+        16313452
+      ],
+      "succ": [
+        {
+          "ep": 16313321,
+          "cond": true
+        }
+      ],
+      "insn": 1
+    }
+  ],
+  "underflow": false,
+  "callers": [
+    {
+      "loc": 16310572,
+      "fun": 16310407
+    }
+  ],
+  "callees": []
+}

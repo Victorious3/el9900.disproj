@@ -1,0 +1,126 @@
+{
+  "state": {
+    "clobbers": [
+      {
+        "ep": 0,
+        "value": {
+          "type": "Mem",
+          "address": 9187
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "type": "Reg",
+          "size": 0,
+          "reg": 224
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "type": "Mem",
+          "address": 9191
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Mem",
+          "address": 9190
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Reg",
+          "size": 1,
+          "reg": 236
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Mem",
+          "address": 9196
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Mem",
+          "address": 9192
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Mem",
+          "address": 9188
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Mem",
+          "address": 9194
+        }
+      }
+    ],
+    "input": [],
+    "output": [
+      {
+        "type": "Mem",
+        "address": 9187
+      },
+      {
+        "type": "Mem",
+        "address": 9188
+      },
+      {
+        "type": "Mem",
+        "address": 9191
+      },
+      {
+        "type": "Mem",
+        "address": 9192
+      },
+      {
+        "type": "Mem",
+        "address": 9194
+      },
+      {
+        "type": "Mem",
+        "address": 9196
+      }
+    ],
+    "fun_stack": [],
+    "pc": 6
+  },
+  "start": 16052233,
+  "blocks": [
+    {
+      "ep": 16052233,
+      "pred": [],
+      "succ": [],
+      "insn": 6
+    }
+  ],
+  "underflow": false,
+  "callers": [
+    {
+      "loc": 16051860,
+      "fun": 16051850
+    },
+    {
+      "loc": 16051890,
+      "fun": 16051850
+    }
+  ],
+  "callees": [
+    {
+      "loc": 16052233,
+      "fun": 16061280
+    }
+  ]
+}

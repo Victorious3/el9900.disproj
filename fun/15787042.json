@@ -1,0 +1,171 @@
+{
+  "state": {
+    "clobbers": [
+      {
+        "ep": 3,
+        "value": {
+          "type": "Mem",
+          "address": 7397
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Mem",
+          "address": 13870
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "type": "Reg",
+          "size": 0,
+          "reg": 224
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 232
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 236
+        }
+      }
+    ],
+    "input": [
+      {
+        "type": "Mem",
+        "address": 7393
+      },
+      {
+        "type": "Mem",
+        "address": 13867
+      },
+      {
+        "type": "Mem",
+        "address": 13870
+      }
+    ],
+    "output": [
+      {
+        "type": "Mem",
+        "address": 13870
+      }
+    ],
+    "fun_stack": [],
+    "pc": 21
+  },
+  "start": 15787042,
+  "blocks": [
+    {
+      "ep": 15787042,
+      "pred": [],
+      "succ": [
+        {
+          "ep": 15787090,
+          "cond": true
+        },
+        {
+          "ep": 15787075,
+          "cond": false
+        }
+      ],
+      "insn": 10
+    },
+    {
+      "ep": 15787090,
+      "pred": [
+        15787042
+      ],
+      "succ": [
+        {
+          "ep": 15787103,
+          "cond": false
+        }
+      ],
+      "insn": 3
+    },
+    {
+      "ep": 15787103,
+      "pred": [
+        15787090,
+        15787075
+      ],
+      "succ": [
+        {
+          "ep": 15787125,
+          "cond": true
+        },
+        {
+          "ep": 15787112,
+          "cond": false
+        }
+      ],
+      "insn": 3
+    },
+    {
+      "ep": 15787125,
+      "pred": [
+        15787103,
+        15787112
+      ],
+      "succ": [],
+      "insn": 1
+    },
+    {
+      "ep": 15787112,
+      "pred": [
+        15787103
+      ],
+      "succ": [
+        {
+          "ep": 15787125,
+          "cond": false
+        }
+      ],
+      "insn": 3
+    },
+    {
+      "ep": 15787075,
+      "pred": [
+        15787042
+      ],
+      "succ": [
+        {
+          "ep": 15787103,
+          "cond": true
+        }
+      ],
+      "insn": 4
+    }
+  ],
+  "underflow": false,
+  "callers": [
+    {
+      "loc": 15788966,
+      "fun": 15788119
+    },
+    {
+      "loc": 15786429,
+      "fun": 15786329
+    }
+  ],
+  "callees": [
+    {
+      "loc": 15787056,
+      "fun": 16301727
+    },
+    {
+      "loc": 15787069,
+      "fun": 16301727
+    }
+  ]
+}

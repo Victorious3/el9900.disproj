@@ -1,0 +1,257 @@
+{
+  "state": {
+    "clobbers": [
+      {
+        "ep": 11,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 240
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Mem",
+          "address": 11836
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 244
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Mem",
+          "address": 11835
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 228
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "type": "Reg",
+          "size": 0,
+          "reg": 233
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Reg",
+          "size": 0,
+          "reg": 224
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Mem",
+          "address": 11806
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Mem",
+          "address": 11876
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Mem",
+          "address": 11831
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Mem",
+          "address": 11837
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Mem",
+          "address": 11834
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 236
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Mem",
+          "address": 11878
+        }
+      }
+    ],
+    "input": [
+      {
+        "type": "Mem",
+        "address": 11778
+      },
+      {
+        "type": "Mem",
+        "address": 11894
+      },
+      {
+        "type": "Reg",
+        "size": 2,
+        "reg": 244
+      }
+    ],
+    "output": [
+      {
+        "type": "Reg",
+        "size": 2,
+        "reg": 244
+      }
+    ],
+    "fun_stack": [],
+    "pc": 15
+  },
+  "start": 16204261,
+  "blocks": [
+    {
+      "ep": 16204261,
+      "pred": [],
+      "succ": [
+        {
+          "ep": 16204315,
+          "cond": true
+        },
+        {
+          "ep": 16204269,
+          "cond": false
+        }
+      ],
+      "insn": 3
+    },
+    {
+      "ep": 16204315,
+      "pred": [
+        16204261
+      ],
+      "succ": [
+        {
+          "ep": 16204274,
+          "cond": true
+        },
+        {
+          "ep": 16204325,
+          "cond": false
+        }
+      ],
+      "insn": 3
+    },
+    {
+      "ep": 16204274,
+      "pred": [
+        16204315,
+        16204269
+      ],
+      "succ": [
+        {
+          "ep": 16204325,
+          "cond": true
+        },
+        {
+          "ep": 16204283,
+          "cond": false
+        }
+      ],
+      "insn": 3
+    },
+    {
+      "ep": 16204325,
+      "pred": [
+        16204274,
+        16204283,
+        16204315,
+        16204269
+      ],
+      "succ": [],
+      "insn": 1
+    },
+    {
+      "ep": 16204283,
+      "pred": [
+        16204274
+      ],
+      "succ": [
+        {
+          "ep": 16204325,
+          "cond": true
+        }
+      ],
+      "insn": 12
+    },
+    {
+      "ep": 16204269,
+      "pred": [
+        16204261
+      ],
+      "succ": [
+        {
+          "ep": 16204325,
+          "cond": true
+        },
+        {
+          "ep": 16204274,
+          "cond": false
+        }
+      ],
+      "insn": 2
+    }
+  ],
+  "underflow": false,
+  "callers": [
+    {
+      "loc": 16201927,
+      "fun": 16209058
+    }
+  ],
+  "callees": [
+    {
+      "loc": 16204277,
+      "fun": 16190655
+    },
+    {
+      "loc": 16204287,
+      "fun": 16191440
+    },
+    {
+      "loc": 16204291,
+      "fun": 16210345
+    },
+    {
+      "loc": 16204300,
+      "fun": 16191440
+    },
+    {
+      "loc": 16204304,
+      "fun": 16210345
+    }
+  ]
+}

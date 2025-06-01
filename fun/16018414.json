@@ -1,0 +1,155 @@
+{
+  "state": {
+    "clobbers": [
+      {
+        "ep": 2,
+        "value": {
+          "type": "Reg",
+          "size": 0,
+          "reg": 232
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "type": "Mem",
+          "address": 9162
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "type": "Mem",
+          "address": 9161
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "type": "Mem",
+          "address": 9158
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "type": "Mem",
+          "address": 9164
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "type": "Mem",
+          "address": 9157
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "type": "Reg",
+          "size": 0,
+          "reg": 233
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 236
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "type": "Mem",
+          "address": 9160
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "type": "Mem",
+          "address": 9166
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "type": "Reg",
+          "size": 0,
+          "reg": 224
+        }
+      }
+    ],
+    "input": [],
+    "output": [
+      {
+        "type": "Mem",
+        "address": 9157
+      },
+      {
+        "type": "Mem",
+        "address": 9158
+      },
+      {
+        "type": "Mem",
+        "address": 9160
+      },
+      {
+        "type": "Mem",
+        "address": 9161
+      },
+      {
+        "type": "Mem",
+        "address": 9162
+      },
+      {
+        "type": "Mem",
+        "address": 9164
+      },
+      {
+        "type": "Mem",
+        "address": 9166
+      }
+    ],
+    "fun_stack": [],
+    "pc": 4
+  },
+  "start": 16018414,
+  "blocks": [
+    {
+      "ep": 16018414,
+      "pred": [],
+      "succ": [
+        {
+          "ep": 16018454,
+          "cond": true
+        }
+      ],
+      "insn": 2
+    },
+    {
+      "ep": 16018454,
+      "pred": [
+        16018414
+      ],
+      "succ": [],
+      "insn": 2
+    }
+  ],
+  "underflow": false,
+  "callers": [
+    {
+      "loc": 16009566,
+      "fun": 16009388
+    }
+  ],
+  "callees": [
+    {
+      "loc": 16018454,
+      "fun": 16059334
+    }
+  ]
+}

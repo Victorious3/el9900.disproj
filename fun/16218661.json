@@ -1,0 +1,363 @@
+{
+  "state": {
+    "clobbers": [
+      {
+        "ep": 20,
+        "value": {
+          "type": "Mem",
+          "address": 7320
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "type": "Mem",
+          "address": 7349
+        }
+      },
+      {
+        "ep": 30,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 224
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "type": "Mem",
+          "address": 7037
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "type": "Mem",
+          "address": 1
+        }
+      },
+      {
+        "ep": 35,
+        "value": {
+          "type": "Mem",
+          "address": 11771
+        }
+      },
+      {
+        "ep": 33,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 228
+        }
+      },
+      {
+        "ep": 16,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 232
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "type": "Mem",
+          "address": 0
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "type": "Mem",
+          "address": 7319
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 236
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "type": "Mem",
+          "address": 7322
+        }
+      },
+      {
+        "ep": 30,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 252
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "type": "Mem",
+          "address": 7302
+        }
+      },
+      {
+        "ep": 9,
+        "value": {
+          "type": "Mem",
+          "address": 11775
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "type": "Mem",
+          "address": 7321
+        }
+      }
+    ],
+    "input": [
+      {
+        "type": "Reg",
+        "size": 2,
+        "reg": 252
+      },
+      {
+        "type": "Mem",
+        "address": 7330
+      },
+      {
+        "type": "Mem",
+        "address": 11906
+      },
+      {
+        "type": "Mem",
+        "address": 7316
+      },
+      {
+        "type": "Mem",
+        "address": 7317
+      }
+    ],
+    "output": [
+      {
+        "type": "Reg",
+        "size": 2,
+        "reg": 252
+      },
+      {
+        "type": "Mem",
+        "address": 7302
+      },
+      {
+        "type": "Mem",
+        "address": 7319
+      },
+      {
+        "type": "Mem",
+        "address": 7320
+      },
+      {
+        "type": "Mem",
+        "address": 7321
+      },
+      {
+        "type": "Mem",
+        "address": 7322
+      },
+      {
+        "type": "Mem",
+        "address": 11771
+      },
+      {
+        "type": "Reg",
+        "size": 2,
+        "reg": 236
+      },
+      {
+        "type": "Mem",
+        "address": 7037
+      },
+      {
+        "type": "Mem",
+        "address": 11775
+      }
+    ],
+    "fun_stack": [],
+    "pc": 37
+  },
+  "start": 16218661,
+  "blocks": [
+    {
+      "ep": 16218661,
+      "pred": [],
+      "succ": [
+        {
+          "ep": 16218668,
+          "cond": false
+        }
+      ],
+      "insn": 2
+    },
+    {
+      "ep": 16218668,
+      "pred": [
+        16218661,
+        16218668
+      ],
+      "succ": [
+        {
+          "ep": 16218668,
+          "cond": true
+        },
+        {
+          "ep": 16218676,
+          "cond": false
+        }
+      ],
+      "insn": 3
+    },
+    {
+      "ep": 16218676,
+      "pred": [
+        16218668
+      ],
+      "succ": [
+        {
+          "ep": 16218686,
+          "cond": false
+        }
+      ],
+      "insn": 2
+    },
+    {
+      "ep": 16218686,
+      "pred": [
+        16218676,
+        16218690
+      ],
+      "succ": [
+        {
+          "ep": 16218699,
+          "cond": true
+        },
+        {
+          "ep": 16218690,
+          "cond": false
+        }
+      ],
+      "insn": 2
+    },
+    {
+      "ep": 16218699,
+      "pred": [
+        16218686
+      ],
+      "succ": [
+        {
+          "ep": 16218733,
+          "cond": true
+        },
+        {
+          "ep": 16218713,
+          "cond": false
+        }
+      ],
+      "insn": 4
+    },
+    {
+      "ep": 16218733,
+      "pred": [
+        16218699,
+        16218713
+      ],
+      "succ": [
+        {
+          "ep": 16218783,
+          "cond": true
+        },
+        {
+          "ep": 16218753,
+          "cond": false
+        }
+      ],
+      "insn": 6
+    },
+    {
+      "ep": 16218783,
+      "pred": [
+        16218733,
+        16218753
+      ],
+      "succ": [],
+      "insn": 2
+    },
+    {
+      "ep": 16218753,
+      "pred": [
+        16218733
+      ],
+      "succ": [
+        {
+          "ep": 16218783,
+          "cond": false
+        }
+      ],
+      "insn": 12
+    },
+    {
+      "ep": 16218713,
+      "pred": [
+        16218699
+      ],
+      "succ": [
+        {
+          "ep": 16218733,
+          "cond": false
+        }
+      ],
+      "insn": 6
+    },
+    {
+      "ep": 16218690,
+      "pred": [
+        16218686
+      ],
+      "succ": [
+        {
+          "ep": 16218686,
+          "cond": true
+        }
+      ],
+      "insn": 4
+    }
+  ],
+  "underflow": false,
+  "callers": [
+    {
+      "loc": 16218163,
+      "fun": 16218150
+    },
+    {
+      "loc": 16218636,
+      "fun": 16218636
+    }
+  ],
+  "callees": [
+    {
+      "loc": 16218729,
+      "fun": 16319408
+    },
+    {
+      "loc": 16218735,
+      "fun": 15956568
+    },
+    {
+      "loc": 16218765,
+      "fun": 15963430
+    }
+  ]
+}

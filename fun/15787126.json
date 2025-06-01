@@ -1,0 +1,136 @@
+{
+  "state": {
+    "clobbers": [
+      {
+        "ep": 1,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 232
+        }
+      },
+      {
+        "ep": 13,
+        "value": {
+          "type": "Mem",
+          "address": 13870
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 236
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "type": "Mem",
+          "address": 7397
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "type": "Reg",
+          "size": 0,
+          "reg": 224
+        }
+      }
+    ],
+    "input": [
+      {
+        "type": "Mem",
+        "address": 7393
+      },
+      {
+        "type": "Mem",
+        "address": 13870
+      }
+    ],
+    "output": [
+      {
+        "type": "Mem",
+        "address": 13870
+      }
+    ],
+    "fun_stack": [],
+    "pc": 19
+  },
+  "start": 15787126,
+  "blocks": [
+    {
+      "ep": 15787126,
+      "pred": [],
+      "succ": [
+        {
+          "ep": 15787179,
+          "cond": true
+        },
+        {
+          "ep": 15787164,
+          "cond": false
+        }
+      ],
+      "insn": 11
+    },
+    {
+      "ep": 15787179,
+      "pred": [
+        15787126
+      ],
+      "succ": [
+        {
+          "ep": 15787192,
+          "cond": false
+        }
+      ],
+      "insn": 3
+    },
+    {
+      "ep": 15787192,
+      "pred": [
+        15787179,
+        15787164
+      ],
+      "succ": [],
+      "insn": 4
+    },
+    {
+      "ep": 15787164,
+      "pred": [
+        15787126
+      ],
+      "succ": [
+        {
+          "ep": 15787192,
+          "cond": true
+        }
+      ],
+      "insn": 4
+    }
+  ],
+  "underflow": false,
+  "callers": [
+    {
+      "loc": 15789073,
+      "fun": 15788119
+    },
+    {
+      "loc": 15786565,
+      "fun": 15786456
+    }
+  ],
+  "callees": [
+    {
+      "loc": 15787145,
+      "fun": 16301678
+    },
+    {
+      "loc": 15787158,
+      "fun": 16301678
+    }
+  ]
+}

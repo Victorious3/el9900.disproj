@@ -1,0 +1,137 @@
+{
+  "state": {
+    "clobbers": [
+      {
+        "ep": 17,
+        "value": {
+          "type": "Mem",
+          "address": 3359
+        }
+      },
+      {
+        "ep": 6,
+        "value": {
+          "type": "Mem",
+          "address": 3361
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "type": "Reg",
+          "size": 0,
+          "reg": 224
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "type": "Mem",
+          "address": 3363
+        }
+      }
+    ],
+    "input": [
+      {
+        "type": "Mem",
+        "address": 3361
+      },
+      {
+        "type": "Reg",
+        "size": 0,
+        "reg": 228
+      },
+      {
+        "type": "Reg",
+        "size": 0,
+        "reg": 229
+      },
+      {
+        "type": "Mem",
+        "address": 3359
+      }
+    ],
+    "output": [],
+    "fun_stack": [],
+    "pc": 2
+  },
+  "start": 15955992,
+  "blocks": [
+    {
+      "ep": 15955992,
+      "pred": [],
+      "succ": [
+        {
+          "ep": 15956055,
+          "cond": true
+        },
+        {
+          "ep": 15956005,
+          "cond": false
+        }
+      ],
+      "insn": 6
+    },
+    {
+      "ep": 15956055,
+      "pred": [
+        15955992,
+        15956045
+      ],
+      "succ": [],
+      "insn": 4
+    },
+    {
+      "ep": 15956005,
+      "pred": [
+        15955992
+      ],
+      "succ": [
+        {
+          "ep": 15956045,
+          "cond": true
+        },
+        {
+          "ep": 15956043,
+          "cond": false
+        }
+      ],
+      "insn": 10
+    },
+    {
+      "ep": 15956045,
+      "pred": [
+        15956005,
+        15956043
+      ],
+      "succ": [
+        {
+          "ep": 15956055,
+          "cond": false
+        }
+      ],
+      "insn": 3
+    },
+    {
+      "ep": 15956043,
+      "pred": [
+        15956005
+      ],
+      "succ": [
+        {
+          "ep": 15956045,
+          "cond": false
+        }
+      ],
+      "insn": 1
+    }
+  ],
+  "underflow": false,
+  "callers": [
+    {
+      "loc": 15955987,
+      "fun": 15955974
+    }
+  ],
+  "callees": []
+}
