@@ -32,18 +32,18 @@
         }
       },
       {
-        "ep": 18,
-        "value": {
-          "type": "Mem",
-          "address": 10853
-        }
-      },
-      {
         "ep": 14,
         "value": {
           "type": "Reg",
           "size": 2,
           "reg": 236
+        }
+      },
+      {
+        "ep": 18,
+        "value": {
+          "type": "Mem",
+          "address": 10853
         }
       }
     ],
@@ -63,7 +63,13 @@
         "reg": 224
       }
     ],
-    "output": [],
+    "output": [
+      {
+        "type": "Reg",
+        "size": 2,
+        "reg": 236
+      }
+    ],
     "stack": [],
     "fun_stack": [],
     "pc": 23

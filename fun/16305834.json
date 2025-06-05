@@ -28,7 +28,7 @@
         "value": {
           "type": "Reg",
           "size": 2,
-          "reg": 252
+          "reg": 232
         }
       },
       {
@@ -101,7 +101,7 @@
         "value": {
           "type": "Reg",
           "size": 2,
-          "reg": 232
+          "reg": 252
         }
       },
       {
@@ -122,21 +122,22 @@
     ],
     "input": [
       {
-        "type": "Mem",
-        "address": 11946
-      },
-      {
         "type": "Reg",
         "size": 2,
         "reg": 252
       },
+      {
+        "type": "Mem",
+        "address": 11946
+      }
+    ],
+    "output": [
       {
         "type": "Reg",
         "size": 2,
         "reg": 232
       }
     ],
-    "output": [],
     "stack": [],
     "fun_stack": [],
     "pc": 51

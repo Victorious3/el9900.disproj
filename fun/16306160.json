@@ -11,16 +11,16 @@
       {
         "ep": 11,
         "value": {
-          "type": "Mem",
-          "address": 0
+          "type": "Reg",
+          "size": 2,
+          "reg": 244
         }
       },
       {
         "ep": 11,
         "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 244
+          "type": "Mem",
+          "address": 0
         }
       },
       {
@@ -87,13 +87,13 @@
     ],
     "input": [
       {
+        "type": "Mem",
+        "address": 11946
+      },
+      {
         "type": "Reg",
         "size": 2,
         "reg": 252
-      },
-      {
-        "type": "Mem",
-        "address": 11946
       },
       {
         "type": "Mem",

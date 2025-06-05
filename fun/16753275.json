@@ -97,17 +97,17 @@
         }
       },
       {
-        "ep": 23,
-        "value": {
-          "type": "Mem",
-          "address": 7349
-        }
-      },
-      {
         "ep": 14,
         "value": {
           "type": "Mem",
           "address": 7340
+        }
+      },
+      {
+        "ep": 23,
+        "value": {
+          "type": "Mem",
+          "address": 7349
         }
       },
       {
@@ -180,7 +180,20 @@
         "address": 7315
       }
     ],
-    "output": [],
+    "output": [
+      {
+        "type": "Mem",
+        "address": 7330
+      },
+      {
+        "type": "Mem",
+        "address": 7339
+      },
+      {
+        "type": "Mem",
+        "address": 7315
+      }
+    ],
     "stack": [],
     "fun_stack": [],
     "pc": 2

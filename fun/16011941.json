@@ -156,10 +156,6 @@
       },
       {
         "type": "Mem",
-        "address": 9451
-      },
-      {
-        "type": "Mem",
         "address": 9165
       },
       {
@@ -168,16 +164,21 @@
       },
       {
         "type": "Reg",
-        "size": 0,
-        "reg": 224
-      },
-      {
-        "type": "Reg",
         "size": 1,
         "reg": 228
       }
     ],
-    "output": [],
+    "output": [
+      {
+        "type": "Mem",
+        "address": 9451
+      },
+      {
+        "type": "Reg",
+        "size": 0,
+        "reg": 224
+      }
+    ],
     "stack": [],
     "fun_stack": [],
     "pc": 27

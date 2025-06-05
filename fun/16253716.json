@@ -9,14 +9,6 @@
         }
       },
       {
-        "ep": 3,
-        "value": {
-          "type": "Reg",
-          "size": 0,
-          "reg": 224
-        }
-      },
-      {
         "ep": 2,
         "value": {
           "type": "Reg",
@@ -30,6 +22,13 @@
           "type": "Reg",
           "size": 2,
           "reg": 244
+        }
+      },
+      {
+        "ep": 21,
+        "value": {
+          "type": "Mem",
+          "address": 11917
         }
       },
       {
@@ -55,10 +54,11 @@
         }
       },
       {
-        "ep": 21,
+        "ep": 3,
         "value": {
-          "type": "Mem",
-          "address": 11917
+          "type": "Reg",
+          "size": 0,
+          "reg": 224
         }
       }
     ],
@@ -74,11 +74,11 @@
       },
       {
         "type": "Mem",
-        "address": 10854
+        "address": 11910
       },
       {
         "type": "Mem",
-        "address": 11910
+        "address": 10854
       },
       {
         "type": "Mem",
@@ -86,16 +86,25 @@
       },
       {
         "type": "Reg",
-        "size": 2,
-        "reg": 232
-      },
-      {
-        "type": "Reg",
         "size": 0,
         "reg": 228
       }
     ],
-    "output": [],
+    "output": [
+      {
+        "type": "Mem",
+        "address": 9920
+      },
+      {
+        "type": "Mem",
+        "address": 11910
+      },
+      {
+        "type": "Reg",
+        "size": 2,
+        "reg": 232
+      }
+    ],
     "stack": [],
     "fun_stack": [],
     "pc": 2

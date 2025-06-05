@@ -9,13 +9,6 @@
         }
       },
       {
-        "ep": 4,
-        "value": {
-          "type": "Mem",
-          "address": 10386
-        }
-      },
-      {
         "ep": 1,
         "value": {
           "type": "Reg",
@@ -29,19 +22,27 @@
           "type": "Mem",
           "address": 9891
         }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "type": "Mem",
+          "address": 10386
+        }
       }
     ],
     "input": [
       {
         "type": "Mem",
         "address": 9907
-      },
+      }
+    ],
+    "output": [
       {
         "type": "Mem",
         "address": 10094
       }
     ],
-    "output": [],
     "stack": [],
     "fun_stack": [],
     "pc": 2

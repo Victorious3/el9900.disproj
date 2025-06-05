@@ -4,16 +4,16 @@
       {
         "ep": 16,
         "value": {
-          "type": "Mem",
-          "address": 0
+          "type": "Reg",
+          "size": 2,
+          "reg": 244
         }
       },
       {
         "ep": 16,
         "value": {
-          "type": "Reg",
-          "size": 2,
-          "reg": 244
+          "type": "Mem",
+          "address": 0
         }
       },
       {
@@ -83,14 +83,15 @@
       },
       {
         "type": "Mem",
-        "address": 7351
-      },
-      {
-        "type": "Mem",
         "address": 7385
       }
     ],
-    "output": [],
+    "output": [
+      {
+        "type": "Mem",
+        "address": 7351
+      }
+    ],
     "stack": [],
     "fun_stack": [],
     "pc": 2

@@ -16,17 +16,17 @@
         }
       },
       {
-        "ep": 0,
-        "value": {
-          "type": "Mem",
-          "address": 11829
-        }
-      },
-      {
         "ep": 4,
         "value": {
           "type": "Mem",
           "address": 11764
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Mem",
+          "address": 11829
         }
       },
       {
@@ -85,12 +85,11 @@
     "input": [
       {
         "type": "Mem",
-        "address": 11781
+        "address": 11900
       },
       {
-        "type": "Reg",
-        "size": 2,
-        "reg": 236
+        "type": "Mem",
+        "address": 11781
       },
       {
         "type": "Mem",
@@ -110,8 +109,9 @@
         "address": 11898
       },
       {
-        "type": "Mem",
-        "address": 11900
+        "type": "Reg",
+        "size": 2,
+        "reg": 236
       },
       {
         "type": "Mem",

@@ -46,6 +46,35 @@
       {
         "ep": 0,
         "value": {
+          "type": "Reg",
+          "size": 2,
+          "reg": 236
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Mem",
+          "address": 9188
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Mem",
+          "address": 9194
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "type": "Mem",
+          "address": 9162
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
           "type": "Mem",
           "address": 9157
         }
@@ -91,41 +120,16 @@
         "ep": 0,
         "value": {
           "type": "Reg",
-          "size": 2,
-          "reg": 236
-        }
-      },
-      {
-        "ep": 0,
-        "value": {
-          "type": "Mem",
-          "address": 9188
-        }
-      },
-      {
-        "ep": 0,
-        "value": {
-          "type": "Mem",
-          "address": 9194
-        }
-      },
-      {
-        "ep": 0,
-        "value": {
-          "type": "Mem",
-          "address": 9162
-        }
-      },
-      {
-        "ep": 0,
-        "value": {
-          "type": "Reg",
           "size": 1,
           "reg": 228
         }
       }
     ],
     "input": [
+      {
+        "type": "Mem",
+        "address": 9191
+      },
       {
         "type": "Mem",
         "address": 9157
@@ -144,8 +148,10 @@
       },
       {
         "type": "Mem",
-        "address": 9191
-      },
+        "address": 9161
+      }
+    ],
+    "output": [
       {
         "type": "Mem",
         "address": 9161
@@ -155,7 +161,6 @@
         "address": 9162
       }
     ],
-    "output": [],
     "stack": [],
     "fun_stack": [],
     "pc": 18

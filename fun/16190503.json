@@ -40,13 +40,13 @@
         "address": 11778
       },
       {
-        "type": "Mem",
-        "address": 11759
-      },
-      {
         "type": "Reg",
         "size": 2,
         "reg": 244
+      },
+      {
+        "type": "Mem",
+        "address": 11759
       },
       {
         "type": "Mem",
@@ -58,7 +58,13 @@
         "reg": 240
       }
     ],
-    "output": [],
+    "output": [
+      {
+        "type": "Reg",
+        "size": 2,
+        "reg": 240
+      }
+    ],
     "stack": [],
     "fun_stack": [],
     "pc": 20

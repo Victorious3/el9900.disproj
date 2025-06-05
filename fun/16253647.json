@@ -74,9 +74,8 @@
       {
         "ep": 13,
         "value": {
-          "type": "Reg",
-          "size": 1,
-          "reg": 224
+          "type": "Mem",
+          "address": 9160
         }
       },
       {
@@ -111,8 +110,9 @@
       {
         "ep": 13,
         "value": {
-          "type": "Mem",
-          "address": 9160
+          "type": "Reg",
+          "size": 1,
+          "reg": 224
         }
       },
       {
@@ -126,24 +126,23 @@
     "input": [
       {
         "type": "Mem",
-        "address": 11910
-      },
-      {
-        "type": "Reg",
-        "size": 0,
-        "reg": 228
-      },
-      {
-        "type": "Mem",
-        "address": 11667
-      },
-      {
-        "type": "Mem",
         "address": 9920
       },
       {
         "type": "Mem",
+        "address": 9188
+      },
+      {
+        "type": "Mem",
         "address": 9157
+      },
+      {
+        "type": "Mem",
+        "address": 11910
+      },
+      {
+        "type": "Mem",
+        "address": 10855
       },
       {
         "type": "Mem",
@@ -155,6 +154,10 @@
       },
       {
         "type": "Mem",
+        "address": 9191
+      },
+      {
+        "type": "Mem",
         "address": 9160
       },
       {
@@ -162,9 +165,29 @@
         "address": 9161
       },
       {
+        "type": "Reg",
+        "size": 0,
+        "reg": 229
+      },
+      {
+        "type": "Reg",
+        "size": 0,
+        "reg": 228
+      },
+      {
         "type": "Mem",
         "address": 11599
       },
+      {
+        "type": "Mem",
+        "address": 11667
+      },
+      {
+        "type": "Mem",
+        "address": 9341
+      }
+    ],
+    "output": [
       {
         "type": "Mem",
         "address": 9187
@@ -174,9 +197,12 @@
         "address": 9188
       },
       {
-        "type": "Reg",
-        "size": 0,
-        "reg": 229
+        "type": "Mem",
+        "address": 9157
+      },
+      {
+        "type": "Mem",
+        "address": 9158
       },
       {
         "type": "Reg",
@@ -185,11 +211,7 @@
       },
       {
         "type": "Mem",
-        "address": 10855
-      },
-      {
-        "type": "Mem",
-        "address": 9191
+        "address": 9160
       },
       {
         "type": "Mem",
@@ -201,14 +223,13 @@
       },
       {
         "type": "Mem",
-        "address": 9196
+        "address": 9161
       },
       {
         "type": "Mem",
-        "address": 9341
+        "address": 9196
       }
     ],
-    "output": [],
     "stack": [],
     "fun_stack": [],
     "pc": 2

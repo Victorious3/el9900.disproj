@@ -33,8 +33,13 @@
     ],
     "input": [
       {
+        "type": "Reg",
+        "size": 2,
+        "reg": 224
+      },
+      {
         "type": "Mem",
-        "address": 11943
+        "address": 11923
       },
       {
         "type": "Mem",
@@ -43,18 +48,14 @@
       {
         "type": "Mem",
         "address": 11922
-      },
-      {
-        "type": "Mem",
-        "address": 11923
-      },
-      {
-        "type": "Reg",
-        "size": 2,
-        "reg": 224
       }
     ],
-    "output": [],
+    "output": [
+      {
+        "type": "Mem",
+        "address": 11943
+      }
+    ],
     "stack": [],
     "fun_stack": [],
     "pc": 2

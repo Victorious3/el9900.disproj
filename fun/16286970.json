@@ -40,6 +40,13 @@
         "ep": 7,
         "value": {
           "type": "Mem",
+          "address": 7446
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "type": "Mem",
           "address": 7425
         }
       },
@@ -48,13 +55,6 @@
         "value": {
           "type": "Mem",
           "address": 7438
-        }
-      },
-      {
-        "ep": 7,
-        "value": {
-          "type": "Mem",
-          "address": 7401
         }
       },
       {
@@ -83,7 +83,7 @@
         "ep": 7,
         "value": {
           "type": "Mem",
-          "address": 7446
+          "address": 7401
         }
       },
       {
@@ -108,19 +108,42 @@
       },
       {
         "type": "Mem",
-        "address": 7393
+        "address": 7397
+      },
+      {
+        "type": "Mem",
+        "address": 7417
+      },
+      {
+        "type": "Mem",
+        "address": 7421
+      },
+      {
+        "type": "Mem",
+        "address": 7405
       },
       {
         "type": "Mem",
         "address": 7385
       },
       {
-        "type": "Mem",
-        "address": 7397
+        "type": "Reg",
+        "size": 2,
+        "reg": 236
       },
       {
         "type": "Mem",
-        "address": 7405
+        "address": 7389
+      }
+    ],
+    "output": [
+      {
+        "type": "Mem",
+        "address": 7393
+      },
+      {
+        "type": "Mem",
+        "address": 7385
       },
       {
         "type": "Mem",
@@ -135,16 +158,10 @@
         "address": 7417
       },
       {
-        "type": "Reg",
-        "size": 2,
-        "reg": 236
-      },
-      {
         "type": "Mem",
-        "address": 7421
+        "address": 7405
       }
     ],
-    "output": [],
     "stack": [],
     "fun_stack": [],
     "pc": 2

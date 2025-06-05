@@ -30,13 +30,6 @@
         }
       },
       {
-        "ep": 3,
-        "value": {
-          "type": "Mem",
-          "address": 11911
-        }
-      },
-      {
         "ep": 4,
         "value": {
           "type": "Reg",
@@ -74,6 +67,13 @@
         }
       },
       {
+        "ep": 3,
+        "value": {
+          "type": "Mem",
+          "address": 11911
+        }
+      },
+      {
         "ep": 2,
         "value": {
           "type": "Mem",
@@ -96,7 +96,12 @@
         "reg": 224
       }
     ],
-    "output": [],
+    "output": [
+      {
+        "type": "Mem",
+        "address": 10957
+      }
+    ],
     "stack": [],
     "fun_stack": [],
     "pc": 2
