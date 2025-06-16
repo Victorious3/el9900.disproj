@@ -1,0 +1,131 @@
+{
+  "blocks": [
+    {
+      "ep": 15956657,
+      "len": 44,
+      "pred": [],
+      "succ": [
+        {
+          "cond": true,
+          "ep": 15956705
+        },
+        {
+          "cond": false,
+          "ep": 15956701
+        }
+      ]
+    },
+    {
+      "ep": 15956705,
+      "len": 1,
+      "pred": [
+        15956657,
+        15956701
+      ],
+      "succ": []
+    },
+    {
+      "ep": 15956701,
+      "len": 4,
+      "pred": [
+        15956657
+      ],
+      "succ": [
+        {
+          "cond": false,
+          "ep": 15956705
+        }
+      ]
+    }
+  ],
+  "callees": [
+    {
+      "fun": 15958084,
+      "loc": 15956701
+    }
+  ],
+  "callers": [
+    {
+      "fun": 15956568,
+      "loc": 15956588
+    },
+    {
+      "fun": 15976406,
+      "loc": 15976423
+    }
+  ],
+  "start": 15956657,
+  "state": {
+    "clobbers": [
+      {
+        "ep": 1,
+        "value": {
+          "reg": 232,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "reg": 228,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 9,
+        "value": {
+          "address": 7321,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 8,
+        "value": {
+          "address": 7322,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "address": 7302,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "reg": 224,
+          "size": 0,
+          "type": "Reg"
+        }
+      }
+    ],
+    "fun_stack": [],
+    "input": [
+      {
+        "address": 7316,
+        "type": "Mem"
+      },
+      {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      }
+    ],
+    "output": [],
+    "pc": 15,
+    "stack": []
+  },
+  "underflow": false
+}

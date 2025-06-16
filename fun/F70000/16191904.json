@@ -1,0 +1,108 @@
+{
+  "blocks": [
+    {
+      "ep": 16191904,
+      "len": 14,
+      "pred": [],
+      "succ": [
+        {
+          "cond": true,
+          "ep": 16191930
+        }
+      ]
+    },
+    {
+      "ep": 16191930,
+      "len": 37,
+      "pred": [
+        16191904
+      ],
+      "succ": []
+    }
+  ],
+  "callees": [
+    {
+      "fun": 16192100,
+      "loc": 16191930
+    },
+    {
+      "fun": 16191990,
+      "loc": 16191939
+    },
+    {
+      "fun": 16191990,
+      "loc": 16191949
+    },
+    {
+      "fun": 16191990,
+      "loc": 16191959
+    }
+  ],
+  "callers": [
+    {
+      "fun": 16192198,
+      "loc": 16192311
+    },
+    {
+      "fun": 16192428,
+      "loc": 16192494
+    }
+  ],
+  "start": 16191904,
+  "state": {
+    "clobbers": [
+      {
+        "ep": 2,
+        "value": {
+          "reg": 229,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "reg": 224,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "reg": 228,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 8,
+        "value": {
+          "reg": 244,
+          "size": 2,
+          "type": "Reg"
+        }
+      }
+    ],
+    "fun_stack": [],
+    "input": [
+      {
+        "address": 11834,
+        "type": "Mem"
+      },
+      {
+        "address": 11836,
+        "type": "Mem"
+      },
+      {
+        "reg": 244,
+        "size": 2,
+        "type": "Reg"
+      }
+    ],
+    "output": [],
+    "pc": 16,
+    "stack": []
+  },
+  "underflow": false
+}

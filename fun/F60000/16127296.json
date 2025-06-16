@@ -1,0 +1,92 @@
+{
+  "blocks": [
+    {
+      "ep": 16127296,
+      "len": 14,
+      "pred": [],
+      "succ": [
+        {
+          "cond": false,
+          "ep": 16127310
+        }
+      ]
+    },
+    {
+      "ep": 16127310,
+      "len": 15,
+      "pred": [
+        16127296,
+        16127310
+      ],
+      "succ": [
+        {
+          "cond": true,
+          "ep": 16127310
+        },
+        {
+          "cond": false,
+          "ep": 16127325
+        }
+      ]
+    },
+    {
+      "ep": 16127325,
+      "len": 1,
+      "pred": [
+        16127310
+      ],
+      "succ": []
+    }
+  ],
+  "callees": [],
+  "callers": [],
+  "start": 16127296,
+  "state": {
+    "clobbers": [
+      {
+        "ep": 2,
+        "value": {
+          "reg": 229,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "reg": 224,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "reg": 232,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
+        }
+      }
+    ],
+    "fun_stack": [],
+    "input": [
+      {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      }
+    ],
+    "output": [],
+    "pc": 12,
+    "stack": []
+  },
+  "underflow": false
+}
