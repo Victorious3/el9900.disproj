@@ -1,0 +1,126 @@
+{
+  "blocks": [
+    {
+      "ep": 15824654,
+      "len": 84,
+      "pred": [],
+      "succ": []
+    }
+  ],
+  "callees": [
+    {
+      "fun": 15968528,
+      "loc": 15824733
+    }
+  ],
+  "callers": [
+    {
+      "fun": 15825420,
+      "loc": 15825609
+    },
+    {
+      "fun": 15825420,
+      "loc": 15826366
+    },
+    {
+      "fun": 15825420,
+      "loc": 15826170
+    }
+  ],
+  "start": 15824654,
+  "state": {
+    "clobbers": [
+      {
+        "ep": 0,
+        "value": {
+          "reg": 232,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 31,
+        "value": {
+          "address": 4201645,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "reg": 228,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 31,
+        "value": {
+          "address": 4201653,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 31,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "reg": 236,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 31,
+        "value": {
+          "reg": 224,
+          "size": 1,
+          "type": "Reg"
+        }
+      }
+    ],
+    "fun_stack": [],
+    "input": [
+      {
+        "address": 4207345,
+        "type": "Mem"
+      },
+      {
+        "address": 4207347,
+        "type": "Mem"
+      },
+      {
+        "address": 4207349,
+        "type": "Mem"
+      },
+      {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      },
+      {
+        "address": 4207351,
+        "type": "Mem"
+      },
+      {
+        "address": 4201655,
+        "type": "Mem"
+      }
+    ],
+    "output": [
+      {
+        "reg": 224,
+        "size": 1,
+        "type": "Reg"
+      }
+    ],
+    "pc": 33,
+    "stack": []
+  },
+  "underflow": false
+}

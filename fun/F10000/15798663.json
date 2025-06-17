@@ -1,0 +1,171 @@
+{
+  "blocks": [
+    {
+      "ep": 15798663,
+      "len": 48,
+      "pred": [],
+      "succ": [
+        {
+          "cond": false,
+          "ep": 15798711
+        }
+      ]
+    },
+    {
+      "ep": 15798711,
+      "len": 12,
+      "pred": [
+        15798663,
+        15798711
+      ],
+      "succ": [
+        {
+          "cond": true,
+          "ep": 15798711
+        },
+        {
+          "cond": false,
+          "ep": 15798723
+        }
+      ]
+    },
+    {
+      "ep": 15798723,
+      "len": 19,
+      "pred": [
+        15798711
+      ],
+      "succ": []
+    }
+  ],
+  "callees": [
+    {
+      "fun": 15956706,
+      "loc": 15798666
+    },
+    {
+      "fun": 15967835,
+      "loc": 15798695
+    },
+    {
+      "fun": 15973004,
+      "loc": 15798736
+    }
+  ],
+  "callers": [],
+  "start": 15798663,
+  "state": {
+    "clobbers": [
+      {
+        "ep": 27,
+        "value": {
+          "reg": 224,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 13,
+        "value": {
+          "reg": 240,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 6,
+        "value": {
+          "address": 4197702,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 27,
+        "value": {
+          "address": 4201655,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 9,
+        "value": {
+          "reg": 232,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 27,
+        "value": {
+          "address": 4201653,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 27,
+        "value": {
+          "reg": 244,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "reg": 252,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4197701,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 8,
+        "value": {
+          "reg": 233,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 27,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "address": 4201645,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 14,
+        "value": {
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
+        }
+      }
+    ],
+    "fun_stack": [],
+    "input": [
+      {
+        "reg": 252,
+        "size": 2,
+        "type": "Reg"
+      }
+    ],
+    "output": [],
+    "pc": 2,
+    "stack": []
+  },
+  "underflow": false
+}

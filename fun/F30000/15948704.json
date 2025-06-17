@@ -1,0 +1,131 @@
+{
+  "blocks": [
+    {
+      "ep": 15948704,
+      "len": 24,
+      "pred": [],
+      "succ": [
+        {
+          "cond": false,
+          "ep": 15948728
+        }
+      ]
+    },
+    {
+      "ep": 15948728,
+      "len": 8,
+      "pred": [
+        15948704,
+        15948728
+      ],
+      "succ": [
+        {
+          "cond": true,
+          "ep": 15948728
+        },
+        {
+          "cond": false,
+          "ep": 15948736
+        }
+      ]
+    },
+    {
+      "ep": 15948736,
+      "len": 7,
+      "pred": [
+        15948728
+      ],
+      "succ": []
+    }
+  ],
+  "callees": [
+    {
+      "fun": 15947672,
+      "loc": 15948706
+    },
+    {
+      "fun": 15947532,
+      "loc": 15948715
+    },
+    {
+      "fun": 15947532,
+      "loc": 15948724
+    },
+    {
+      "fun": 15952979,
+      "loc": 15948728
+    },
+    {
+      "fun": 15947672,
+      "loc": 15948736
+    }
+  ],
+  "callers": [
+    {
+      "fun": 15948421,
+      "loc": 15948421
+    }
+  ],
+  "start": 15948704,
+  "state": {
+    "clobbers": [
+      {
+        "ep": 4,
+        "value": {
+          "address": 4201653,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "reg": 252,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "reg": 224,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4201645,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
+        }
+      }
+    ],
+    "fun_stack": [],
+    "input": [
+      {
+        "reg": 252,
+        "size": 2,
+        "type": "Reg"
+      }
+    ],
+    "output": [],
+    "pc": 2,
+    "stack": []
+  },
+  "underflow": false
+}

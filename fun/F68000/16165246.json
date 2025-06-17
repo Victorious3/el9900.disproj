@@ -24,10 +24,22 @@
       ],
       "succ": [
         {
+          "cond": true,
+          "ep": 16165911
+        },
+        {
           "cond": false,
           "ep": 16165272
         }
       ]
+    },
+    {
+      "ep": 16165911,
+      "len": 2,
+      "pred": [
+        16165262
+      ],
+      "succ": []
     },
     {
       "ep": 16165272,
@@ -150,9 +162,24 @@
   "state": {
     "clobbers": [
       {
+        "ep": 8,
+        "value": {
+          "address": 4201701,
+          "type": "Mem"
+        }
+      },
+      {
         "ep": 1,
         "value": {
           "reg": 228,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "reg": 224,
           "size": 0,
           "type": "Reg"
         }
@@ -169,21 +196,6 @@
         "ep": 0,
         "value": {
           "reg": 229,
-          "size": 0,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 8,
-        "value": {
-          "address": 4201701,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 3,
-        "value": {
-          "reg": 224,
           "size": 0,
           "type": "Reg"
         }

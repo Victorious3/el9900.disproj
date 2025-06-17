@@ -6,10 +6,22 @@
       "pred": [],
       "succ": [
         {
+          "cond": true,
+          "ep": 15958196
+        },
+        {
           "cond": false,
           "ep": 15958188
         }
       ]
+    },
+    {
+      "ep": 15958196,
+      "len": 25,
+      "pred": [
+        15958175
+      ],
+      "succ": []
     },
     {
       "ep": 15958188,
@@ -39,6 +51,14 @@
         }
       },
       {
+        "ep": 7,
+        "value": {
+          "reg": 232,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
         "ep": 4,
         "value": {
           "address": 4201629,
@@ -51,10 +71,21 @@
       {
         "address": 4201617,
         "type": "Mem"
+      },
+      {
+        "reg": 232,
+        "size": 0,
+        "type": "Reg"
       }
     ],
-    "output": [],
-    "pc": 6,
+    "output": [
+      {
+        "reg": 232,
+        "size": 0,
+        "type": "Reg"
+      }
+    ],
+    "pc": 13,
     "stack": []
   },
   "underflow": false

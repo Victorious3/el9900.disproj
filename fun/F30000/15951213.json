@@ -1,0 +1,137 @@
+{
+  "blocks": [
+    {
+      "ep": 15951213,
+      "len": 2,
+      "pred": [],
+      "succ": [
+        {
+          "cond": false,
+          "ep": 15951215
+        }
+      ]
+    },
+    {
+      "ep": 15951215,
+      "len": 2,
+      "pred": [
+        15951213,
+        15951233
+      ],
+      "succ": [
+        {
+          "cond": false,
+          "ep": 15951217
+        }
+      ]
+    },
+    {
+      "ep": 15951217,
+      "len": 16,
+      "pred": [
+        15951215,
+        15951217
+      ],
+      "succ": [
+        {
+          "cond": true,
+          "ep": 15951217
+        },
+        {
+          "cond": false,
+          "ep": 15951233
+        }
+      ]
+    },
+    {
+      "ep": 15951233,
+      "len": 15,
+      "pred": [
+        15951217
+      ],
+      "succ": [
+        {
+          "cond": true,
+          "ep": 15951215
+        },
+        {
+          "cond": false,
+          "ep": 15951248
+        }
+      ]
+    },
+    {
+      "ep": 15951248,
+      "len": 1,
+      "pred": [
+        15951233
+      ],
+      "succ": []
+    }
+  ],
+  "callees": [
+    {
+      "fun": 15951489,
+      "loc": 15951222
+    },
+    {
+      "fun": 15951510,
+      "loc": 15951238
+    }
+  ],
+  "callers": [
+    {
+      "fun": 15951125,
+      "loc": 15951155
+    }
+  ],
+  "start": 15951213,
+  "state": {
+    "clobbers": [
+      {
+        "ep": 2,
+        "value": {
+          "reg": 240,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "reg": 233,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "reg": 232,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4201653,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      }
+    ],
+    "fun_stack": [],
+    "input": [],
+    "output": [],
+    "pc": 13,
+    "stack": []
+  },
+  "underflow": false
+}

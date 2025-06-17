@@ -1,0 +1,127 @@
+{
+  "blocks": [
+    {
+      "ep": 16194781,
+      "len": 54,
+      "pred": [],
+      "succ": []
+    }
+  ],
+  "callees": [
+    {
+      "fun": 16191990,
+      "loc": 16194814
+    }
+  ],
+  "callers": [
+    {
+      "fun": 16198489,
+      "loc": 16198955
+    },
+    {
+      "fun": 16208310,
+      "loc": 16207042
+    },
+    {
+      "fun": 16208310,
+      "loc": 16207296
+    },
+    {
+      "fun": 16208290,
+      "loc": 16207042
+    },
+    {
+      "fun": 16208290,
+      "loc": 16207296
+    }
+  ],
+  "start": 16194781,
+  "state": {
+    "clobbers": [
+      {
+        "ep": 0,
+        "value": {
+          "reg": 236,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "reg": 228,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 14,
+        "value": {
+          "address": 4206153,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "reg": 224,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4206151,
+          "type": "Mem"
+        }
+      }
+    ],
+    "fun_stack": [],
+    "input": [
+      {
+        "address": 4206148,
+        "type": "Mem"
+      },
+      {
+        "address": 4206151,
+        "type": "Mem"
+      },
+      {
+        "address": 4206153,
+        "type": "Mem"
+      },
+      {
+        "address": 4206154,
+        "type": "Mem"
+      },
+      {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      },
+      {
+        "address": 4206168,
+        "type": "Mem"
+      }
+    ],
+    "output": [
+      {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      },
+      {
+        "address": 4206151,
+        "type": "Mem"
+      },
+      {
+        "address": 4206153,
+        "type": "Mem"
+      }
+    ],
+    "pc": 16,
+    "stack": []
+  },
+  "underflow": false
+}

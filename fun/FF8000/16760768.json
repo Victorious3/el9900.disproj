@@ -21,19 +21,27 @@
     }
   ],
   "callees": [],
-  "callers": [],
+  "callers": [
+    {
+      "fun": 16328456,
+      "loc": 16769561
+    },
+    {
+      "fun": 16328464,
+      "loc": 16769561
+    },
+    {
+      "fun": 16231825,
+      "loc": 16769561
+    },
+    {
+      "fun": 16232367,
+      "loc": 16769561
+    }
+  ],
   "start": 16760768,
   "state": {
-    "clobbers": [
-      {
-        "ep": 2,
-        "value": {
-          "reg": 224,
-          "size": 0,
-          "type": "Reg"
-        }
-      }
-    ],
+    "clobbers": [],
     "fun_stack": [],
     "input": [],
     "output": [],

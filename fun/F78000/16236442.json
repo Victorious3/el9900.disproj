@@ -1,0 +1,153 @@
+{
+  "blocks": [
+    {
+      "ep": 16236442,
+      "len": 16,
+      "pred": [
+        16236442
+      ],
+      "succ": [
+        {
+          "cond": true,
+          "ep": 16236442
+        },
+        {
+          "cond": false,
+          "ep": 16236458
+        }
+      ]
+    },
+    {
+      "ep": 16236458,
+      "len": 1,
+      "pred": [
+        16236442
+      ],
+      "succ": []
+    }
+  ],
+  "callees": [],
+  "callers": [
+    {
+      "fun": 16236026,
+      "loc": 16236042
+    },
+    {
+      "fun": 16236153,
+      "loc": 16236164
+    },
+    {
+      "fun": 16236088,
+      "loc": 16236098
+    },
+    {
+      "fun": 16236040,
+      "loc": 16236042
+    },
+    {
+      "fun": 16235972,
+      "loc": 16235996
+    },
+    {
+      "fun": 16236111,
+      "loc": 16236130
+    },
+    {
+      "fun": 16236065,
+      "loc": 16236075
+    },
+    {
+      "fun": 16235986,
+      "loc": 16235996
+    },
+    {
+      "fun": 16236120,
+      "loc": 16236130
+    }
+  ],
+  "start": 16236442,
+  "state": {
+    "clobbers": [
+      {
+        "ep": 2,
+        "value": {
+          "reg": 232,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "reg": 224,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
+        }
+      }
+    ],
+    "fun_stack": [],
+    "input": [
+      {
+        "reg": 228,
+        "size": 2,
+        "type": "Reg"
+      },
+      {
+        "reg": 232,
+        "size": 1,
+        "type": "Reg"
+      },
+      {
+        "reg": 236,
+        "size": 2,
+        "type": "Reg"
+      },
+      {
+        "reg": 224,
+        "size": 1,
+        "type": "Reg"
+      }
+    ],
+    "output": [
+      {
+        "reg": 228,
+        "size": 2,
+        "type": "Reg"
+      },
+      {
+        "reg": 232,
+        "size": 1,
+        "type": "Reg"
+      },
+      {
+        "reg": 236,
+        "size": 2,
+        "type": "Reg"
+      },
+      {
+        "reg": 224,
+        "size": 1,
+        "type": "Reg"
+      }
+    ],
+    "pc": 7,
+    "stack": []
+  },
+  "underflow": false
+}

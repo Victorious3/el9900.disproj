@@ -1,0 +1,162 @@
+{
+  "blocks": [
+    {
+      "ep": 16344938,
+      "len": 80,
+      "pred": [],
+      "succ": [
+        {
+          "cond": true,
+          "ep": 16345044
+        },
+        {
+          "cond": false,
+          "ep": 16345018
+        }
+      ]
+    },
+    {
+      "ep": 16345044,
+      "len": 12,
+      "pred": [
+        16344938
+      ],
+      "succ": [
+        {
+          "cond": true,
+          "ep": 16345023
+        },
+        {
+          "cond": false,
+          "ep": 16345056
+        }
+      ]
+    },
+    {
+      "ep": 16345023,
+      "len": 20,
+      "pred": [
+        16345044,
+        16345018
+      ],
+      "succ": [
+        {
+          "cond": false,
+          "ep": 16345043
+        }
+      ]
+    },
+    {
+      "ep": 16345043,
+      "len": 1,
+      "pred": [
+        16345023,
+        16345018
+      ],
+      "succ": []
+    },
+    {
+      "ep": 16345056,
+      "len": 1,
+      "pred": [
+        16345044
+      ],
+      "succ": []
+    },
+    {
+      "ep": 16345018,
+      "len": 5,
+      "pred": [
+        16344938
+      ],
+      "succ": [
+        {
+          "cond": true,
+          "ep": 16345043
+        },
+        {
+          "cond": false,
+          "ep": 16345023
+        }
+      ]
+    }
+  ],
+  "callees": [
+    {
+      "fun": 16345605,
+      "loc": 16344953
+    },
+    {
+      "fun": 16345095,
+      "loc": 16344967
+    }
+  ],
+  "callers": [
+    {
+      "fun": 16343814,
+      "loc": 16344087
+    }
+  ],
+  "start": 16344938,
+  "state": {
+    "clobbers": [
+      {
+        "ep": 6,
+        "value": {
+          "reg": 224,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "address": 4208331,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4208332,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4208333,
+          "type": "Mem"
+        }
+      }
+    ],
+    "fun_stack": [],
+    "input": [
+      {
+        "address": 4203524,
+        "type": "Mem"
+      },
+      {
+        "address": 4208327,
+        "type": "Mem"
+      }
+    ],
+    "output": [
+      {
+        "address": 4208332,
+        "type": "Mem"
+      }
+    ],
+    "pc": 28,
+    "stack": []
+  },
+  "underflow": false
+}

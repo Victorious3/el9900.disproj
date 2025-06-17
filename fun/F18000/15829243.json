@@ -1,0 +1,132 @@
+{
+  "blocks": [
+    {
+      "ep": 15829243,
+      "len": 43,
+      "pred": [],
+      "succ": []
+    }
+  ],
+  "callees": [
+    {
+      "fun": 16319642,
+      "loc": 15829253
+    },
+    {
+      "fun": 16319403,
+      "loc": 15829267
+    },
+    {
+      "fun": 15973004,
+      "loc": 15829281
+    }
+  ],
+  "callers": [
+    {
+      "fun": 15829118,
+      "loc": 15829168
+    },
+    {
+      "fun": 15829180,
+      "loc": 15829231
+    }
+  ],
+  "start": 15829243,
+  "state": {
+    "clobbers": [
+      {
+        "ep": 13,
+        "value": {
+          "address": 4201645,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 13,
+        "value": {
+          "reg": 244,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "reg": 232,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 13,
+        "value": {
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 13,
+        "value": {
+          "address": 4201653,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 13,
+        "value": {
+          "reg": 252,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 13,
+        "value": {
+          "reg": 224,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 13,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 13,
+        "value": {
+          "address": 4201655,
+          "type": "Mem"
+        }
+      }
+    ],
+    "fun_stack": [],
+    "input": [
+      {
+        "reg": 252,
+        "size": 2,
+        "type": "Reg"
+      }
+    ],
+    "output": [
+      {
+        "address": 4201655,
+        "type": "Mem"
+      }
+    ],
+    "pc": 15,
+    "stack": []
+  },
+  "underflow": false
+}
