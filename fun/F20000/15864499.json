@@ -160,7 +160,12 @@
       "loc": 15864604
     }
   ],
-  "callers": [],
+  "callers": [
+    {
+      "fun": 15819344,
+      "loc": 15864163
+    }
+  ],
   "start": 15864499,
   "state": {
     "clobbers": [
@@ -168,6 +173,65 @@
         "ep": 8,
         "value": {
           "address": 4201616,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 16,
+        "value": {
+          "reg": 244,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "reg": 233,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 6,
+        "value": {
+          "address": 2097152,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 36,
+        "value": {
+          "address": 4207318,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 6,
+        "value": {
+          "address": 4201645,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 8,
+        "value": {
+          "address": 4201615,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 16,
+        "value": {
+          "reg": 224,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 6,
+        "value": {
+          "address": 65537,
           "type": "Mem"
         }
       },
@@ -182,15 +246,52 @@
       {
         "ep": 16,
         "value": {
-          "reg": 244,
+          "reg": 252,
           "size": 2,
           "type": "Reg"
         }
       },
       {
-        "ep": 36,
+        "ep": 11,
         "value": {
-          "address": 4207318,
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 6,
+        "value": {
+          "reg": 240,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 16,
+        "value": {
+          "address": 4201655,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 6,
+        "value": {
+          "address": 4201653,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 6,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 10,
+        "value": {
+          "address": 4201617,
           "type": "Mem"
         }
       },
@@ -203,76 +304,9 @@
         }
       },
       {
-        "ep": 16,
+        "ep": 6,
         "value": {
-          "address": 4201653,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 8,
-        "value": {
-          "address": 4201615,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 16,
-        "value": {
-          "reg": 252,
-          "size": 2,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 16,
-        "value": {
-          "reg": 224,
-          "size": 1,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 12,
-        "value": {
-          "reg": 233,
-          "size": 0,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 16,
-        "value": {
-          "address": 65536,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 11,
-        "value": {
-          "reg": 236,
-          "size": 2,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 16,
-        "value": {
-          "address": 4201655,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 16,
-        "value": {
-          "address": 4201645,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 10,
-        "value": {
-          "address": 4201617,
+          "address": 2097153,
           "type": "Mem"
         }
       }
@@ -285,7 +319,19 @@
         "type": "Reg"
       },
       {
+        "address": 18,
+        "type": "Mem"
+      },
+      {
+        "address": 4201684,
+        "type": "Mem"
+      },
+      {
         "address": 4207318,
+        "type": "Mem"
+      },
+      {
+        "address": 16772665,
         "type": "Mem"
       }
     ],

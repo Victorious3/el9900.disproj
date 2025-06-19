@@ -156,21 +156,28 @@
   ],
   "callers": [
     {
+      "fun": 15815906,
+      "loc": 15815910
+    },
+    {
       "fun": 15805712,
       "loc": 15805716
     },
     {
       "fun": 15879103,
       "loc": 15879746
-    },
-    {
-      "fun": 15815906,
-      "loc": 15815910
     }
   ],
   "start": 15937154,
   "state": {
     "clobbers": [
+      {
+        "ep": 35,
+        "value": {
+          "address": 4206916,
+          "type": "Mem"
+        }
+      },
       {
         "ep": 4,
         "value": {
@@ -182,6 +189,10 @@
     ],
     "fun_stack": [],
     "input": [
+      {
+        "address": 4206915,
+        "type": "Mem"
+      },
       {
         "address": 4206916,
         "type": "Mem"

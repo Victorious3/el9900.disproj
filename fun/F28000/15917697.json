@@ -404,6 +404,10 @@
       "loc": 15916409
     },
     {
+      "fun": 15914886,
+      "loc": 15914942
+    },
+    {
       "fun": 15916488,
       "loc": 15916505
     }
@@ -420,7 +424,7 @@
         }
       },
       {
-        "ep": 32,
+        "ep": 33,
         "value": {
           "address": 4206459,
           "type": "Mem"
@@ -460,9 +464,28 @@
         "type": "Reg"
       }
     ],
-    "output": [],
-    "pc": 5,
-    "stack": []
+    "output": [
+      {
+        "address": 4206459,
+        "type": "Mem"
+      },
+      {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      }
+    ],
+    "pc": 6,
+    "stack": [
+      {
+        "ep": 1,
+        "value": {
+          "reg": 224,
+          "size": 0,
+          "type": "Reg"
+        }
+      }
+    ]
   },
   "underflow": false
 }

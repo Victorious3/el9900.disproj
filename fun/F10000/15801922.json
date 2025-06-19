@@ -21,15 +21,52 @@
     }
   ],
   "callees": [],
-  "callers": [],
+  "callers": [
+    {
+      "fun": 15800482,
+      "loc": 15800800
+    },
+    {
+      "fun": 15807950,
+      "loc": 15808250
+    }
+  ],
   "start": 15801922,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 6,
+        "value": {
+          "reg": 229,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 8,
+        "value": {
+          "reg": 228,
+          "size": 0,
+          "type": "Reg"
+        }
+      }
+    ],
     "fun_stack": [],
     "input": [],
-    "output": [],
-    "pc": 0,
+    "output": [
+      {
+        "reg": 228,
+        "size": 0,
+        "type": "Reg"
+      },
+      {
+        "reg": 229,
+        "size": 0,
+        "type": "Reg"
+      }
+    ],
+    "pc": 2,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }

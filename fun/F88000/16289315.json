@@ -52,12 +52,41 @@
   ],
   "start": 16289315,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 13,
+        "value": {
+          "address": 4201717,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 10,
+        "value": {
+          "address": 4201713,
+          "type": "Mem"
+        }
+      }
+    ],
     "fun_stack": [],
-    "input": [],
+    "input": [
+      {
+        "address": 4201713,
+        "type": "Mem"
+      },
+      {
+        "address": 4201717,
+        "type": "Mem"
+      },
+      {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      }
+    ],
     "output": [],
-    "pc": 0,
+    "pc": 2,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }

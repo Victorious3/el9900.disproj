@@ -17,7 +17,12 @@
       "loc": 15943344
     }
   ],
-  "callers": [],
+  "callers": [
+    {
+      "fun": 15819344,
+      "loc": 15942963
+    }
+  ],
   "start": 15943291,
   "state": {
     "clobbers": [
@@ -73,6 +78,14 @@
         }
       },
       {
+        "ep": 12,
+        "value": {
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
         "ep": 21,
         "value": {
           "address": 4206201,
@@ -84,6 +97,14 @@
         "value": {
           "address": 4206208,
           "type": "Mem"
+        }
+      },
+      {
+        "ep": 12,
+        "value": {
+          "reg": 233,
+          "size": 0,
+          "type": "Reg"
         }
       },
       {
@@ -101,26 +122,10 @@
         }
       },
       {
-        "ep": 15,
-        "value": {
-          "reg": 228,
-          "size": 2,
-          "type": "Reg"
-        }
-      },
-      {
         "ep": 19,
         "value": {
           "address": 4206210,
           "type": "Mem"
-        }
-      },
-      {
-        "ep": 15,
-        "value": {
-          "reg": 233,
-          "size": 0,
-          "type": "Reg"
         }
       },
       {
@@ -162,11 +167,6 @@
       {
         "reg": 252,
         "size": 2,
-        "type": "Reg"
-      },
-      {
-        "reg": 228,
-        "size": 0,
         "type": "Reg"
       },
       {

@@ -151,12 +151,16 @@
   ],
   "callers": [
     {
-      "fun": 15815906,
-      "loc": 15815906
+      "fun": 15819344,
+      "loc": 15819760
     },
     {
       "fun": 15815964,
       "loc": 15816026
+    },
+    {
+      "fun": 15815906,
+      "loc": 15815906
     },
     {
       "fun": 15817485,
@@ -169,17 +173,24 @@
     {
       "fun": 15816802,
       "loc": 15817064
+    },
+    {
+      "fun": 15819344,
+      "loc": 15820351
+    },
+    {
+      "fun": 15819344,
+      "loc": 15820863
     }
   ],
   "start": 15816050,
   "state": {
     "clobbers": [
       {
-        "ep": 1,
+        "ep": 4,
         "value": {
-          "reg": 224,
-          "size": 0,
-          "type": "Reg"
+          "address": 65537,
+          "type": "Mem"
         }
       },
       {
@@ -199,7 +210,14 @@
       {
         "ep": 4,
         "value": {
-          "address": 4201606,
+          "address": 4201653,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 22,
+        "value": {
+          "address": 4201643,
           "type": "Mem"
         }
       },
@@ -219,9 +237,31 @@
         }
       },
       {
+        "ep": 4,
+        "value": {
+          "reg": 224,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      },
+      {
         "ep": 20,
         "value": {
           "address": 4206475,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 22,
+        "value": {
+          "address": 2097153,
           "type": "Mem"
         }
       },
@@ -245,15 +285,24 @@
           "address": 4206470,
           "type": "Mem"
         }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4201606,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 22,
+        "value": {
+          "address": 2097152,
+          "type": "Mem"
+        }
       }
     ],
     "fun_stack": [],
     "input": [
-      {
-        "reg": 229,
-        "size": 0,
-        "type": "Reg"
-      },
       {
         "address": 4206470,
         "type": "Mem"
@@ -263,11 +312,27 @@
         "type": "Mem"
       },
       {
+        "address": 4201616,
+        "type": "Mem"
+      },
+      {
         "address": 4201617,
         "type": "Mem"
       },
       {
+        "address": 18,
+        "type": "Mem"
+      },
+      {
+        "address": 4201619,
+        "type": "Mem"
+      },
+      {
         "address": 4201620,
+        "type": "Mem"
+      },
+      {
+        "address": 4201621,
         "type": "Mem"
       },
       {
@@ -279,14 +344,88 @@
         "type": "Mem"
       },
       {
+        "address": 4201626,
+        "type": "Mem"
+      },
+      {
+        "reg": 252,
+        "size": 2,
+        "type": "Reg"
+      },
+      {
+        "address": 4201634,
+        "type": "Mem"
+      },
+      {
+        "address": 4201638,
+        "type": "Mem"
+      },
+      {
+        "address": 4201639,
+        "type": "Mem"
+      },
+      {
+        "address": 4201641,
+        "type": "Mem"
+      },
+      {
+        "address": 4201642,
+        "type": "Mem"
+      },
+      {
+        "address": 4201643,
+        "type": "Mem"
+      },
+      {
+        "address": 16772665,
+        "type": "Mem"
+      },
+      {
+        "address": 4201684,
+        "type": "Mem"
+      },
+      {
         "address": 4201341,
         "type": "Mem"
       }
     ],
     "output": [
       {
+        "address": 4201606,
+        "type": "Mem"
+      },
+      {
         "address": 4206470,
         "type": "Mem"
+      },
+      {
+        "address": 4201643,
+        "type": "Mem"
+      },
+      {
+        "address": 4206475,
+        "type": "Mem"
+      },
+      {
+        "address": 4201620,
+        "type": "Mem"
+      },
+      {
+        "address": 4201623,
+        "type": "Mem"
+      },
+      {
+        "address": 4201624,
+        "type": "Mem"
+      },
+      {
+        "address": 4201341,
+        "type": "Mem"
+      },
+      {
+        "reg": 224,
+        "size": 1,
+        "type": "Reg"
       }
     ],
     "pc": 2,

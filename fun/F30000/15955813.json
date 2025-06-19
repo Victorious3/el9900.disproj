@@ -28,16 +28,33 @@
     {
       "fun": 15955704,
       "loc": 15955707
+    },
+    {
+      "fun": 15953276,
+      "loc": 15953400
     }
   ],
   "start": 15955813,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 6,
+        "value": {
+          "address": 145,
+          "type": "Mem"
+        }
+      }
+    ],
     "fun_stack": [],
-    "input": [],
+    "input": [
+      {
+        "address": 145,
+        "type": "Mem"
+      }
+    ],
     "output": [],
-    "pc": 0,
+    "pc": 2,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }

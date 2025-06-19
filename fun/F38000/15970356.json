@@ -70,12 +70,75 @@
   ],
   "start": 15970356,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 15,
+        "value": {
+          "address": 2097153,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "reg": 225,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "address": 2097152,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "reg": 240,
+          "size": 1,
+          "type": "Reg"
+        }
+      }
+    ],
     "fun_stack": [],
-    "input": [],
-    "output": [],
-    "pc": 0,
+    "input": [
+      {
+        "reg": 252,
+        "size": 2,
+        "type": "Reg"
+      },
+      {
+        "address": 4201643,
+        "type": "Mem"
+      },
+      {
+        "address": 4201644,
+        "type": "Mem"
+      },
+      {
+        "address": 18,
+        "type": "Mem"
+      },
+      {
+        "address": 4201684,
+        "type": "Mem"
+      },
+      {
+        "address": 16772665,
+        "type": "Mem"
+      }
+    ],
+    "output": [
+      {
+        "reg": 225,
+        "size": 0,
+        "type": "Reg"
+      }
+    ],
+    "pc": 2,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }

@@ -40,12 +40,45 @@
   ],
   "start": 15906668,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 3,
+        "value": {
+          "reg": 233,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "reg": 232,
+          "size": 0,
+          "type": "Reg"
+        }
+      }
+    ],
     "fun_stack": [],
-    "input": [],
-    "output": [],
-    "pc": 0,
+    "input": [
+      {
+        "address": 4207152,
+        "type": "Mem"
+      }
+    ],
+    "output": [
+      {
+        "reg": 232,
+        "size": 0,
+        "type": "Reg"
+      },
+      {
+        "reg": 233,
+        "size": 0,
+        "type": "Reg"
+      }
+    ],
+    "pc": 2,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }

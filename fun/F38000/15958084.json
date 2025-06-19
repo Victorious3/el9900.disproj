@@ -121,12 +121,20 @@
   ],
   "callers": [
     {
+      "fun": 15959312,
+      "loc": 15959453
+    },
+    {
       "fun": 15956608,
       "loc": 15956652
     },
     {
       "fun": 15956657,
       "loc": 15956701
+    },
+    {
+      "fun": 15957388,
+      "loc": 15957434
     },
     {
       "fun": 15960189,
@@ -143,12 +151,67 @@
   ],
   "start": 15958084,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 4,
+        "value": {
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 65537,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 8,
+        "value": {
+          "reg": 224,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "reg": 232,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4201653,
+          "type": "Mem"
+        }
+      }
+    ],
     "fun_stack": [],
-    "input": [],
+    "input": [
+      {
+        "address": 4201634,
+        "type": "Mem"
+      },
+      {
+        "address": 4201621,
+        "type": "Mem"
+      }
+    ],
     "output": [],
-    "pc": 0,
+    "pc": 26,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }

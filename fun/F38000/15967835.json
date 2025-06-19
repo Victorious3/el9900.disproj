@@ -115,30 +115,44 @@
   ],
   "callers": [
     {
-      "fun": 15951342,
-      "loc": 15951367
-    },
-    {
       "fun": 16285209,
       "loc": 16285258
+    },
+    {
+      "fun": 15792079,
+      "loc": 15792171
     },
     {
       "fun": 15798663,
       "loc": 15798695
     },
     {
-      "fun": 15792079,
-      "loc": 15792171
+      "fun": 15951342,
+      "loc": 15951367
     }
   ],
   "start": 15967835,
   "state": {
     "clobbers": [
       {
-        "ep": 15,
+        "ep": 0,
         "value": {
-          "reg": 252,
-          "size": 2,
+          "address": 2097153,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4201645,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "reg": 240,
+          "size": 1,
           "type": "Reg"
         }
       },
@@ -151,10 +165,26 @@
         }
       },
       {
-        "ep": 5,
+        "ep": 0,
         "value": {
-          "address": 4201645,
+          "address": 2097152,
           "type": "Mem"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "reg": 252,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "reg": 225,
+          "size": 0,
+          "type": "Reg"
         }
       }
     ],
@@ -166,18 +196,38 @@
         "type": "Reg"
       },
       {
+        "address": 4197701,
+        "type": "Mem"
+      },
+      {
+        "address": 4197702,
+        "type": "Mem"
+      },
+      {
+        "address": 18,
+        "type": "Mem"
+      },
+      {
         "reg": 232,
-        "size": 0,
+        "size": 1,
         "type": "Reg"
       },
       {
-        "reg": 233,
-        "size": 0,
-        "type": "Reg"
+        "address": 4201684,
+        "type": "Mem"
       },
       {
         "reg": 224,
         "size": 0,
+        "type": "Reg"
+      },
+      {
+        "address": 16772665,
+        "type": "Mem"
+      },
+      {
+        "reg": 236,
+        "size": 2,
         "type": "Reg"
       }
     ],

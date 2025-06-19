@@ -65,10 +65,40 @@
       "loc": 15958865
     }
   ],
-  "callers": [],
+  "callers": [
+    {
+      "fun": 15959312,
+      "loc": 15959467
+    },
+    {
+      "fun": 15957388,
+      "loc": 15957450
+    }
+  ],
   "start": 15958834,
   "state": {
     "clobbers": [
+      {
+        "ep": 7,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "address": 4201653,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "address": 65537,
+          "type": "Mem"
+        }
+      },
       {
         "ep": 3,
         "value": {

@@ -35,10 +35,18 @@
         }
       },
       {
-        "ep": 0,
+        "ep": 3,
         "value": {
           "reg": 232,
-          "size": 0,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "reg": 236,
+          "size": 2,
           "type": "Reg"
         }
       }
@@ -56,6 +64,11 @@
       {
         "address": 4205146,
         "type": "Mem"
+      },
+      {
+        "reg": 236,
+        "size": 2,
+        "type": "Reg"
       }
     ],
     "output": [],

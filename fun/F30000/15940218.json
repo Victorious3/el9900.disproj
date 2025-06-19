@@ -59,8 +59,16 @@
   ],
   "callers": [
     {
+      "fun": 15819344,
+      "loc": 15939752
+    },
+    {
       "fun": 15940828,
       "loc": 15940922
+    },
+    {
+      "fun": 15819344,
+      "loc": 15939963
     }
   ],
   "start": 15940218,
@@ -69,8 +77,30 @@
       {
         "ep": 9,
         "value": {
+          "address": 65537,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 9,
+        "value": {
+          "address": 2097153,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 9,
+        "value": {
           "address": 4201653,
           "type": "Mem"
+        }
+      },
+      {
+        "ep": 9,
+        "value": {
+          "reg": 240,
+          "size": 1,
+          "type": "Reg"
         }
       },
       {
@@ -92,16 +122,16 @@
       {
         "ep": 9,
         "value": {
-          "reg": 224,
-          "size": 1,
-          "type": "Reg"
+          "address": 2097152,
+          "type": "Mem"
         }
       },
       {
         "ep": 9,
         "value": {
-          "address": 65536,
-          "type": "Mem"
+          "reg": 224,
+          "size": 1,
+          "type": "Reg"
         }
       },
       {
@@ -110,6 +140,13 @@
           "reg": 236,
           "size": 0,
           "type": "Reg"
+        }
+      },
+      {
+        "ep": 9,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
         }
       },
       {
@@ -136,15 +173,33 @@
         "type": "Reg"
       },
       {
+        "address": 4207346,
+        "type": "Mem"
+      },
+      {
+        "address": 18,
+        "type": "Mem"
+      },
+      {
+        "address": 4201684,
+        "type": "Mem"
+      },
+      {
         "address": 4207347,
         "type": "Mem"
       },
       {
-        "address": 4207346,
+        "address": 16772665,
         "type": "Mem"
       }
     ],
-    "output": [],
+    "output": [
+      {
+        "reg": 252,
+        "size": 2,
+        "type": "Reg"
+      }
+    ],
     "pc": 11,
     "stack": []
   },

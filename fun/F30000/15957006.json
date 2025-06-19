@@ -75,30 +75,52 @@
       "loc": 15950692
     },
     {
-      "fun": 16328456,
-      "loc": 15950692
-    },
-    {
-      "fun": 16328464,
-      "loc": 15950692
-    },
-    {
       "fun": 16231825,
+      "loc": 15950692
+    },
+    {
+      "fun": 16328456,
       "loc": 15950692
     },
     {
       "fun": 16232367,
       "loc": 15950692
+    },
+    {
+      "fun": 16328464,
+      "loc": 15950692
     }
   ],
   "start": 15957006,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 1,
+        "value": {
+          "reg": 224,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 8,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      }
+    ],
     "fun_stack": [],
-    "input": [],
+    "input": [
+      {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      }
+    ],
     "output": [],
-    "pc": 0,
+    "pc": 4,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }

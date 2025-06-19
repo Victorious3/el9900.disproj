@@ -86,12 +86,32 @@
   ],
   "start": 15956923,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 11,
+        "value": {
+          "address": 4197706,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 13,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      }
+    ],
     "fun_stack": [],
-    "input": [],
+    "input": [
+      {
+        "address": 4197706,
+        "type": "Mem"
+      }
+    ],
     "output": [],
-    "pc": 0,
+    "pc": 2,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }

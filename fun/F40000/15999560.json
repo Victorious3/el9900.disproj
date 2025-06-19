@@ -430,7 +430,12 @@
       "loc": 15999634
     }
   ],
-  "callers": [],
+  "callers": [
+    {
+      "fun": 15995764,
+      "loc": 15996030
+    }
+  ],
   "start": 15999560,
   "state": {
     "clobbers": [
@@ -657,7 +662,33 @@
         "type": "Mem"
       }
     ],
-    "output": [],
+    "output": [
+      {
+        "address": 4203493,
+        "type": "Mem"
+      },
+      {
+        "address": 4203463,
+        "type": "Mem"
+      },
+      {
+        "address": 4203469,
+        "type": "Mem"
+      },
+      {
+        "address": 4203471,
+        "type": "Mem"
+      },
+      {
+        "address": 4203925,
+        "type": "Mem"
+      },
+      {
+        "reg": 228,
+        "size": 1,
+        "type": "Reg"
+      }
+    ],
     "pc": 33,
     "stack": []
   },

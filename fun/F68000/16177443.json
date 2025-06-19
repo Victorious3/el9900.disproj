@@ -203,15 +203,152 @@
       "loc": 16177528
     }
   ],
-  "callers": [],
+  "callers": [
+    {
+      "fun": 16177271,
+      "loc": 16177361
+    },
+    {
+      "fun": 16177271,
+      "loc": 16177436
+    }
+  ],
   "start": 16177443,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 20,
+        "value": {
+          "address": 4203465,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 10,
+        "value": {
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4203461,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "reg": 228,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4203464,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4203470,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "address": 4204161,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4203460,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4203466,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4204199,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 31,
+        "value": {
+          "reg": 232,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4203462,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4203468,
+          "type": "Mem"
+        }
+      }
+    ],
     "fun_stack": [],
-    "input": [],
+    "input": [
+      {
+        "address": 4204161,
+        "type": "Mem"
+      },
+      {
+        "address": 4201697,
+        "type": "Mem"
+      },
+      {
+        "address": 4206212,
+        "type": "Mem"
+      },
+      {
+        "address": 4201701,
+        "type": "Mem"
+      },
+      {
+        "address": 4206216,
+        "type": "Mem"
+      },
+      {
+        "address": 4204271,
+        "type": "Mem"
+      },
+      {
+        "address": 4204245,
+        "type": "Mem"
+      },
+      {
+        "address": 4204254,
+        "type": "Mem"
+      }
+    ],
     "output": [],
-    "pc": 0,
+    "pc": 3,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }

@@ -203,18 +203,18 @@
         }
       },
       {
-        "ep": 12,
-        "value": {
-          "reg": 229,
-          "size": 0,
-          "type": "Reg"
-        }
-      },
-      {
         "ep": 5,
         "value": {
           "address": 4206096,
           "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
         }
       },
       {
@@ -230,14 +230,6 @@
         "value": {
           "reg": 236,
           "size": 2,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 16,
-        "value": {
-          "reg": 228,
-          "size": 0,
           "type": "Reg"
         }
       },
@@ -273,11 +265,6 @@
         "type": "Mem"
       },
       {
-        "reg": 228,
-        "size": 0,
-        "type": "Reg"
-      },
-      {
         "address": 4206063,
         "type": "Mem"
       },
@@ -291,6 +278,10 @@
       }
     ],
     "output": [
+      {
+        "address": 4206096,
+        "type": "Mem"
+      },
       {
         "reg": 224,
         "size": 0,

@@ -25,16 +25,47 @@
     {
       "fun": 15804231,
       "loc": 15804231
+    },
+    {
+      "fun": 15819344,
+      "loc": 15809438
+    },
+    {
+      "fun": 15819344,
+      "loc": 15802470
     }
   ],
   "start": 15801898,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 9,
+        "value": {
+          "reg": 228,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "reg": 229,
+          "size": 0,
+          "type": "Reg"
+        }
+      }
+    ],
     "fun_stack": [],
     "input": [],
-    "output": [],
-    "pc": 0,
+    "output": [
+      {
+        "reg": 228,
+        "size": 0,
+        "type": "Reg"
+      }
+    ],
+    "pc": 2,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }

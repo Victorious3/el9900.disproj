@@ -606,6 +606,106 @@
     {
       "fun": 16304383,
       "loc": 16006239
+    },
+    {
+      "fun": 16010458,
+      "loc": 16006269
+    },
+    {
+      "fun": 16017919,
+      "loc": 16006278
+    },
+    {
+      "fun": 16009388,
+      "loc": 16006287
+    },
+    {
+      "fun": 16010720,
+      "loc": 16006296
+    },
+    {
+      "fun": 16018024,
+      "loc": 16006305
+    },
+    {
+      "fun": 16016588,
+      "loc": 16006314
+    },
+    {
+      "fun": 16018039,
+      "loc": 16006323
+    },
+    {
+      "fun": 16016648,
+      "loc": 16006332
+    },
+    {
+      "fun": 16018053,
+      "loc": 16006341
+    },
+    {
+      "fun": 16085604,
+      "loc": 16006355
+    },
+    {
+      "fun": 16294597,
+      "loc": 16006389
+    },
+    {
+      "fun": 16295752,
+      "loc": 16006422
+    },
+    {
+      "fun": 16295660,
+      "loc": 16006450
+    },
+    {
+      "fun": 16010739,
+      "loc": 16006459
+    },
+    {
+      "fun": 16085772,
+      "loc": 16006483
+    },
+    {
+      "fun": 16085772,
+      "loc": 16006497
+    },
+    {
+      "fun": 16304780,
+      "loc": 16006506
+    },
+    {
+      "fun": 16016897,
+      "loc": 16007425
+    },
+    {
+      "fun": 16304780,
+      "loc": 16007429
+    },
+    {
+      "fun": 16085772,
+      "loc": 16007417
+    },
+    {
+      "fun": 16085772,
+      "loc": 16007404
+    },
+    {
+      "fun": 16295660,
+      "loc": 16007381
+    },
+    {
+      "fun": 16085604,
+      "loc": 16006516
+    },
+    {
+      "fun": 16294597,
+      "loc": 16006550
+    },
+    {
+      "fun": 16295660,
+      "loc": 16006568
     }
   ],
   "callers": [
@@ -624,12 +724,846 @@
   ],
   "start": 16006221,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203600,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203908,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203618,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4203549,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4201701,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 36,
+        "value": {
+          "address": 4201775,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203572,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 6,
+        "value": {
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203462,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203523,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 44,
+        "value": {
+          "reg": 244,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203529,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4201743,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "address": 4203624,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "address": 4259836,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203602,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4201697,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 8,
+        "value": {
+          "address": 4203906,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4203542,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203620,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203858,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4203493,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 36,
+        "value": {
+          "address": 4201777,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "address": 4203729,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203464,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 24,
+        "value": {
+          "address": 4203737,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 52,
+        "value": {
+          "reg": 224,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4201744,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203525,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203470,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "address": 4203753,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4204199,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4203636,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4203905,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4201750,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "address": 4203626,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203604,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203622,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "address": 4203731,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203466,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 57,
+        "value": {
+          "address": 4259832,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4201746,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203527,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4203632,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203469,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4203638,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 36,
+        "value": {
+          "address": 4203536,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 22,
+        "value": {
+          "address": 4203735,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "address": 4203628,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203606,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4201689,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203496,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4203543,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4201721,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203755,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203520,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203468,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203465,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 36,
+        "value": {
+          "address": 4203532,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4203634,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4201745,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203471,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4201685,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4203640,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 36,
+        "value": {
+          "address": 4203538,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4203463,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203492,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "address": 4203630,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4201705,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203617,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203498,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "address": 4203717,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203495,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4203545,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4201709,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "reg": 232,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "address": 4203723,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203568,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203461,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4201729,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203574,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 36,
+        "value": {
+          "address": 4203534,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4201747,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 36,
+        "value": {
+          "address": 4203531,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4201742,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 36,
+        "value": {
+          "address": 4203540,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203494,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203491,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203500,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "address": 4203719,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203616,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 11,
+        "value": {
+          "address": 4203547,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 20,
+        "value": {
+          "address": 4201725,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "address": 4203725,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203570,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 36,
+        "value": {
+          "address": 4201773,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 1,
+        "value": {
+          "reg": 240,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "address": 4203460,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 4203521,
+          "type": "Mem"
+        }
+      }
+    ],
     "fun_stack": [],
-    "input": [],
+    "input": [
+      {
+        "address": 4201729,
+        "type": "Mem"
+      },
+      {
+        "address": 4203906,
+        "type": "Mem"
+      },
+      {
+        "address": 4203908,
+        "type": "Mem"
+      },
+      {
+        "address": 4203463,
+        "type": "Mem"
+      },
+      {
+        "address": 4203530,
+        "type": "Mem"
+      },
+      {
+        "address": 4203469,
+        "type": "Mem"
+      },
+      {
+        "address": 4203471,
+        "type": "Mem"
+      },
+      {
+        "reg": 232,
+        "size": 1,
+        "type": "Reg"
+      },
+      {
+        "address": 4201685,
+        "type": "Mem"
+      },
+      {
+        "address": 4201689,
+        "type": "Mem"
+      },
+      {
+        "address": 4201693,
+        "type": "Mem"
+      },
+      {
+        "address": 4201697,
+        "type": "Mem"
+      },
+      {
+        "address": 34,
+        "type": "Mem"
+      },
+      {
+        "reg": 252,
+        "size": 2,
+        "type": "Reg"
+      },
+      {
+        "address": 4203747,
+        "type": "Mem"
+      },
+      {
+        "address": 4203493,
+        "type": "Mem"
+      },
+      {
+        "address": 4203749,
+        "type": "Mem"
+      },
+      {
+        "reg": 236,
+        "size": 1,
+        "type": "Reg"
+      },
+      {
+        "address": 4203497,
+        "type": "Mem"
+      },
+      {
+        "address": 4203754,
+        "type": "Mem"
+      },
+      {
+        "address": 4203499,
+        "type": "Mem"
+      },
+      {
+        "address": 4197676,
+        "type": "Mem"
+      },
+      {
+        "address": 4201709,
+        "type": "Mem"
+      },
+      {
+        "address": 4203501,
+        "type": "Mem"
+      },
+      {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      },
+      {
+        "address": 4201721,
+        "type": "Mem"
+      },
+      {
+        "reg": 228,
+        "size": 1,
+        "type": "Reg"
+      },
+      {
+        "address": 4201725,
+        "type": "Mem"
+      }
+    ],
     "output": [],
-    "pc": 0,
-    "stack": []
+    "pc": 59,
+    "stack": [
+      {
+        "ep": 0,
+        "value": {
+          "reg": 228,
+          "size": 1,
+          "type": "Reg"
+        }
+      }
+    ]
   },
-  "underflow": true
+  "underflow": false
 }

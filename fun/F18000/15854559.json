@@ -125,17 +125,236 @@
     {
       "fun": 15959961,
       "loc": 15854653
+    },
+    {
+      "fun": 15863728,
+      "loc": 15854626
     }
   ],
-  "callers": [],
+  "callers": [
+    {
+      "fun": 15858912,
+      "loc": 15860049
+    }
+  ],
   "start": 15854559,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 25,
+        "value": {
+          "address": 65537,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "address": 4207402,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 25,
+        "value": {
+          "address": 4201653,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "address": 4207408,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 25,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 3,
+        "value": {
+          "reg": 224,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 25,
+        "value": {
+          "address": 2097153,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "reg": 252,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "address": 4207392,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "address": 4207404,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "address": 4207401,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 25,
+        "value": {
+          "reg": 225,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 10,
+        "value": {
+          "address": 4207368,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "address": 4207370,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 25,
+        "value": {
+          "address": 2097152,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 0,
+        "value": {
+          "address": 4207403,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 25,
+        "value": {
+          "address": 4201645,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15,
+        "value": {
+          "reg": 232,
+          "size": 2,
+          "type": "Reg"
+        }
+      }
+    ],
     "fun_stack": [],
-    "input": [],
-    "output": [],
-    "pc": 0,
+    "input": [
+      {
+        "reg": 252,
+        "size": 2,
+        "type": "Reg"
+      },
+      {
+        "address": 4201625,
+        "type": "Mem"
+      },
+      {
+        "address": 4207368,
+        "type": "Mem"
+      },
+      {
+        "address": 4201615,
+        "type": "Mem"
+      },
+      {
+        "address": 4201616,
+        "type": "Mem"
+      },
+      {
+        "address": 4201617,
+        "type": "Mem"
+      },
+      {
+        "address": 18,
+        "type": "Mem"
+      },
+      {
+        "address": 4201619,
+        "type": "Mem"
+      },
+      {
+        "address": 4201684,
+        "type": "Mem"
+      },
+      {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      },
+      {
+        "address": 4201623,
+        "type": "Mem"
+      },
+      {
+        "address": 16772665,
+        "type": "Mem"
+      },
+      {
+        "address": 4201626,
+        "type": "Mem"
+      },
+      {
+        "reg": 236,
+        "size": 2,
+        "type": "Reg"
+      }
+    ],
+    "output": [
+      {
+        "reg": 252,
+        "size": 2,
+        "type": "Reg"
+      },
+      {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      }
+    ],
+    "pc": 21,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }

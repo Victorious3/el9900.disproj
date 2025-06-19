@@ -23,18 +23,35 @@
   "callees": [],
   "callers": [
     {
+      "fun": 15819344,
+      "loc": 15839953
+    },
+    {
       "fun": 15833622,
       "loc": 15833651
     }
   ],
   "start": 15840371,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 3,
+        "value": {
+          "address": 4204222,
+          "type": "Mem"
+        }
+      }
+    ],
     "fun_stack": [],
-    "input": [],
+    "input": [
+      {
+        "address": 4207318,
+        "type": "Mem"
+      }
+    ],
     "output": [],
-    "pc": 0,
+    "pc": 2,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }

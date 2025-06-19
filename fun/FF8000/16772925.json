@@ -118,6 +118,21 @@
   "state": {
     "clobbers": [
       {
+        "ep": 5,
+        "value": {
+          "reg": 225,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 136,
+          "type": "Mem"
+        }
+      },
+      {
         "ep": 7,
         "value": {
           "reg": 228,
@@ -126,11 +141,39 @@
         }
       },
       {
+        "ep": 9,
+        "value": {
+          "address": 4197644,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 6,
+          "type": "Mem"
+        }
+      },
+      {
         "ep": 2,
         "value": {
           "reg": 224,
           "size": 0,
           "type": "Reg"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 19,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 5,
+        "value": {
+          "address": 520,
+          "type": "Mem"
         }
       }
     ],
@@ -141,17 +184,58 @@
         "type": "Mem"
       },
       {
-        "reg": 236,
-        "size": 2,
+        "address": 34,
+        "type": "Mem"
+      },
+      {
+        "reg": 225,
+        "size": 0,
         "type": "Reg"
+      },
+      {
+        "address": 16760810,
+        "type": "Mem"
+      },
+      {
+        "address": 4197676,
+        "type": "Mem"
+      },
+      {
+        "address": 16772665,
+        "type": "Mem"
       },
       {
         "reg": 228,
         "size": 2,
         "type": "Reg"
+      },
+      {
+        "address": 153,
+        "type": "Mem"
+      },
+      {
+        "reg": 236,
+        "size": 2,
+        "type": "Reg"
       }
     ],
-    "output": [],
+    "output": [
+      {
+        "reg": 228,
+        "size": 2,
+        "type": "Reg"
+      },
+      {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      },
+      {
+        "reg": 225,
+        "size": 0,
+        "type": "Reg"
+      }
+    ],
     "pc": 11,
     "stack": []
   },

@@ -168,16 +168,16 @@
       "loc": 15960730
     },
     {
-      "fun": 15976200,
-      "loc": 15976215
-    },
-    {
       "fun": 15956343,
       "loc": 15956386
     },
     {
       "fun": 15956343,
       "loc": 15956493
+    },
+    {
+      "fun": 15976200,
+      "loc": 15976215
     }
   ],
   "start": 15976233,
@@ -189,6 +189,13 @@
           "reg": 228,
           "size": 1,
           "type": "Reg"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "address": 65537,
+          "type": "Mem"
         }
       },
       {
@@ -206,11 +213,10 @@
         }
       },
       {
-        "ep": 0,
+        "ep": 7,
         "value": {
-          "reg": 224,
-          "size": 0,
-          "type": "Reg"
+          "address": 4201653,
+          "type": "Mem"
         }
       },
       {
@@ -224,7 +230,22 @@
       {
         "ep": 7,
         "value": {
+          "reg": 224,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
           "address": 4201623,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "address": 65536,
           "type": "Mem"
         }
       },
@@ -240,17 +261,25 @@
     "fun_stack": [],
     "input": [
       {
-        "address": 4201620,
+        "address": 4201634,
         "type": "Mem"
       },
       {
-        "address": 4201341,
+        "address": 4201620,
         "type": "Mem"
       },
       {
         "reg": 224,
         "size": 0,
         "type": "Reg"
+      },
+      {
+        "address": 4201621,
+        "type": "Mem"
+      },
+      {
+        "address": 4201341,
+        "type": "Mem"
       }
     ],
     "output": [],

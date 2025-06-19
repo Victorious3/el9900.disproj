@@ -85,6 +85,14 @@
     {
       "fun": 16319532,
       "loc": 15834722
+    },
+    {
+      "fun": 16319532,
+      "loc": 15834689
+    },
+    {
+      "fun": 16319523,
+      "loc": 15834701
     }
   ],
   "callers": [
@@ -95,12 +103,35 @@
   ],
   "start": 15834630,
   "state": {
-    "clobbers": [],
+    "clobbers": [
+      {
+        "ep": 17,
+        "value": {
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 7,
+        "value": {
+          "reg": 232,
+          "size": 1,
+          "type": "Reg"
+        }
+      }
+    ],
     "fun_stack": [],
-    "input": [],
+    "input": [
+      {
+        "reg": 228,
+        "size": 1,
+        "type": "Reg"
+      }
+    ],
     "output": [],
-    "pc": 0,
+    "pc": 2,
     "stack": []
   },
-  "underflow": true
+  "underflow": false
 }
