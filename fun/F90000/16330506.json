@@ -209,18 +209,18 @@
   "state": {
     "clobbers": [
       {
+        "ep": 48,
+        "value": {
+          "address": 4206180,
+          "type": "Mem"
+        }
+      },
+      {
         "ep": 11,
         "value": {
           "reg": 224,
           "size": 0,
           "type": "Reg"
-        }
-      },
-      {
-        "ep": 21,
-        "value": {
-          "address": 4206180,
-          "type": "Mem"
         }
       }
     ],
@@ -247,11 +247,6 @@
       {
         "address": 4206063,
         "type": "Mem"
-      },
-      {
-        "reg": 224,
-        "size": 0,
-        "type": "Reg"
       }
     ],
     "output": [
@@ -260,7 +255,7 @@
         "type": "Mem"
       }
     ],
-    "pc": 4,
+    "pc": 52,
     "stack": []
   },
   "underflow": false

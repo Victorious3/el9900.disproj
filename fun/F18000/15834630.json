@@ -105,7 +105,7 @@
   "state": {
     "clobbers": [
       {
-        "ep": 17,
+        "ep": 18,
         "value": {
           "reg": 228,
           "size": 2,
@@ -113,7 +113,7 @@
         }
       },
       {
-        "ep": 7,
+        "ep": 8,
         "value": {
           "reg": 232,
           "size": 1,
@@ -125,12 +125,17 @@
     "input": [
       {
         "reg": 228,
-        "size": 1,
+        "size": 0,
+        "type": "Reg"
+      },
+      {
+        "reg": 229,
+        "size": 0,
         "type": "Reg"
       }
     ],
     "output": [],
-    "pc": 2,
+    "pc": 43,
     "stack": []
   },
   "underflow": false

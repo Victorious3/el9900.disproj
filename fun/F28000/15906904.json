@@ -222,14 +222,6 @@
         }
       },
       {
-        "ep": 16,
-        "value": {
-          "reg": 228,
-          "size": 1,
-          "type": "Reg"
-        }
-      },
-      {
         "ep": 4,
         "value": {
           "address": 4201615,
@@ -246,14 +238,22 @@
       {
         "ep": 4,
         "value": {
-          "address": 4206237,
+          "address": 4197664,
           "type": "Mem"
         }
       },
       {
         "ep": 4,
         "value": {
-          "address": 4197664,
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 4,
+        "value": {
+          "address": 4206237,
           "type": "Mem"
         }
       },
@@ -446,6 +446,10 @@
     "fun_stack": [],
     "input": [
       {
+        "address": 15759498,
+        "type": "Mem"
+      },
+      {
         "reg": 228,
         "size": 0,
         "type": "Reg"
@@ -479,6 +483,10 @@
         "type": "Mem"
       },
       {
+        "address": 4201684,
+        "type": "Mem"
+      },
+      {
         "address": 4201627,
         "type": "Mem"
       },
@@ -487,7 +495,7 @@
         "type": "Mem"
       },
       {
-        "address": 4206238,
+        "address": 4201631,
         "type": "Mem"
       },
       {
@@ -520,10 +528,6 @@
         "type": "Mem"
       },
       {
-        "address": 4201631,
-        "type": "Mem"
-      },
-      {
         "address": 4201638,
         "type": "Mem"
       },
@@ -548,6 +552,10 @@
         "type": "Mem"
       },
       {
+        "address": 4210657,
+        "type": "Mem"
+      },
+      {
         "reg": 224,
         "size": 0,
         "type": "Reg"
@@ -562,24 +570,12 @@
         "type": "Reg"
       },
       {
-        "address": 4201684,
-        "type": "Mem"
-      },
-      {
-        "address": 4210655,
-        "type": "Mem"
-      },
-      {
-        "address": 4210657,
-        "type": "Mem"
-      },
-      {
-        "address": 4210659,
+        "address": 15759484,
         "type": "Mem"
       }
     ],
     "output": [],
-    "pc": 20,
+    "pc": 22,
     "stack": []
   },
   "underflow": false

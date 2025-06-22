@@ -414,26 +414,10 @@
   "state": {
     "clobbers": [
       {
-        "ep": 6,
-        "value": {
-          "reg": 233,
-          "size": 0,
-          "type": "Reg"
-        }
-      },
-      {
         "ep": 0,
         "value": {
           "address": 2097153,
           "type": "Mem"
-        }
-      },
-      {
-        "ep": 5,
-        "value": {
-          "reg": 236,
-          "size": 2,
-          "type": "Reg"
         }
       },
       {
@@ -452,10 +436,11 @@
         }
       },
       {
-        "ep": 18,
+        "ep": 63,
         "value": {
-          "address": 65537,
-          "type": "Mem"
+          "reg": 233,
+          "size": 0,
+          "type": "Reg"
         }
       },
       {
@@ -466,17 +451,32 @@
         }
       },
       {
-        "ep": 18,
+        "ep": 53,
+        "value": {
+          "address": 65537,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 53,
         "value": {
           "address": 4201653,
           "type": "Mem"
         }
       },
       {
-        "ep": 18,
+        "ep": 53,
         "value": {
           "address": 65536,
           "type": "Mem"
+        }
+      },
+      {
+        "ep": 62,
+        "value": {
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
         }
       }
     ],
@@ -488,17 +488,12 @@
         "type": "Reg"
       },
       {
-        "reg": 240,
-        "size": 1,
-        "type": "Reg"
-      },
-      {
         "address": 4197701,
         "type": "Mem"
       },
       {
-        "reg": 228,
-        "size": 1,
+        "reg": 236,
+        "size": 2,
         "type": "Reg"
       },
       {
@@ -515,17 +510,17 @@
         "type": "Mem"
       },
       {
+        "reg": 224,
+        "size": 0,
+        "type": "Reg"
+      },
+      {
         "address": 16772665,
         "type": "Mem"
       },
       {
-        "reg": 224,
-        "size": 2,
-        "type": "Reg"
-      },
-      {
-        "reg": 236,
-        "size": 2,
+        "reg": 228,
+        "size": 1,
         "type": "Reg"
       }
     ],
@@ -541,7 +536,7 @@
         "type": "Reg"
       }
     ],
-    "pc": 10,
+    "pc": 67,
     "stack": []
   },
   "underflow": false

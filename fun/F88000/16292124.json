@@ -197,26 +197,26 @@
   "state": {
     "clobbers": [
       {
-        "ep": 2,
-        "value": {
-          "reg": 224,
-          "size": 0,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 1,
-        "value": {
-          "reg": 229,
-          "size": 0,
-          "type": "Reg"
-        }
-      },
-      {
         "ep": 6,
         "value": {
           "reg": 236,
           "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 8,
+        "value": {
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 2,
+        "value": {
+          "reg": 224,
+          "size": 0,
           "type": "Reg"
         }
       }
@@ -232,11 +232,6 @@
         "type": "Mem"
       },
       {
-        "reg": 232,
-        "size": 2,
-        "type": "Reg"
-      },
-      {
         "reg": 224,
         "size": 0,
         "type": "Reg"
@@ -244,8 +239,8 @@
     ],
     "output": [
       {
-        "reg": 229,
-        "size": 0,
+        "reg": 228,
+        "size": 2,
         "type": "Reg"
       },
       {
@@ -254,7 +249,7 @@
         "type": "Reg"
       }
     ],
-    "pc": 2,
+    "pc": 30,
     "stack": []
   },
   "underflow": false

@@ -24,13 +24,21 @@
       {
         "ep": 6,
         "value": {
+          "reg": 224,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 9,
+        "value": {
           "reg": 232,
           "size": 2,
           "type": "Reg"
         }
       },
       {
-        "ep": 1,
+        "ep": 4,
         "value": {
           "reg": 236,
           "size": 2,
@@ -38,26 +46,18 @@
         }
       },
       {
-        "ep": 2,
+        "ep": 8,
         "value": {
-          "reg": 228,
-          "size": 2,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 3,
-        "value": {
-          "reg": 224,
-          "size": 0,
-          "type": "Reg"
+          "address": 4204478,
+          "type": "Mem"
         }
       },
       {
         "ep": 5,
         "value": {
-          "address": 4204478,
-          "type": "Mem"
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
         }
       }
     ],
@@ -74,7 +74,7 @@
       }
     ],
     "output": [],
-    "pc": 9,
+    "pc": 11,
     "stack": []
   },
   "underflow": false

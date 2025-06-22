@@ -313,13 +313,6 @@
         }
       },
       {
-        "ep": 0,
-        "value": {
-          "address": 2097153,
-          "type": "Mem"
-        }
-      },
-      {
         "ep": 3,
         "value": {
           "address": 4201645,
@@ -327,9 +320,9 @@
         }
       },
       {
-        "ep": 17,
+        "ep": 0,
         "value": {
-          "address": 65537,
+          "address": 2097153,
           "type": "Mem"
         }
       },
@@ -349,17 +342,18 @@
         }
       },
       {
-        "ep": 24,
+        "ep": 40,
         "value": {
-          "address": 4201647,
+          "address": 65537,
           "type": "Mem"
         }
       },
       {
-        "ep": 17,
+        "ep": 33,
         "value": {
-          "address": 4201653,
-          "type": "Mem"
+          "reg": 229,
+          "size": 0,
+          "type": "Reg"
         }
       },
       {
@@ -370,11 +364,24 @@
         }
       },
       {
-        "ep": 2,
+        "ep": 32,
         "value": {
-          "reg": 229,
-          "size": 0,
-          "type": "Reg"
+          "address": 4201647,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 40,
+        "value": {
+          "address": 65536,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 40,
+        "value": {
+          "address": 4201653,
+          "type": "Mem"
         }
       },
       {
@@ -391,13 +398,6 @@
           "address": 4201646,
           "type": "Mem"
         }
-      },
-      {
-        "ep": 17,
-        "value": {
-          "address": 65536,
-          "type": "Mem"
-        }
       }
     ],
     "fun_stack": [],
@@ -408,21 +408,12 @@
         "type": "Reg"
       },
       {
-        "reg": 240,
+        "reg": 228,
         "size": 1,
         "type": "Reg"
       },
       {
-        "reg": 236,
-        "size": 2,
-        "type": "Reg"
-      },
-      {
         "address": 4201615,
-        "type": "Mem"
-      },
-      {
-        "address": 4201648,
         "type": "Mem"
       },
       {
@@ -452,8 +443,8 @@
         "type": "Mem"
       },
       {
-        "reg": 228,
-        "size": 1,
+        "reg": 236,
+        "size": 2,
         "type": "Reg"
       }
     ],
@@ -474,7 +465,7 @@
         "type": "Reg"
       }
     ],
-    "pc": 6,
+    "pc": 46,
     "stack": []
   },
   "underflow": false

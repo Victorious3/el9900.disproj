@@ -170,7 +170,7 @@
   "state": {
     "clobbers": [
       {
-        "ep": 14,
+        "ep": 13,
         "value": {
           "address": 4203493,
           "type": "Mem"
@@ -200,10 +200,11 @@
         }
       },
       {
-        "ep": 11,
+        "ep": 7,
         "value": {
-          "address": 4203491,
-          "type": "Mem"
+          "reg": 224,
+          "size": 0,
+          "type": "Reg"
         }
       },
       {
@@ -215,18 +216,17 @@
         }
       },
       {
-        "ep": 16,
+        "ep": 15,
         "value": {
           "address": 4203494,
           "type": "Mem"
         }
       },
       {
-        "ep": 8,
+        "ep": 10,
         "value": {
-          "reg": 224,
-          "size": 0,
-          "type": "Reg"
+          "address": 4203491,
+          "type": "Mem"
         }
       }
     ],
@@ -253,14 +253,9 @@
       {
         "address": 4203494,
         "type": "Mem"
-      },
-      {
-        "reg": 224,
-        "size": 0,
-        "type": "Reg"
       }
     ],
-    "pc": 18,
+    "pc": 17,
     "stack": []
   },
   "underflow": false

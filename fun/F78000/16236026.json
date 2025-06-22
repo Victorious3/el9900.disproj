@@ -207,14 +207,6 @@
         }
       },
       {
-        "ep": 4,
-        "value": {
-          "reg": 228,
-          "size": 2,
-          "type": "Reg"
-        }
-      },
-      {
         "ep": 1,
         "value": {
           "address": 136,
@@ -230,10 +222,11 @@
         }
       },
       {
-        "ep": 4,
+        "ep": 8,
         "value": {
-          "address": 4197644,
-          "type": "Mem"
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
         }
       },
       {
@@ -250,6 +243,13 @@
           "reg": 236,
           "size": 2,
           "type": "Reg"
+        }
+      },
+      {
+        "ep": 8,
+        "value": {
+          "address": 4197644,
+          "type": "Mem"
         }
       },
       {
@@ -306,14 +306,8 @@
         "type": "Mem"
       }
     ],
-    "output": [
-      {
-        "reg": 224,
-        "size": 1,
-        "type": "Reg"
-      }
-    ],
-    "pc": 10,
+    "output": [],
+    "pc": 14,
     "stack": []
   },
   "underflow": false

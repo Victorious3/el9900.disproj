@@ -363,10 +363,41 @@
   "state": {
     "clobbers": [
       {
-        "ep": 45,
+        "ep": 29,
+        "value": {
+          "reg": 232,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 60,
         "value": {
           "address": 4207335,
           "type": "Mem"
+        }
+      },
+      {
+        "ep": 32,
+        "value": {
+          "reg": 236,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 72,
+        "value": {
+          "address": 4207320,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 37,
+        "value": {
+          "reg": 228,
+          "size": 1,
+          "type": "Reg"
         }
       },
       {
@@ -377,39 +408,7 @@
         }
       },
       {
-        "ep": 22,
-        "value": {
-          "reg": 232,
-          "size": 0,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 22,
-        "value": {
-          "reg": 228,
-          "size": 1,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 17,
-        "value": {
-          "reg": 224,
-          "size": 1,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 17,
-        "value": {
-          "reg": 236,
-          "size": 2,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 20,
+        "ep": 27,
         "value": {
           "reg": 233,
           "size": 0,
@@ -417,10 +416,11 @@
         }
       },
       {
-        "ep": 39,
+        "ep": 32,
         "value": {
-          "address": 4207320,
-          "type": "Mem"
+          "reg": 224,
+          "size": 1,
+          "type": "Reg"
         }
       }
     ],
@@ -433,11 +433,6 @@
       {
         "address": 4201697,
         "type": "Mem"
-      },
-      {
-        "reg": 232,
-        "size": 0,
-        "type": "Reg"
       },
       {
         "address": 4207335,
@@ -457,7 +452,7 @@
       }
     ],
     "output": [],
-    "pc": 42,
+    "pc": 75,
     "stack": []
   },
   "underflow": false

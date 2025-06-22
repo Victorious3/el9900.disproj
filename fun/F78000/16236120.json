@@ -128,15 +128,7 @@
   "state": {
     "clobbers": [
       {
-        "ep": 2,
-        "value": {
-          "reg": 240,
-          "size": 2,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 1,
+        "ep": 6,
         "value": {
           "reg": 224,
           "size": 1,
@@ -144,7 +136,7 @@
         }
       },
       {
-        "ep": 1,
+        "ep": 6,
         "value": {
           "reg": 236,
           "size": 2,
@@ -159,16 +151,17 @@
         }
       },
       {
-        "ep": 2,
+        "ep": 6,
         "value": {
-          "address": 4194308,
-          "type": "Mem"
+          "reg": 232,
+          "size": 1,
+          "type": "Reg"
         }
       },
       {
         "ep": 2,
         "value": {
-          "address": 6,
+          "address": 4194308,
           "type": "Mem"
         }
       },
@@ -180,7 +173,14 @@
         }
       },
       {
-        "ep": 1,
+        "ep": 2,
+        "value": {
+          "address": 6,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 6,
         "value": {
           "reg": 228,
           "size": 2,
@@ -188,11 +188,10 @@
         }
       },
       {
-        "ep": 1,
+        "ep": 2,
         "value": {
-          "reg": 232,
-          "size": 1,
-          "type": "Reg"
+          "address": 4194310,
+          "type": "Mem"
         }
       },
       {
@@ -203,10 +202,11 @@
         }
       },
       {
-        "ep": 2,
+        "ep": 7,
         "value": {
-          "address": 4194310,
-          "type": "Mem"
+          "reg": 240,
+          "size": 2,
+          "type": "Reg"
         }
       }
     ],
@@ -222,10 +222,6 @@
       },
       {
         "address": 34,
-        "type": "Mem"
-      },
-      {
-        "address": 4194310,
         "type": "Mem"
       },
       {
@@ -258,11 +254,6 @@
         "reg": 236,
         "size": 2,
         "type": "Reg"
-      },
-      {
-        "reg": 224,
-        "size": 1,
-        "type": "Reg"
       }
     ],
     "output": [
@@ -271,7 +262,7 @@
         "type": "Mem"
       }
     ],
-    "pc": 7,
+    "pc": 12,
     "stack": []
   },
   "underflow": false
