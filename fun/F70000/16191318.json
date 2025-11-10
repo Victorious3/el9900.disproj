@@ -43,15 +43,6 @@
         "ep": 16191331,
         "pc": 5,
         "value": {
-          "reg": 224,
-          "size": 1,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 16191331,
-        "pc": 5,
-        "value": {
           "reg": 244,
           "size": 2,
           "type": "Reg"
@@ -62,6 +53,14 @@
         "pc": 5,
         "value": {
           "address": 4206131,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 16191331,
+        "pc": 5,
+        "value": {
+          "address": 4206072,
           "type": "Mem"
         }
       },
@@ -102,8 +101,9 @@
         "ep": 16191331,
         "pc": 5,
         "value": {
-          "address": 4206072,
-          "type": "Mem"
+          "reg": 224,
+          "size": 1,
+          "type": "Reg"
         }
       }
     ],
@@ -118,13 +118,13 @@
         "type": "Mem"
       },
       {
+        "address": 4206063,
+        "type": "Mem"
+      },
+      {
         "reg": 244,
         "size": 2,
         "type": "Reg"
-      },
-      {
-        "address": 4206063,
-        "type": "Mem"
       },
       {
         "address": 4206130,
