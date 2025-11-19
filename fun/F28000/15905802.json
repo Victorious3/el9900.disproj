@@ -31,6 +31,24 @@
   "state": {
     "clobbers": [
       {
+        "ep": 15905802,
+        "pc": 0,
+        "value": {
+          "reg": 224,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 15905804,
+        "pc": 1,
+        "value": {
+          "reg": 232,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
         "ep": 15905818,
         "pc": 8,
         "value": {
@@ -39,12 +57,11 @@
         }
       },
       {
-        "ep": 15905802,
-        "pc": 0,
+        "ep": 15905818,
+        "pc": 8,
         "value": {
-          "reg": 224,
-          "size": 0,
-          "type": "Reg"
+          "address": 4201750,
+          "type": "Mem"
         }
       },
       {
@@ -85,15 +102,6 @@
         "value": {
           "address": 4201709,
           "type": "Mem"
-        }
-      },
-      {
-        "ep": 15905804,
-        "pc": 1,
-        "value": {
-          "reg": 232,
-          "size": 2,
-          "type": "Reg"
         }
       },
       {
@@ -143,28 +151,16 @@
           "address": 4201685,
           "type": "Mem"
         }
-      },
-      {
-        "ep": 15905818,
-        "pc": 8,
-        "value": {
-          "address": 4201750,
-          "type": "Mem"
-        }
       }
     ],
     "fun_stack": [],
     "input": [
       {
-        "address": 4201693,
-        "type": "Mem"
-      },
-      {
-        "address": 4201729,
-        "type": "Mem"
-      },
-      {
         "address": 4201689,
+        "type": "Mem"
+      },
+      {
+        "address": 4201693,
         "type": "Mem"
       },
       {
@@ -176,26 +172,11 @@
         "type": "Mem"
       },
       {
-        "address": 15784344,
-        "type": "Mem"
-      },
-      {
         "address": 4201721,
         "type": "Mem"
       },
       {
-        "reg": 236,
-        "size": 2,
-        "type": "Reg"
-      },
-      {
         "address": 4201725,
-        "type": "Mem"
-      }
-    ],
-    "output": [
-      {
-        "address": 4201697,
         "type": "Mem"
       },
       {
@@ -203,11 +184,30 @@
         "type": "Mem"
       },
       {
+        "address": 15784344,
+        "type": "Mem"
+      },
+      {
+        "reg": 236,
+        "size": 2,
+        "type": "Reg"
+      }
+    ],
+    "output": [
+      {
+        "address": 4201685,
+        "type": "Mem"
+      },
+      {
         "address": 4201689,
         "type": "Mem"
       },
       {
-        "address": 4201725,
+        "address": 4201693,
+        "type": "Mem"
+      },
+      {
+        "address": 4201697,
         "type": "Mem"
       },
       {
@@ -215,15 +215,15 @@
         "type": "Mem"
       },
       {
-        "address": 4201685,
-        "type": "Mem"
-      },
-      {
         "address": 4201721,
         "type": "Mem"
       },
       {
-        "address": 4201693,
+        "address": 4201725,
+        "type": "Mem"
+      },
+      {
+        "address": 4201729,
         "type": "Mem"
       }
     ],

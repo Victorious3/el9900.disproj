@@ -457,11 +457,12 @@
   "state": {
     "clobbers": [
       {
-        "ep": 16302435,
-        "pc": 36,
+        "ep": 16302337,
+        "pc": 0,
         "value": {
-          "address": 4201685,
-          "type": "Mem"
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
         }
       },
       {
@@ -473,12 +474,11 @@
         }
       },
       {
-        "ep": 16302621,
-        "pc": 56,
+        "ep": 16302435,
+        "pc": 36,
         "value": {
-          "reg": 224,
-          "size": 0,
-          "type": "Reg"
+          "address": 4201685,
+          "type": "Mem"
         }
       },
       {
@@ -490,11 +490,11 @@
         }
       },
       {
-        "ep": 16302337,
-        "pc": 0,
+        "ep": 16302621,
+        "pc": 56,
         "value": {
-          "reg": 228,
-          "size": 2,
+          "reg": 224,
+          "size": 0,
           "type": "Reg"
         }
       }
@@ -502,7 +502,15 @@
     "fun_stack": [],
     "input": [
       {
+        "address": 4201685,
+        "type": "Mem"
+      },
+      {
         "address": 4201689,
+        "type": "Mem"
+      },
+      {
+        "address": 4201693,
         "type": "Mem"
       },
       {
@@ -514,12 +522,7 @@
         "type": "Mem"
       },
       {
-        "reg": 228,
-        "size": 2,
-        "type": "Reg"
-      },
-      {
-        "address": 4201685,
+        "address": 4201721,
         "type": "Mem"
       },
       {
@@ -528,20 +531,12 @@
         "type": "Reg"
       },
       {
-        "address": 4201721,
-        "type": "Mem"
-      },
-      {
-        "address": 4201693,
-        "type": "Mem"
-      }
-    ],
-    "output": [
-      {
         "reg": 228,
         "size": 2,
         "type": "Reg"
-      },
+      }
+    ],
+    "output": [
       {
         "address": 4201709,
         "type": "Mem"
@@ -549,6 +544,11 @@
       {
         "reg": 224,
         "size": 0,
+        "type": "Reg"
+      },
+      {
+        "reg": 228,
+        "size": 2,
         "type": "Reg"
       }
     ],

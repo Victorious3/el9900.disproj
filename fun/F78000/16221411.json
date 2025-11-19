@@ -279,10 +279,36 @@
   "state": {
     "clobbers": [
       {
+        "ep": 16221411,
+        "pc": 0,
+        "value": {
+          "address": 4206063,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 16221417,
+        "pc": 1,
+        "value": {
+          "reg": 233,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
         "ep": 16221441,
         "pc": 8,
         "value": {
           "reg": 224,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 16221441,
+        "pc": 8,
+        "value": {
+          "reg": 236,
           "size": 2,
           "type": "Reg"
         }
@@ -314,53 +340,30 @@
         }
       },
       {
-        "ep": 16221411,
-        "pc": 0,
-        "value": {
-          "address": 4206063,
-          "type": "Mem"
-        }
-      },
-      {
         "ep": 16221586,
         "pc": 25,
         "value": {
           "address": 4206208,
           "type": "Mem"
         }
-      },
-      {
-        "ep": 16221441,
-        "pc": 8,
-        "value": {
-          "reg": 236,
-          "size": 2,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 16221417,
-        "pc": 1,
-        "value": {
-          "reg": 233,
-          "size": 0,
-          "type": "Reg"
-        }
       }
     ],
     "fun_stack": [],
     "input": [
       {
+        "address": 4206063,
+        "type": "Mem"
+      },
+      {
+        "address": 4206083,
+        "type": "Mem"
+      },
+      {
         "address": 4206209,
         "type": "Mem"
       },
       {
-        "reg": 252,
-        "size": 2,
-        "type": "Reg"
-      },
-      {
-        "address": 4206083,
+        "address": 15757670,
         "type": "Mem"
       },
       {
@@ -369,12 +372,9 @@
         "type": "Reg"
       },
       {
-        "address": 15757670,
-        "type": "Mem"
-      },
-      {
-        "address": 4206063,
-        "type": "Mem"
+        "reg": 252,
+        "size": 2,
+        "type": "Reg"
       }
     ],
     "output": [],

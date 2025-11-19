@@ -357,30 +357,6 @@
   "state": {
     "clobbers": [
       {
-        "ep": 16289472,
-        "pc": 10,
-        "value": {
-          "address": 4201750,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 16289871,
-        "pc": 67,
-        "value": {
-          "address": 4201717,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 16289519,
-        "pc": 23,
-        "value": {
-          "address": 4201689,
-          "type": "Mem"
-        }
-      },
-      {
         "ep": 16289455,
         "pc": 6,
         "value": {
@@ -389,10 +365,18 @@
         }
       },
       {
-        "ep": 16289826,
-        "pc": 51,
+        "ep": 16289472,
+        "pc": 10,
         "value": {
-          "address": 4201713,
+          "address": 4201750,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 16289519,
+        "pc": 23,
+        "value": {
+          "address": 4201689,
           "type": "Mem"
         }
       },
@@ -420,18 +404,37 @@
           "size": 0,
           "type": "Reg"
         }
+      },
+      {
+        "ep": 16289826,
+        "pc": 51,
+        "value": {
+          "address": 4201713,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 16289871,
+        "pc": 67,
+        "value": {
+          "address": 4201717,
+          "type": "Mem"
+        }
       }
     ],
     "fun_stack": [],
     "input": [
       {
+        "address": 4201685,
+        "type": "Mem"
+      },
+      {
         "address": 4201689,
         "type": "Mem"
       },
       {
-        "reg": 228,
-        "size": 2,
-        "type": "Reg"
+        "address": 4201693,
+        "type": "Mem"
       },
       {
         "address": 4201713,
@@ -442,16 +445,13 @@
         "type": "Mem"
       },
       {
-        "address": 4201685,
-        "type": "Mem"
-      },
-      {
         "address": 4201721,
         "type": "Mem"
       },
       {
-        "address": 4201693,
-        "type": "Mem"
+        "reg": 228,
+        "size": 2,
+        "type": "Reg"
       }
     ],
     "output": [

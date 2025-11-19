@@ -243,11 +243,30 @@
   "state": {
     "clobbers": [
       {
-        "ep": 16062828,
-        "pc": 31,
+        "ep": 16062756,
+        "pc": 0,
         "value": {
-          "address": 4203465,
-          "type": "Mem"
+          "reg": 233,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 16062758,
+        "pc": 1,
+        "value": {
+          "reg": 232,
+          "size": 0,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 16062760,
+        "pc": 2,
+        "value": {
+          "reg": 228,
+          "size": 1,
+          "type": "Reg"
         }
       },
       {
@@ -292,15 +311,6 @@
         }
       },
       {
-        "ep": 16062756,
-        "pc": 0,
-        "value": {
-          "reg": 233,
-          "size": 0,
-          "type": "Reg"
-        }
-      },
-      {
         "ep": 16062763,
         "pc": 3,
         "value": {
@@ -326,21 +336,11 @@
         }
       },
       {
-        "ep": 16062758,
-        "pc": 1,
+        "ep": 16062828,
+        "pc": 31,
         "value": {
-          "reg": 232,
-          "size": 0,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 16062760,
-        "pc": 2,
-        "value": {
-          "reg": 228,
-          "size": 1,
-          "type": "Reg"
+          "address": 4203465,
+          "type": "Mem"
         }
       },
       {
@@ -355,12 +355,12 @@
     "fun_stack": [],
     "input": [
       {
-        "reg": 237,
+        "reg": 236,
         "size": 0,
         "type": "Reg"
       },
       {
-        "reg": 236,
+        "reg": 237,
         "size": 0,
         "type": "Reg"
       }

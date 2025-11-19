@@ -430,10 +430,19 @@
   "state": {
     "clobbers": [
       {
-        "ep": 16753260,
-        "pc": 7,
+        "ep": 16753142,
+        "pc": 0,
         "value": {
-          "reg": 229,
+          "reg": 232,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 16753144,
+        "pc": 1,
+        "value": {
+          "reg": 225,
           "size": 0,
           "type": "Reg"
         }
@@ -451,24 +460,7 @@
         "ep": 16753144,
         "pc": 1,
         "value": {
-          "reg": 225,
-          "size": 0,
-          "type": "Reg"
-        }
-      },
-      {
-        "ep": 16753144,
-        "pc": 1,
-        "value": {
           "address": 4194304,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 16753260,
-        "pc": 7,
-        "value": {
-          "address": 520,
           "type": "Mem"
         }
       },
@@ -477,14 +469,6 @@
         "pc": 1,
         "value": {
           "address": 19,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 16753260,
-        "pc": 7,
-        "value": {
-          "address": 136,
           "type": "Mem"
         }
       },
@@ -513,27 +497,47 @@
         }
       },
       {
-        "ep": 16753142,
-        "pc": 0,
+        "ep": 16753260,
+        "pc": 7,
         "value": {
-          "reg": 232,
-          "size": 1,
+          "reg": 229,
+          "size": 0,
           "type": "Reg"
+        }
+      },
+      {
+        "ep": 16753260,
+        "pc": 7,
+        "value": {
+          "address": 520,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 16753260,
+        "pc": 7,
+        "value": {
+          "address": 136,
+          "type": "Mem"
         }
       }
     ],
     "fun_stack": [],
     "input": [
       {
+        "address": 34,
+        "type": "Mem"
+      },
+      {
+        "address": 153,
+        "type": "Mem"
+      },
+      {
         "address": 4194304,
         "type": "Mem"
       },
       {
         "address": 4194306,
-        "type": "Mem"
-      },
-      {
-        "address": 34,
         "type": "Mem"
       },
       {
@@ -545,19 +549,15 @@
         "type": "Mem"
       },
       {
-        "address": 16760810,
-        "type": "Mem"
-      },
-      {
         "address": 4197676,
         "type": "Mem"
       },
       {
-        "address": 16772665,
+        "address": 16760810,
         "type": "Mem"
       },
       {
-        "address": 153,
+        "address": 16772665,
         "type": "Mem"
       }
     ],

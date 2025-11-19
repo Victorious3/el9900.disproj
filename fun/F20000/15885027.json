@@ -139,11 +139,12 @@
   "state": {
     "clobbers": [
       {
-        "ep": 15885090,
-        "pc": 14,
+        "ep": 15885027,
+        "pc": 0,
         "value": {
-          "address": 4210658,
-          "type": "Mem"
+          "reg": 228,
+          "size": 2,
+          "type": "Reg"
         }
       },
       {
@@ -163,44 +164,11 @@
         }
       },
       {
-        "ep": 15885060,
-        "pc": 8,
-        "value": {
-          "address": 4210655,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 15885165,
-        "pc": 32,
-        "value": {
-          "address": 4206422,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 15885110,
-        "pc": 18,
-        "value": {
-          "address": 4210660,
-          "type": "Mem"
-        }
-      },
-      {
         "ep": 15885032,
         "pc": 1,
         "value": {
           "address": 4201697,
           "type": "Mem"
-        }
-      },
-      {
-        "ep": 15885130,
-        "pc": 22,
-        "value": {
-          "reg": 232,
-          "size": 2,
-          "type": "Reg"
         }
       },
       {
@@ -212,42 +180,10 @@
         }
       },
       {
-        "ep": 15885080,
-        "pc": 12,
-        "value": {
-          "address": 4210657,
-          "type": "Mem"
-        }
-      },
-      {
         "ep": 15885032,
         "pc": 1,
         "value": {
           "address": 4201705,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 15885146,
-        "pc": 27,
-        "value": {
-          "address": 4205146,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 15885070,
-        "pc": 10,
-        "value": {
-          "address": 4210656,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 15885170,
-        "pc": 33,
-        "value": {
-          "address": 4206428,
           "type": "Mem"
         }
       },
@@ -277,14 +213,6 @@
         }
       },
       {
-        "ep": 15885120,
-        "pc": 20,
-        "value": {
-          "address": 4210661,
-          "type": "Mem"
-        }
-      },
-      {
         "ep": 15885041,
         "pc": 3,
         "value": {
@@ -294,10 +222,34 @@
         }
       },
       {
-        "ep": 15885160,
-        "pc": 31,
+        "ep": 15885060,
+        "pc": 8,
         "value": {
-          "address": 4206416,
+          "address": 4210655,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15885070,
+        "pc": 10,
+        "value": {
+          "address": 4210656,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15885080,
+        "pc": 12,
+        "value": {
+          "address": 4210657,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15885090,
+        "pc": 14,
+        "value": {
+          "address": 4210658,
           "type": "Mem"
         }
       },
@@ -310,6 +262,39 @@
         }
       },
       {
+        "ep": 15885110,
+        "pc": 18,
+        "value": {
+          "address": 4210660,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15885120,
+        "pc": 20,
+        "value": {
+          "address": 4210661,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15885130,
+        "pc": 22,
+        "value": {
+          "reg": 232,
+          "size": 2,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 15885146,
+        "pc": 27,
+        "value": {
+          "address": 4205146,
+          "type": "Mem"
+        }
+      },
+      {
         "ep": 15885153,
         "pc": 29,
         "value": {
@@ -318,17 +303,44 @@
         }
       },
       {
-        "ep": 15885027,
-        "pc": 0,
+        "ep": 15885160,
+        "pc": 31,
         "value": {
-          "reg": 228,
-          "size": 2,
-          "type": "Reg"
+          "address": 4206416,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15885165,
+        "pc": 32,
+        "value": {
+          "address": 4206422,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15885170,
+        "pc": 33,
+        "value": {
+          "address": 4206428,
+          "type": "Mem"
         }
       }
     ],
     "fun_stack": [],
     "input": [
+      {
+        "address": 4201685,
+        "type": "Mem"
+      },
+      {
+        "address": 4201689,
+        "type": "Mem"
+      },
+      {
+        "address": 4201693,
+        "type": "Mem"
+      },
       {
         "address": 4201697,
         "type": "Mem"
@@ -338,15 +350,7 @@
         "type": "Mem"
       },
       {
-        "address": 4201721,
-        "type": "Mem"
-      },
-      {
         "address": 4201705,
-        "type": "Mem"
-      },
-      {
-        "address": 15739979,
         "type": "Mem"
       },
       {
@@ -354,27 +358,15 @@
         "type": "Mem"
       },
       {
-        "address": 4206416,
+        "address": 4201721,
+        "type": "Mem"
+      },
+      {
+        "address": 4201725,
         "type": "Mem"
       },
       {
         "address": 4205140,
-        "type": "Mem"
-      },
-      {
-        "address": 4201685,
-        "type": "Mem"
-      },
-      {
-        "address": 4206422,
-        "type": "Mem"
-      },
-      {
-        "address": 4201693,
-        "type": "Mem"
-      },
-      {
-        "address": 4201689,
         "type": "Mem"
       },
       {
@@ -386,15 +378,23 @@
         "type": "Mem"
       },
       {
+        "address": 4205148,
+        "type": "Mem"
+      },
+      {
+        "address": 4206416,
+        "type": "Mem"
+      },
+      {
+        "address": 4206422,
+        "type": "Mem"
+      },
+      {
         "address": 4206428,
         "type": "Mem"
       },
       {
-        "address": 4201725,
-        "type": "Mem"
-      },
-      {
-        "address": 4205148,
+        "address": 15739979,
         "type": "Mem"
       }
     ],

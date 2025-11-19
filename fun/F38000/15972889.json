@@ -288,23 +288,6 @@
   "state": {
     "clobbers": [
       {
-        "ep": 15972983,
-        "pc": 32,
-        "value": {
-          "address": 65537,
-          "type": "Mem"
-        }
-      },
-      {
-        "ep": 15972899,
-        "pc": 6,
-        "value": {
-          "reg": 252,
-          "size": 2,
-          "type": "Reg"
-        }
-      },
-      {
         "ep": 15972889,
         "pc": 0,
         "value": {
@@ -321,11 +304,21 @@
         }
       },
       {
-        "ep": 15972983,
-        "pc": 32,
+        "ep": 15972889,
+        "pc": 0,
         "value": {
-          "address": 4201653,
-          "type": "Mem"
+          "reg": 240,
+          "size": 1,
+          "type": "Reg"
+        }
+      },
+      {
+        "ep": 15972899,
+        "pc": 6,
+        "value": {
+          "reg": 252,
+          "size": 2,
+          "type": "Reg"
         }
       },
       {
@@ -346,12 +339,19 @@
         }
       },
       {
-        "ep": 15972889,
-        "pc": 0,
+        "ep": 15972983,
+        "pc": 32,
         "value": {
-          "reg": 240,
-          "size": 1,
-          "type": "Reg"
+          "address": 65537,
+          "type": "Mem"
+        }
+      },
+      {
+        "ep": 15972983,
+        "pc": 32,
+        "value": {
+          "address": 4201653,
+          "type": "Mem"
         }
       },
       {
@@ -366,21 +366,15 @@
     "fun_stack": [],
     "input": [
       {
-        "reg": 252,
-        "size": 2,
-        "type": "Reg"
-      },
-      {
         "address": 18,
         "type": "Mem"
       },
       {
-        "reg": 232,
-        "size": 1,
-        "type": "Reg"
+        "address": 4201684,
+        "type": "Mem"
       },
       {
-        "address": 4201684,
+        "address": 16772665,
         "type": "Mem"
       },
       {
@@ -389,8 +383,14 @@
         "type": "Reg"
       },
       {
-        "address": 16772665,
-        "type": "Mem"
+        "reg": 232,
+        "size": 1,
+        "type": "Reg"
+      },
+      {
+        "reg": 252,
+        "size": 2,
+        "type": "Reg"
       }
     ],
     "output": [],
